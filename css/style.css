@@ -1,11 +1,40 @@
-#Links{
-    background-color: #3C798C ;
-}
-
-#ListaLinks {
+#Links {
+    background-color: #3C798C;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    margin: 20px;
     padding: 25px;
+    align-items: center;
 }
+
+#logo{
+    width: 5%;
+}
+
+a {
+    color: #83D4EE;
+}
+
+#login {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+#fraseAcesso {
+    display: flex;
+    margin-right: 5px;
+    color: #FFFFFF;
+
+}
+
+#button {
+    padding: 10px 25px 10px 25px;
+    background: #739DDC;
+    border-radius: 10px;
+    border: none;
+    color: #FFFFFF;
+}
+
+
+
