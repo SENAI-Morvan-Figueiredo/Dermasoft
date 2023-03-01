@@ -1,3 +1,11 @@
-a{
-    color: aqua;
+#Links{
+    background-color: #3C798C ;
+}
+
+#ListaLinks {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 20px;
+    padding: 25px;
 }
