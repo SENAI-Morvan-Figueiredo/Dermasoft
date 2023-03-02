@@ -7,7 +7,7 @@
     align-items: center;
 }
 
-#logo{
+#logo {
     width: 5%;
 }
 
@@ -36,5 +36,36 @@ a {
     color: #FFFFFF;
 }
 
+#Banner {
+    height: 850px;
+}
 
+#fotoEscritorio {
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
 
+.textoSobreposto1 {
+    font-family: 'Source Sans Pro';
+    font-style: normal;
+    font-size: 64px;
+    position: absolute;
+    top: 400px;
+    left: 50px;
+    z-index: 1;
+
+}
+
+.textoSobreposto2 {
+    font-family: Source Sans Pro, Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    position: absolute;
+    top: 700px;
+    left: 50px;
+    z-index: 1;
+    color: #323232;
+
+}
+
+@import url();
