@@ -75,16 +75,31 @@ a {
     align-items: center;
 }
 
+.tituloConheçaADermaSoft {
+    font-family: 'Source Sans Pro';
+    font-style: normal;
+    text-align: center;
+    font-size: 96px;
+}
+
 .ConhecaADermaSOft {
-    height: 850px;
+    height: 1198px;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    
+
 }
 
 .imagensDaClinica {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
+}
+
+.textoDermasoft {
+
+    font-size: 32px;
+    display: flex;
+    align-items: center;
+    width: 40%;
 }
