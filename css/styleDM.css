@@ -1,0 +1,59 @@
+    .p1{
+    background-color: #3C798C;
+    padding-top: 150px;
+}
+body{
+    background-color:whitesmoke ;
+    
+}
+.PropósitoDaPagina{
+    text-align: center;
+    font-size: 50px;
+
+}
+    .p2{
+    padding-top: 40px;
+}
+.informaçõesDeRecuperação{
+    font-size: 35px;
+    text-align: center;
+}
+    .p3{
+        padding-top: 150px;
+    }
+        .cadastroCPF{
+        text-align: center;
+        flex-direction: row;
+    }
+    .SeuCPF{
+        size: 30px;
+        width: 290px;
+        height: 30px;
+    }
+    .CPF{
+        font-size: 30px;
+        margin-left: 30px;
+    }
+    .p4{
+        padding-top: 10px;
+    }
+         .cadastroEMAIL{
+        text-align: center;
+        flex-direction: row;
+    }
+    .SeuEMAIL{
+        size: 30px;
+        width: 290px;
+        height: 30px;
+    }
+    .EMAIL{
+        font-size: 30px;
+    }
+    .p5{
+        padding-top: 25px;
+    }
+    .nãoPossuoCPF{
+        font-size: 15px;
+        text-align: center;
+
+    }
