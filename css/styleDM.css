@@ -1,6 +1,6 @@
     .p1{
     background-color: #3C798C;
-    padding-top: 150px;
+   
 }
 body{
     background-color:whitesmoke ;
@@ -8,14 +8,14 @@ body{
 }
 .PropósitoDaPagina{
     text-align: center;
-    font-size: 50px;
+    font-size: 70px;
 
 }
     .p2{
     padding-top: 40px;
 }
 .informaçõesDeRecuperação{
-    font-size: 35px;
+    font-size: 45px;
     text-align: center;
 }
     .p3{
@@ -26,13 +26,14 @@ body{
         flex-direction: row;
     }
     .SeuCPF{
-        size: 30px;
-        width: 290px;
-        height: 30px;
+        size: 40px;
+        width: 320px;
+        height: 40px;
+        font-size: 25px;
     }
     .CPF{
-        font-size: 30px;
-        margin-left: 30px;
+        font-size: 40px;
+        margin-left: 40px;
     }
     .p4{
         padding-top: 10px;
@@ -42,18 +43,38 @@ body{
         flex-direction: row;
     }
     .SeuEMAIL{
-        size: 30px;
-        width: 290px;
-        height: 30px;
+        size: 40px;
+        width: 320px;
+        height: 40px;
+        font-size: 25px;
     }
     .EMAIL{
-        font-size: 30px;
+        font-size: 40px;
     }
     .p5{
         padding-top: 25px;
     }
     .nãoPossuoCPF{
-        font-size: 15px;
+        font-size: 25px;
         text-align: center;
 
     }
+ .btNãoPossuoCPF{
+    size: 25px;
+ }
+ .btRecuperar{
+    font-size: 200px;
+    text-align: right;
+ }
+ .botãoDeRecuperar{
+    font-size: 35px;
+    margin-right: 150px;
+    background-color: #52a4bd;
+    
+    
+ }
+ .logo{
+    right: 100px;
+    height: 100px;
+    align-content: flex-start;
+ }
