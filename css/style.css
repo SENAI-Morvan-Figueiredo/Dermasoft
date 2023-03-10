@@ -6,12 +6,12 @@ a {
     color: #83D4EE;
 }
 
-hr{
+hr {
     background-color: #000000;
     margin: 50px 100px 50px 100px;
 }
 
-
+/* LINKS DO HEADER */
 
 #Links {
     background-color: #3C798C;
@@ -48,9 +48,13 @@ hr{
     color: #FFFFFF;
 }
 
+
+/* BANNER */
+
+
 #Banner {
     background-color: #3C798C;
-    height: 850px;
+    height: 700px;
 }
 
 #fotoEscritorio {
@@ -60,33 +64,38 @@ hr{
 }
 
 .textoSobreposto1 {
+    text-align: start;
     font-family: 'Source Sans Pro';
     font-style: normal;
     font-size: 64px;
     position: absolute;
     top: 400px;
     left: 50px;
-    z-index: 1;
-
+    
 }
 
 .textoSobreposto2 {
+    text-align: start;
     font-family: 'Source Sans Pro';
     font-style: normal;
-    font-size: 20px;
+    font-size: 30px;
     position: absolute;
     top: 700px;
     left: 50px;
-    z-index: 1;
-    color: #323232;
+    color: #000000;
 
 }
+
+/* ICONES DE CORAÇÃO E PASTA */
 
 .icones {
     display: flex;
     justify-content: space-around;
     align-items: center;
+    margin: 25px 0 25px 0;
 }
+
+/* CONEÇA A DERMASOFT */
 
 .tituloConheçaADermaSoft {
     font-family: 'Source Sans Pro';
@@ -115,6 +124,10 @@ hr{
     align-items: center;
     width: 40%;
 }
+
+
+/* NOSSA EQUIPE */
+
 
 .NossaEquipe {
     display: flex;
@@ -231,6 +244,12 @@ hr{
 
 }
 
+
+
+/* NOSSOS TRATAMENTOS */
+
+
+
 .nossosTratamentos {
     display: flex;
     flex-direction: column;
@@ -255,47 +274,88 @@ hr{
     margin: 20px 0 80px 0;
 }
 
-.estéticaCorporal{
+.estéticaCorporal {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-.tratamentosFaciais{
+.tratamentosFaciais {
     display: flex;
     flex-direction: column;
     align-items: center;
-    
+
 }
 
-.tratamentosCapilar{
+.tratamentosCapilar {
     display: flex;
     flex-direction: column;
     align-items: center;
-    
+
 }
 
 
-footer{
+
+/* FOOTER */
+
+
+footer {
     background-color: #586875;
 }
 
-.endereços{
+.endereços {
     display: flex;
     align-items: center;
     justify-content: space-around;
     height: 200px;
-    
+
 }
 
-.endereços ul li a{
-   display: flex;
-   justify-content: center;
+.endereços ul li a {
+    display: flex;
+    justify-content: center;
     color: #FFFFFF;
 }
 
-.redesSociais{
+.endereços ul li p {
     display: flex;
     justify-content: center;
+}
+
+.endereços ul li img {
+    width: 3%;
+    padding-right: 10px;
+}
+
+.endereços button{
+    margin: 0 25px 55px 0;
+}
+
+.redesSociais {
+    display: flex;
+    align-items: center;
     flex-direction: column;
+    justify-content: center;
+}
+
+.redesSociais p{
+    color: #FFFFFF;
+}
+
+.redesSociais img {
+    width: 20%;
+}
+
+.redessociaisFacebookEInstagram {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    text-align: center;
+    margin: 50px 0 50px 0;
+    width: 50%;
+}
+
+.redesSociais .copyright{
+    color: #000000;
+    margin-bottom: 25px;
 }
