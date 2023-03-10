@@ -6,6 +6,11 @@ a {
     color: #83D4EE;
 }
 
+hr{
+    background-color: #000000;
+    margin: 50px 100px 50px 100px;
+}
+
 
 
 #Links {
@@ -270,6 +275,27 @@ a {
     
 }
 
+
 footer{
+    background-color: #586875;
+}
+
+.endereços{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 200px;
     
+}
+
+.endereços ul li a{
+   display: flex;
+   justify-content: center;
+    color: #FFFFFF;
+}
+
+.redesSociais{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
 }
