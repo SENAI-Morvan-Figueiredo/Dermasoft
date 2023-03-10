@@ -1,8 +1,18 @@
+h1 {
+    text-align: center;
+}
+
+a {
+    color: #83D4EE;
+}
+
+
+
 #Links {
     background-color: #3C798C;
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-between;
     padding: 25px;
     align-items: center;
 }
@@ -11,9 +21,6 @@
     width: 5%;
 }
 
-a {
-    color: #83D4EE;
-}
 
 #login {
     display: flex;
@@ -37,6 +44,7 @@ a {
 }
 
 #Banner {
+    background-color: #3C798C;
     height: 850px;
 }
 
@@ -97,9 +105,171 @@ a {
 }
 
 .textoDermasoft {
-
     font-size: 32px;
     display: flex;
     align-items: center;
     width: 40%;
+}
+
+.NossaEquipe {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+.doutores {
+    margin-left: 200px;
+}
+
+.NossaEquipe h1 {
+    font-family: 'Source Sans Pro';
+    font-size: 96px;
+}
+
+.NossaEquipe img {
+    width: 296px;
+    height: 335px;
+    margin: 100px 0 100px 0;
+
+}
+
+.drFrancisco {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.drFranciscoDados {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    align-content: center;
+    padding: 150px;
+}
+
+
+
+.drFranciscoDados h3 {
+    display: flex;
+    justify-content: flex-start;
+    margin-bottom: 15px;
+
+}
+
+.draGabrielly {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+}
+
+.draGabriellyDados {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    align-content: center;
+    padding: 150px;
+
+}
+
+.draGabriellyDados h3 {
+    display: flex;
+    justify-content: flex-start;
+    margin-bottom: 15px;
+
+}
+
+.draLucema {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+}
+
+.draLucemaDados {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    align-content: center;
+    padding: 150px;
+
+}
+
+.draLucemaDados h3 {
+    display: flex;
+    justify-content: flex-start;
+    margin-bottom: 15px;
+
+}
+
+.drLuis {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+}
+
+.drLuisDados {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    align-content: center;
+    padding: 150px;
+
+}
+
+.drLuisDados h3 {
+    display: flex;
+    justify-content: flex-start;
+    margin-bottom: 15px;
+
+}
+
+.nossosTratamentos {
+    display: flex;
+    flex-direction: column;
+}
+
+.nossosTratamentos h1 {
+    text-align: center;
+    font-family: 'Source Sans Pro';
+    font-size: 96px;
+}
+
+.nossosTratamentos img {
+    width: 396px;
+    height: 335px;
+    margin: 100px 0 100px 0;
+}
+
+.tratamentos {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 20px 0 80px 0;
+}
+
+.estéticaCorporal{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.tratamentosFaciais{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.tratamentosCapilar{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+footer{
+    
 }
