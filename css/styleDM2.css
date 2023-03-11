@@ -1,4 +1,4 @@
-    .p1{
+.p1{
     background-color: #3C798C;
    
 }
@@ -21,17 +21,17 @@ body{
     .p3{
         padding-top: 150px;
     }
-        .cadastroCPF{
+        .cadastroRNE{
         text-align: center;
         flex-direction: row;
     }
-    .SeuCPF{
+    .SeuRNE{
         size: 40px;
         width: 320px;
         height: 40px;
         font-size: 25px;
     }
-    .CPF{
+    .RNE{
         font-size: 40px;
         margin-left: 40px;
     }
@@ -56,8 +56,8 @@ body{
     }
     .nãoPossuoCPF{
         position: absolute;
-        top: 58.5%;
-        left: 66%;
+        top: 53%;
+        left: 70%;
 
     }
  .btNãoPossuoCPF{
@@ -123,4 +123,3 @@ body{
   .toggle-input:checked + .toggle-label:after {
     left: 11px;
   }
-  
