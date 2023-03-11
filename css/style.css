@@ -22,9 +22,14 @@ hr {
     align-items: center;
 }
 
+#Links .linkLogo{
+    padding-right: 0px;
+}
+
 #logo {
     width: 5%;
 }
+
 
 
 #login {

@@ -1,0 +1,190 @@
+h1 {
+    text-align: center;
+}
+
+a {
+    color: #83D4EE;
+}
+
+hr {
+    background-color: #000000;
+    margin: 50px 100px 50px 100px;
+}
+
+/* LINKS DO HEADER */
+
+#Links {
+    background-color: #3C798C;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 25px;
+    align-items: center;
+}
+
+#logo {
+    width: 5%;
+}
+
+
+#login {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+#fraseAcesso {
+    display: flex;
+    margin-right: 5px;
+    color: #FFFFFF;
+
+}
+
+#button {
+    padding: 10px 25px 10px 25px;
+    background: #739DDC;
+    border-radius: 10px;
+    border: none;
+    color: #FFFFFF;
+}
+
+
+/* BANNER */
+
+
+#Banner {
+    background-color: #3C798C;
+    height: 850px;
+}
+
+#fotoEscritorio {
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+.textoSobreposto1 {
+    text-align: start;
+    font-family: 'Source Sans Pro';
+    font-style: normal;
+    font-size: 64px;
+    position: absolute;
+    top: 400px;
+    left: 50px;
+    
+}
+
+.textoSobreposto2 {
+    width: 50%;
+    text-align: start;
+    font-family: 'Source Sans Pro';
+    font-style: normal;
+    font-size: 30px;
+    position: absolute;
+    top: 600px;
+    left: 50px;
+    color: #000000;
+
+}
+
+/* CONEÇA A DERMASOFT */
+
+.tituloConheçaADermaSoft {
+    font-family: 'Source Sans Pro';
+    font-style: normal;
+    text-align: center;
+    font-size: 96px;
+    margin-top: 35px;
+}
+
+.ConhecaADermaSOft {
+    height: 1198px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+}
+
+.imagensDaClinica {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.textoDermasoft {
+    font-size: 32px;
+    display: flex;
+    align-items: center;
+    width: 40%;
+}
+
+/* FOOTER */
+
+
+footer {
+    background-color: #586875;
+}
+
+.endereços {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 200px;
+
+}
+
+.endereços ul li a {
+    display: flex;
+    justify-content: center;
+    color: #FFFFFF;
+}
+
+.endereços ul li p {
+    display: flex;
+    justify-content: center;
+}
+
+.endereços ul li img {
+    width: 3%;
+    padding-right: 10px;
+}
+
+
+
+.endereços .button{
+    margin: 0 25px 70px 0;
+    width: 110%;
+    border: 2px solid #FFFFFF;
+    border-radius: 50px;
+}
+
+
+.redesSociais {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.redesSociais p{
+    color: #FFFFFF;
+}
+
+.redesSociais img {
+    width: 20%;
+}
+
+.redessociaisFacebookEInstagram {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    text-align: center;
+    margin: 50px 0 50px 0;
+    width: 50%;
+}
+
+
+.redesSociais .copyright{
+    color: #000000;
+    margin-bottom: 25px;
+}
