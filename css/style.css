@@ -54,7 +54,7 @@ hr {
 
 #Banner {
     background-color: #3C798C;
-    height: 700px;
+    height: 850px;
 }
 
 #fotoEscritorio {
@@ -352,13 +352,15 @@ footer {
     padding-right: 10px;
 }
 
-.endereços button{
+
+
+.endereços .button{
     margin: 0 25px 70px 0;
-    width: 10%;
+    width: 110%;
     border: 2px solid #FFFFFF;
     border-radius: 50px;
 }
-}
+
 
 .redesSociais {
     display: flex;
