@@ -282,6 +282,13 @@ hr {
     width: 396px;
     height: 335px;
     margin: 100px 0 100px 0;
+    border: 2px solid #000000;
+    border-radius: 5%;
+
+}
+
+.nossosTratamentos a{
+    color: #000000;
 }
 
 .tratamentos {
@@ -289,6 +296,7 @@ hr {
     flex-direction: row;
     justify-content: space-around;
     margin: 20px 0 80px 0;
+    font-size: 25px;
 }
 
 .estéticaCorporal {
@@ -345,7 +353,11 @@ footer {
 }
 
 .endereços button{
-    margin: 0 25px 55px 0;
+    margin: 0 25px 70px 0;
+    width: 10%;
+    border: 2px solid #FFFFFF;
+    border-radius: 50px;
+}
 }
 
 .redesSociais {
@@ -371,6 +383,7 @@ footer {
     margin: 50px 0 50px 0;
     width: 50%;
 }
+
 
 .redesSociais .copyright{
     color: #000000;
