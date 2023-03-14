@@ -1,0 +1,69 @@
+h1 {
+    text-align: center;
+}
+
+a {
+    color: #83D4EE;
+}
+
+hr {
+    background-color: #000000;
+    margin: 50px 100px 50px 100px;
+}
+
+/* LINKS DO HEADER */
+
+#Links {
+    background-color: #3C798C;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 25px;
+    align-items: center;
+}
+
+#Links .linkLogo {
+    padding-right: 0px;
+}
+
+#logo {
+    width: 5%;
+}
+
+
+
+#login {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+#fraseAcesso {
+    display: flex;
+    margin-right: 5px;
+    color: #FFFFFF;
+
+}
+
+#button {
+    padding: 10px 25px 10px 25px;
+    background: #739DDC;
+    border-radius: 10px;
+    border: none;
+    color: #FFFFFF;
+}
+
+.lugarDoQuadrado {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 1800px;
+    height: 900PX;
+}
+
+.quadrado{
+    background-color:aliceblue;
+    width: 500px;
+    height: 500PX;
+
+}
