@@ -132,11 +132,23 @@ footer {
     background-color: #586875;
 }
 
+
+.button{
+    position: absolute;;
+    margin: 40px 25px 70px 1700px;
+    width: 10%;
+    border: 2px solid #FFFFFF;
+    border-radius: 50px;
+}
+
+
 .endereços {
     display: flex;
     align-items: center;
     justify-content: space-around;
     height: 200px;
+    padding-top: 50px;
+    
 
 }
 
@@ -145,6 +157,8 @@ footer {
     justify-content: center;
     color: #FFFFFF;
 }
+
+
 
 .endereços ul li p {
     display: flex;
@@ -158,12 +172,6 @@ footer {
 
 
 
-.endereços .button{
-    margin: 0 25px 70px 0;
-    width: 110%;
-    border: 2px solid #FFFFFF;
-    border-radius: 50px;
-}
 
 
 .redesSociais {
