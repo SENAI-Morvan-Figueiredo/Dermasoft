@@ -1,0 +1,231 @@
+h1 {
+    text-align: center;
+}
+
+a {
+    color: #83D4EE;
+}
+
+hr {
+    background-color: #000000;
+    margin: 50px 100px 50px 100px;
+}
+
+/* LINKS DO HEADER */
+
+#Links {
+    background-color: #3C798C;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 25px;
+    align-items: center;
+}
+
+.linklogo {
+
+width: 5%;
+
+
+}
+
+#logo {
+    width: 100%;
+}
+
+
+#login {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+#fraseAcesso {
+    display: flex;
+    margin-right: 5px;
+    color: #FFFFFF;
+
+}
+
+#buttonLogin {
+    padding: 10px 25px 10px 25px;
+    background: #739DDC;
+    border-radius: 10px;
+    border: none;
+    color: #FFFFFF;
+}
+
+
+/* BANNER */
+
+
+#Banner {
+    background-color: #3C798C;
+    height: 850px;
+}
+
+#fotoNossaEquipe {
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+.textoSobreposto1 {
+    width: 80%;
+    text-align: start;
+    font-family: 'Source Sans Pro';
+    font-style: normal;
+    font-size: 64px;
+    position: absolute;
+    top: 400px;
+    left: 50px;
+    
+}
+
+.textoSobreposto2 {
+    width: 50%;
+    text-align: start;
+    font-family: 'Source Sans Pro';
+    font-style: normal;
+    font-size: 30px;
+    position: absolute;
+    top: 600px;
+    left: 50px;
+    color: #000000;
+
+}
+
+/* NOSSOS TRATAMENTOS */
+
+
+
+.nossosTratamentos {
+    display: flex;
+    flex-direction: column;
+}
+
+.nossosTratamentos h1 {
+    text-align: center;
+    font-family: 'Source Sans Pro';
+    font-size: 96px;
+}
+
+.nossosTratamentos img {
+    width: 396px;
+    height: 335px;
+    margin: 100px 0 100px 0;
+    border: 2px solid #000000;
+    border-radius: 5%;
+
+}
+
+.nossosTratamentos a {
+    color: #000000;
+}
+
+.tratamentos {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 20px 0 80px 0;
+    font-size: 25px;
+}
+
+.estéticaCorporal {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.tratamentosFaciais {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.tratamentosCapilar {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+/* FOOTER */
+
+
+footer {
+    background-color: #586875;
+}
+
+
+.button{
+    position: absolute;;
+    margin: 40px 25px 70px 1700px;
+    width: 10%;
+    border: 2px solid #FFFFFF;
+    border-radius: 50px;
+}
+
+
+.endereços {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 200px;
+    padding-top: 50px;
+    
+
+}
+
+.endereços ul li a {
+    display: flex;
+    justify-content: center;
+    color: #FFFFFF;
+}
+
+
+
+.endereços ul li p {
+    display: flex;
+    justify-content: center;
+}
+
+.endereços ul li img {
+    width: 3%;
+    padding-right: 10px;
+}
+
+
+
+
+
+.redesSociais {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.redesSociais p{
+    color: #FFFFFF;
+}
+
+.redesSociais img {
+    width: 20%;
+}
+
+.redessociaisFacebookEInstagram {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    text-align: center;
+    margin: 50px 0 50px 0;
+    width: 50%;
+}
+
+
+.redesSociais .copyright{
+    color: #000000;
+    margin-bottom: 25px;
+}

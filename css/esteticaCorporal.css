@@ -1,0 +1,97 @@
+h1 {
+    text-align: center;
+}
+
+a {
+    color: #83D4EE;
+}
+
+hr {
+    background-color: #000000;
+    margin: 50px 100px 50px 100px;
+}
+
+/* LINKS DO HEADER */
+
+#Links {
+    background-color: #3C798C;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 25px;
+    align-items: center;
+}
+
+.linklogo {
+
+width: 5%;
+
+
+}
+
+#logo {
+    width: 100%;
+}
+
+
+#login {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+#fraseAcesso {
+    display: flex;
+    margin-right: 5px;
+    color: #FFFFFF;
+
+}
+
+#buttonLogin {
+    padding: 10px 25px 10px 25px;
+    background: #739DDC;
+    border-radius: 10px;
+    border: none;
+    color: #FFFFFF;
+}
+
+
+/* BANNER */
+
+
+#Banner {
+    background-color: #3C798C;
+    height: 850px;
+}
+
+#fotoNossaEquipe {
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+.textoSobreposto1 {
+    width: 50%;
+    text-align: start;
+    font-family: 'Source Sans Pro';
+    font-style: normal;
+    font-size: 64px;
+    position: absolute;
+    top: 400px;
+    left: 50px;
+
+    
+}
+
+.textoSobreposto2 {
+    width: 50%;
+    text-align: start;
+    font-family: 'Source Sans Pro';
+    font-style: normal;
+    font-size: 30px;
+    position: absolute;
+    top: 600px;
+    left: 50px;
+    color: #000000;
+
+}
