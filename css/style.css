@@ -22,9 +22,7 @@ hr {
     align-items: center;
 }
 
-#Links .linkLogo{
-    padding-right: 0px;
-}
+
 
 #logo {
     width: 5%;
@@ -76,7 +74,7 @@ hr {
     position: absolute;
     top: 400px;
     left: 50px;
-    
+
 }
 
 .textoSobreposto2 {
@@ -95,24 +93,25 @@ hr {
 /* ICONES DE CORAÇÃO E PASTA */
 
 .icones {
-    
+
     display: flex;
     justify-content: space-around;
     align-items: center;
     margin: 25px 0 25px 0;
 }
 
-.iconeEFrase{
+.iconeEFrase {
     display: flex;
     flex-direction: column;
-   align-items: center;
+    align-items: center;
 }
-.icones img{
+
+.icones img {
     width: 50%;
     margin-bottom: 25px;
 }
 
-.icones .iconeEFrase p{
+.icones .iconeEFrase p {
     width: 200px;
 }
 
@@ -292,7 +291,7 @@ hr {
 
 }
 
-.nossosTratamentos a{
+.nossosTratamentos a {
     color: #000000;
 }
 
@@ -359,7 +358,7 @@ footer {
 
 
 
-.endereços .button{
+.endereços .button {
     margin: 0 25px 70px 0;
     width: 110%;
     border: 2px solid #FFFFFF;
@@ -374,7 +373,7 @@ footer {
     justify-content: center;
 }
 
-.redesSociais p{
+.redesSociais p {
     color: #FFFFFF;
 }
 
@@ -392,7 +391,7 @@ footer {
 }
 
 
-.redesSociais .copyright{
+.redesSociais .copyright {
     color: #000000;
     margin-bottom: 25px;
 }
