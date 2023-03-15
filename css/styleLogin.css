@@ -57,13 +57,98 @@ hr {
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 1800px;
-    height: 900PX;
+    width: 1200px;
+    height: 800PX;
 }
 
 .quadrado{
-    background-color:aliceblue;
-    width: 500px;
-    height: 500PX;
-
+    background-color:#FFFFFF;
+    width: 550px;
+    height: 550PX;
+    border: solid 1.5px #000000;
+    flex-direction: row;
+    text-align: center;
 }
+
+.SeuUsuario{
+ 
+    size: 40px;
+    width: 320px;
+    height: 40px;
+    font-size: 25px;
+}
+.usuario{
+    font-size: 30px;
+    margin-left: 30px;
+    margin-right: 260px;
+}
+.SeuCPF{
+    size: 40px;
+    width: 320px;
+    height: 40px;
+    font-size: 25px;
+}
+.CPF{
+    font-size: 30px;
+    margin-left: 30px;
+    margin-right: 300px;
+}
+.espaçoDentroDoQuadrado{
+    height: 70px;
+}
+
+.espaçoDentroDoQuadrado2{
+    height: 15px;
+}
+.espaçoDentroDoQuadrado3{
+    height: 15px;
+}
+.espaçoDentroDoQuadrado4{
+    height: 9px;
+}
+
+.toggle-button{
+    position: absolute;
+    top: 59.7%;
+    left: 35.5%;
+    transform: translate(-50%, -50%);
+ }
+
+ .toggle-input {
+    display: none;
+
+  }
+  
+  .toggle-label {
+    display: block;
+    width: 20px;
+    height: 10px;
+    border-radius: 20px;
+    background-color: #ddd;
+    position: relative;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+  }
+  
+  .toggle-label:after {
+    content: '';
+    display: block;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background-color: #fff;
+    position: absolute;
+    top: 1px;
+    left: 1px;
+    box-shadow: 0 0 100px rgba(0, 0, 0, 0.3);
+    transition: left 0.3s ease-in-out;
+  }
+  
+  .toggle-input:checked + .toggle-label {
+    background-color: #828788;
+  }
+  
+  .toggle-input:checked + .toggle-label:after {
+    left: 11px;
+  }
+  
