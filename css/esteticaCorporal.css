@@ -1,6 +1,12 @@
-h1 {
-    text-align: center;
+a h1 {
+    font-size: 64px;
+    font-family: 'Source Sans Pro';
+    font-style: normal;
+    color: #000000;
+    margin-bottom: 20px;
 }
+
+
 
 a {
     color: #83D4EE;
@@ -8,7 +14,7 @@ a {
 
 hr {
     background-color: #000000;
-    margin: 50px 100px 50px 100px;
+    margin: 100px 100px 100px 100px;
 }
 
 /* LINKS DO HEADER */
@@ -24,7 +30,7 @@ hr {
 
 .linklogo {
 
-width: 5%;
+    width: 5%;
 
 
 }
@@ -80,7 +86,7 @@ width: 5%;
     top: 400px;
     left: 50px;
 
-    
+
 }
 
 .textoSobreposto2 {
@@ -94,4 +100,164 @@ width: 5%;
     left: 50px;
     color: #000000;
 
+}
+
+/* Tratamentos Corporais */
+
+
+/* Depilação A Laser */
+
+.depilaçãoALaser {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    align-content: center;
+    margin: 50px 100px 50px 100px;
+}
+
+.textoDepilaçãoALaser {
+    margin-left: 300px;
+}
+
+/* terapiaHíbrida */
+
+.terapiaHíbrida {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+    align-content: center;
+    margin: 50px 100px 50px 100px;
+}
+
+.textoTerapiaHíbrida {
+    margin-right: 300px;
+}
+
+
+/* lipoLAD */
+
+.lipoLAD {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    align-content: center;
+    margin: 50px 100px 50px 100px;
+}
+
+.textolipoLAD {
+    margin-left: 300px;
+}
+
+
+.criolipólise {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+    align-content: center;
+    margin: 50px 100px 50px 100px;
+}
+
+.textoCriolipólise {
+    margin-right: 300px;
+}
+
+
+.radiofrequêcia {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    align-content: center;
+    margin: 50px 100px 50px 100px;
+}
+
+.textoRadiofrequêcia {
+    margin-left: 300px;
+}
+
+
+
+
+/* FOOTER */
+
+
+footer {
+    background-color: #586875;
+}
+
+
+.button {
+    position: absolute;
+    ;
+    margin: 40px 25px 70px 1700px;
+    width: 10%;
+    border: 2px solid #FFFFFF;
+    border-radius: 50px;
+}
+
+
+.endereços {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 200px;
+    padding-top: 50px;
+
+
+}
+
+.endereços ul li a {
+    display: flex;
+    justify-content: center;
+    color: #FFFFFF;
+}
+
+
+
+.endereços ul li p {
+    display: flex;
+    justify-content: center;
+}
+
+.endereços ul li img {
+    width: 3%;
+    padding-right: 10px;
+}
+
+
+
+
+
+.redesSociais {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.redesSociais p {
+    color: #FFFFFF;
+}
+
+.redesSociais img {
+    width: 20%;
+}
+
+.redessociaisFacebookEInstagram {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    text-align: center;
+    margin: 50px 0 50px 0;
+    width: 50%;
+}
+
+
+.redesSociais .copyright {
+    color: #000000;
+    margin-bottom: 25px;
 }
