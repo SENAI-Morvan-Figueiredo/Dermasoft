@@ -70,7 +70,7 @@ hr {
     height: 850px;
 }
 
-#fotoNossaEquipe {
+#fotoTratamentosFaciais {
     position: relative;
     width: 100%;
     height: 100%;
@@ -103,12 +103,12 @@ hr {
 }
 
 
-/* Tratamentos Faciais */
+/* Tratamentos Capilar */
 
 
-/* limpeza De Pele */
+/* laser De Thulium */
 
-.limpezaDePele {
+.laserDeThulium {
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -117,13 +117,13 @@ hr {
     margin: 50px 100px 50px 100px;
 }
 
-.textoLimpezaDePele {
+.textolaserDeThulium {
     margin-left: 300px;
 }
 
-/* tratamentos ContaO lheiras */
+/* MMP */
 
-.tratamentosContaOlheiras {
+.MMP {
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -132,14 +132,14 @@ hr {
     margin: 50px 100px 50px 100px;
 }
 
-.textoTratamentosContaOlheiras {
+.textoMMP {
     margin-right: 300px;
 }
 
 
-/* harmonização Facial */
+/* microagulhamento Capilar */
 
-.harmonizaçãoFacial {
+.microagulhamentoCapilar {
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -148,14 +148,15 @@ hr {
     margin: 50px 100px 50px 100px;
 }
 
-.textoHarmonizaçãoFacial {
+.textoMicroagulhamentoCapilar {
     margin-left: 300px;
+    width: 600px;
 }
 
 
-/* Sculptra */
+/* misoterapia Capilar */
 
-.sculptra {
+.misoterapiaCapilar {
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -164,14 +165,14 @@ hr {
     margin: 50px 100px 50px 100px;
 }
 
-.textoSculptra {
+.textoMisoterapiaCapilar {
     margin-right: 300px;
 }
 
 
-/* Microagulhamento */
+/* tricoscopia Capilar E Tricograma */
 
-.microagulhamento {
+.tricoscopiaCapilarETricograma {
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -180,8 +181,25 @@ hr {
     margin: 50px 100px 50px 100px;
 }
 
-.textoMicroagulhamento {
+.textoTricoscopiaCapilarETricograma {
     margin-left: 300px;
+    width: 600px;
+}
+
+/* terapia Capilar */
+
+.terapiaCapilar {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+    align-content: center;
+    margin: 50px 100px 50px 100px;
+}
+
+.textoTerapiaCapilar {
+    margin-right: 300px;
+    width: 400px;
 }
 
 
