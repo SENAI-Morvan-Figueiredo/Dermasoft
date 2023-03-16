@@ -102,12 +102,13 @@ hr {
 
 }
 
-/* Tratamentos Corporais */
+
+/* Tratamentos Faciais */
 
 
-/* Depilação A Laser */
+/* limpeza De Pele */
 
-.depilaçãoALaser {
+.limpezaDePele {
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -116,13 +117,13 @@ hr {
     margin: 50px 100px 50px 100px;
 }
 
-.textoDepilaçãoALaser {
+.textoLimpezaDePele {
     margin-left: 300px;
 }
 
-/* terapiaHíbrida */
+/* tratamentos ContaO lheiras */
 
-.terapiaHíbrida {
+.tratamentosContaOlheiras {
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -131,14 +132,14 @@ hr {
     margin: 50px 100px 50px 100px;
 }
 
-.textoTerapiaHíbrida {
+.textoTratamentosContaOlheiras {
     margin-right: 300px;
 }
 
 
-/* lipoLAD */
+/* harmonização Facial */
 
-.lipoLAD {
+.harmonizaçãoFacial {
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -147,13 +148,14 @@ hr {
     margin: 50px 100px 50px 100px;
 }
 
-.textolipoLAD {
+.textoHarmonizaçãoFacial {
     margin-left: 300px;
 }
 
-/* Criolopólise */
 
-.criolipólise {
+/* Sculptra */
+
+.sculptra {
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -162,14 +164,14 @@ hr {
     margin: 50px 100px 50px 100px;
 }
 
-.textoCriolipólise {
+.textoSculptra {
     margin-right: 300px;
 }
 
 
-/* radio frequêcia */
+Microagulhamento
 
-.radiofrequêcia {
+.microagulhamento {
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -178,10 +180,25 @@ hr {
     margin: 50px 100px 50px 100px;
 }
 
-.textoRadiofrequêcia {
+.textoMicroagulhamento {
     margin-left: 300px;
 }
 
+
+/* laser Erbium */
+
+.laserErbium {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+    align-content: center;
+    margin: 50px 100px 50px 100px;
+}
+
+.textoLaserErbium {
+    margin-right: 300px;
+}
 
 
 
