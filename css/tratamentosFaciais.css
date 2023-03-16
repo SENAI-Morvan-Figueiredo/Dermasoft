@@ -70,7 +70,7 @@ hr {
     height: 850px;
 }
 
-#fotoNossaEquipe {
+#fotoTratamentosFaciais {
     position: relative;
     width: 100%;
     height: 100%;
@@ -119,6 +119,10 @@ hr {
 
 .textoLimpezaDePele {
     margin-left: 300px;
+}
+
+.textoLimpezaDePele a{
+   text-decoration: none;
 }
 
 /* tratamentos ContaO lheiras */
