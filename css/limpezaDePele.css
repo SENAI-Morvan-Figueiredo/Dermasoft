@@ -4,6 +4,7 @@ h1 {
 
 a {
     color: #83D4EE;
+    text-decoration: none
 }
 
 hr {
@@ -22,9 +23,30 @@ hr {
     align-items: center;
 }
 
+.underline {
+    position: relative;
+    display: inline-block;
+}
+
+.underline::before {
+    content: "";
+    position: absolute;
+    top: 18px;
+    bottom: 0;
+    left: 0;
+    width: 0;
+    height: 2px;
+    background-color: #83D4EE;
+    transition: width 0.3s ease-in-out;
+}
+
+.underline:hover::before {
+    width: 100%;
+}
+
 .linklogo {
 
-width: 5%;
+    width: 5%;
 
 
 }
@@ -64,7 +86,7 @@ width: 5%;
     height: 850px;
 }
 
-#bannerLimpezaDePele{
+#bannerLimpezaDePele {
     position: relative;
     width: 100%;
     height: 100%;
@@ -79,7 +101,7 @@ width: 5%;
     position: absolute;
     top: 400px;
     left: 50px;
-    
+
 }
 
 .textoSobreposto2 {
@@ -97,9 +119,9 @@ width: 5%;
 
 /* limpeza de pele */
 
-.Descricao{
-display: flex;
-flex-direction: column;
+.Descricao {
+    display: flex;
+    flex-direction: column;
 
 }
 
@@ -113,7 +135,7 @@ flex-direction: column;
 
 }
 
-.textoComoEFeito h1{
+.textoComoEFeito h1 {
     font-size: 48px;
     margin-bottom: 25px;
     margin-right: 15px;
@@ -121,7 +143,7 @@ flex-direction: column;
 
 }
 
-.textoComoEFeito p{
+.textoComoEFeito p {
     font-size: 30px;
 }
 
@@ -149,36 +171,126 @@ flex-direction: column;
     margin: 50px 100px 50px 100px;
 }
 
-.divRow{
+.divRow {
     display: flex;
     flex-direction: row;
 }
 
-.beneficiosELimpezaDePele{
+.beneficiosELimpezaDePele {
     display: flex;
     flex-direction: column;
 }
 
-.textoBeneficios{
-   
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: flex-start;
-        align-content: center;
-        margin: 0 100px 50px 250px;
-        width: 25%;
+.textoBeneficios {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    align-content: center;
+    margin: 0 100px 0 250px;
+    width: 25%;
 }
 
-.textoBeneficios h1{
+.textoBeneficios h1 {
     font-size: 48px;
     margin-bottom: 25px;
     margin-right: 15px;
 
 }
 
-.textoBeneficios p{
+.textoBeneficios p {
     font-size: 30px;
+}
+
+.botãoELink {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.imgWhatsApp {
+    width: 85px;
+}
+
+.tireSuasDuvidas {
+    width: 400px;
+    height: 100px;
+    margin: 50px 0 50px 0;
+    background-color: #FFFFFF;
+    border: 2px solid #000000;
+    border-radius: 30px;
+}
+
+
+.linkTireSuasDuvidas {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    font-size: 25px;
+    color: #000000;
+    text-decoration: none;
+}
+
+.linkTireSuasDuvidas {
+    position: relative;
+   
+}
+
+.linkTireSuasDuvidas::before {
+    content: "";
+    position: absolute;
+    bottom: 25px;
+    left: 40%;
+    width: 0;
+    height: 2px;
+    background-color: #000000;
+    transition: width 0.3s ease-in-out;
+}
+
+.linkTireSuasDuvidas:hover::before {
+    width: 55%;
+}
+
+.solicitarAgendamento{
+    width: 400px;
+    height: 100px;
+    margin: 50px 0 50px 0;
+    background-color: #FFFFFF;
+    border: 2px solid #000000;
+    border-radius: 30px;
+}
+
+
+.linkSolicitarAgendamento {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    font-size: 25px;
+    color: #000000;
+    text-decoration: none;
+}
+
+.linkSolicitarAgendamento {
+    position: relative;
+   
+}
+
+.linkSolicitarAgendamento::before {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 15%;
+    width: 0;
+    height: 2px;
+    background-color: #000000;
+    transition: width 0.3s ease-in-out;
+}
+
+.linkSolicitarAgendamento:hover::before {
+    width: 70%;
 }
 
 
@@ -193,8 +305,9 @@ footer {
 }
 
 
-.button{
-    position: absolute;;
+.button {
+    position: absolute;
+    ;
     margin: 40px 25px 70px 1700px;
     width: 10%;
     border: 2px solid #FFFFFF;
@@ -208,7 +321,7 @@ footer {
     justify-content: space-around;
     height: 200px;
     padding-top: 50px;
-    
+
 
 }
 
@@ -241,7 +354,7 @@ footer {
     justify-content: center;
 }
 
-.redesSociais p{
+.redesSociais p {
     color: #FFFFFF;
 }
 
@@ -259,7 +372,7 @@ footer {
 }
 
 
-.redesSociais .copyright{
+.redesSociais .copyright {
     color: #000000;
     margin-bottom: 25px;
 }
