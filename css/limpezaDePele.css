@@ -4,7 +4,7 @@ h1 {
 
 a {
     color: #83D4EE;
-    text-decoration: none
+    
 }
 
 hr {
@@ -26,6 +26,7 @@ hr {
 .underline {
     position: relative;
     display: inline-block;
+    text-decoration: none;
 }
 
 .underline::before {
