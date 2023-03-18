@@ -2,10 +2,24 @@ body {
     /* background-color: #BDD6D2; */
 }
 
+#Links {
+    background-color: #BDD6D2;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 25px;
+    align-items: center;
+    
+}
+
+#logo {
+    width: 5%;
+}
+
 .corAzul {
     position: relative;
     background-color: #BDD6D2;
-    height: 550px;
+    height: 420px;
 }
 
 .acessarOuCriarConta {
