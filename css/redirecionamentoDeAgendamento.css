@@ -1,0 +1,87 @@
+body {
+    /* background-color: #BDD6D2; */
+}
+
+#Links {
+    background-color: #BDD6D2;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 25px;
+    align-items: center;
+    
+}
+
+#logo {
+    width: 5%;
+}
+
+.corAzul {
+    position: relative;
+    background-color: #BDD6D2;
+    height: 420px;
+}
+
+.acessarOuCriarConta {
+    position: absolute;
+    top: 300px;
+    left: 30%
+}
+
+.retangulo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #FFFFFF;
+    width: 642px;
+    height: 551px;
+    border: 2px solid #000000;
+}
+
+.retangulo p {
+    font-size: 40px;
+    width: 65%;
+    margin-bottom: 50px;
+
+}
+
+.criarConta {
+    width: 375px;
+    height: 100px;
+    border: 2px solid #000000;
+    border-radius: 30px;
+    font-size: 40px;
+    margin-bottom: 25px;
+    background-color: #3C798C;
+}
+
+.criarConta:hover {
+    transform: scale(1.1);
+    transition: transform 0.7s ease;
+  }
+  
+  
+  .criarConta a {
+      color: #FFFFFF;
+      text-decoration: none;
+}
+
+.entrar {
+    width: 375px;
+    height: 100px;
+    border: 2px solid #000000;
+    border-radius: 30px;
+    font-size: 40px;
+    margin-top: 25px;
+}
+
+.entrar:hover {
+    transform: scale(1.1);
+    transition: transform 0.7s ease;
+  }
+  
+.entrar a {
+    color: #3C798C;
+    text-decoration: none;
+}

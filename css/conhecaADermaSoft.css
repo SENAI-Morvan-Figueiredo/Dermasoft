@@ -70,6 +70,10 @@ width: 5%;
 
 }
 
+#login a button {
+    cursor: pointer;
+}
+
 #button {
     padding: 10px 25px 10px 25px;
     background: #739DDC;

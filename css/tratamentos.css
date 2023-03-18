@@ -4,7 +4,7 @@ h1 {
 
 a {
     color: #83D4EE;
- 
+   
 }
 
 hr {
@@ -70,7 +70,11 @@ width: 5%;
 
 }
 
-#buttonLogin {
+#login a button {
+    cursor: pointer;
+}
+
+#button {
     padding: 10px 25px 10px 25px;
     background: #739DDC;
     border-radius: 10px;
@@ -163,6 +167,11 @@ width: 5%;
     align-items: center;
 }
 
+.imgEstéticaCorporal:hover {
+    transform: scale(1.07);
+    transition: transform 0.7s ease;
+  }
+
 .tratamentosFaciais {
     display: flex;
     flex-direction: column;
@@ -170,12 +179,22 @@ width: 5%;
 
 }
 
+.imgTratamentosFaciais:hover {
+    transform: scale(1.07);
+    transition: transform 0.7s ease;
+  }
+
 .tratamentosCapilar {
     display: flex;
     flex-direction: column;
     align-items: center;
 
 }
+
+.imgTratamentosCapilar:hover {
+    transform: scale(1.07);
+    transition: transform 0.7s ease;
+  }
 
 /* FOOTER */
 

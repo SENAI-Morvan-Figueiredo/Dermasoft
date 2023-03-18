@@ -6,16 +6,14 @@ a h1 {
     margin-bottom: 20px;
 }
 
-
-
 a {
     color: #83D4EE;
-
+   
 }
 
 hr {
     background-color: #000000;
-    margin: 100px 100px 100px 100px;
+    margin: 50px 100px 50px 100px;
 }
 
 /* LINKS DO HEADER */
@@ -53,7 +51,7 @@ hr {
 
 .linklogo {
 
-    width: 5%;
+width: 5%;
 
 
 }
@@ -76,7 +74,11 @@ hr {
 
 }
 
-#buttonLogin {
+#login a button {
+    cursor: pointer;
+}
+
+#button {
     padding: 10px 25px 10px 25px;
     background: #739DDC;
     border-radius: 10px;

@@ -67,6 +67,10 @@ hr {
 
 }
 
+#login a button {
+    cursor: pointer;
+}
+
 #button {
     padding: 10px 25px 10px 25px;
     background: #739DDC;
@@ -334,8 +338,12 @@ hr {
     display: flex;
     flex-direction: column;
     align-items: center;
-
 }
+
+.imgEstéticaCorporal:hover {
+    transform: scale(1.07);
+    transition: transform 0.7s ease;
+  }
 
 .tratamentosFaciais {
     display: flex;
@@ -344,12 +352,22 @@ hr {
 
 }
 
+.imgTratamentosFaciais:hover {
+    transform: scale(1.07);
+    transition: transform 0.7s ease;
+  }
+
 .tratamentosCapilar {
     display: flex;
     flex-direction: column;
     align-items: center;
 
 }
+
+.imgTratamentosCapilar:hover {
+    transform: scale(1.07);
+    transition: transform 0.7s ease;
+  }
 
 
 

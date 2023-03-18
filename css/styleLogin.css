@@ -4,6 +4,7 @@ h1 {
 
 a {
     color: #83D4EE;
+
 }
 
 hr {
@@ -22,14 +23,38 @@ hr {
     align-items: center;
 }
 
-#Links .linkLogo {
-    padding-right: 0px;
+.underline {
+    position: relative;
+    display: inline-block;
+    text-decoration: none;
+}
+
+.underline::before {
+    content: "";
+    position: absolute;
+    top: 18px;
+    bottom: 0;
+    left: 0;
+    width: 0;
+    height: 2px;
+    background-color: #83D4EE;
+    transition: width 0.3s ease-in-out;
+}
+
+.underline:hover::before {
+    width: 100%;
+}
+
+.linklogo {
+
+    width: 5%;
+
+
 }
 
 #logo {
-    width: 5%;
+    width: 100%;
 }
-
 
 
 #login {
@@ -45,13 +70,17 @@ hr {
 
 }
 
-#button {
+#buttonLogin {
     padding: 10px 25px 10px 25px;
     background: #739DDC;
     border-radius: 10px;
     border: none;
     color: #FFFFFF;
 }
+
+
+/* BODY */
+
 
 .lugarDoQuadrado {
     display: flex;
@@ -61,65 +90,86 @@ hr {
     height: 800PX;
 }
 
-.quadrado{
-    background-color:#FFFFFF;
+.quadrado {
+    background-color: #FFFFFF;
     width: 550px;
     height: 550PX;
     border: solid 1.5px #000000;
     flex-direction: row;
     text-align: center;
+    border-radius: 10px 118px 10px 10px;
 }
 
-.SeuUsuario{
- 
+.SeuUsuario {
+
     size: 40px;
     width: 320px;
     height: 40px;
     font-size: 25px;
 }
-.usuario{
+
+.usuario {
     font-size: 30px;
     margin-left: 30px;
     margin-right: 260px;
 }
-.SeuCPF{
+
+.SeuCPF {
     size: 40px;
     width: 320px;
     height: 40px;
     font-size: 25px;
 }
-.CPF{
+
+.CPF {
     font-size: 30px;
     margin-left: 30px;
     margin-right: 300px;
 }
-.espaçoDentroDoQuadrado{
+
+/* .botõesSuperioresDoQuadrado{
+    margin-top: 50px;
+} */
+
+#button {
+    border: 0 solid #000000;
+    border-radius: 10px;
+    width: 144px;
+    height: 43px;
+    font-size: 20px;
+    background-color: #6ABBE9;
+    color: #FFFFFF;
+}
+
+.espaçoDentroDoQuadrado {
     height: 70px;
 }
 
-.espaçoDentroDoQuadrado2{
+.espaçoDentroDoQuadrado2 {
     height: 15px;
 }
-.espaçoDentroDoQuadrado3{
+
+.espaçoDentroDoQuadrado3 {
     height: 15px;
 }
-.espaçoDentroDoQuadrado4{
+
+.espaçoDentroDoQuadrado4 {
     height: 9px;
 }
 
-.toggle-button{
+.toggle-button {
     position: absolute;
     top: 59.7%;
     left: 35.5%;
     transform: translate(-50%, -50%);
- }
+}
 
- .toggle-input {
+.toggle-input {
     display: none;
 
-  }
-  
-  .toggle-label {
+}
+
+.toggle-label {
     display: block;
     width: 20px;
     height: 10px;
@@ -128,9 +178,9 @@ hr {
     position: relative;
     cursor: pointer;
     transition: background-color 0.3s ease-in-out;
-  }
-  
-  .toggle-label:after {
+}
+
+.toggle-label:after {
     content: '';
     display: block;
     width: 8px;
@@ -142,13 +192,12 @@ hr {
     left: 1px;
     box-shadow: 0 0 100px rgba(0, 0, 0, 0.3);
     transition: left 0.3s ease-in-out;
-  }
-  
-  .toggle-input:checked + .toggle-label {
+}
+
+.toggle-input:checked+.toggle-label {
     background-color: #828788;
-  }
-  
-  .toggle-input:checked + .toggle-label:after {
+}
+
+.toggle-input:checked+.toggle-label:after {
     left: 11px;
-  }
-  
+}
