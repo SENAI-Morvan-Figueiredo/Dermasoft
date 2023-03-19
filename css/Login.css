@@ -18,7 +18,7 @@ hr {
     background-color: #3C798C;
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-around;
     padding: 25px;
     align-items: center;
 }
