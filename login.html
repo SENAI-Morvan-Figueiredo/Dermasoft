@@ -5,9 +5,11 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/styleLogin.css">
+    <link rel="stylesheet" href="css/Login.css">
     <link rel="stylesheet" href="css/reset.css">
-    <title>Document</title>
+    <!-- lib de icons -->
+    <link rel="stylesheet" href="https://cdn.linearicons.com/free/1.0.0/icon-font.min.css">
+    <title>Página Login</title>
 </head>
 
 <body>
@@ -23,10 +25,7 @@
         <a class="underline" href="nossaEquipe.html">Nossa equipe </a>
         <a class="underline" href="tratamentos.html">Tratamentos</a>
 
-        <div id="login">
-            <p id="fraseAcesso">Já possui acesso?</p>
-            <button id="buttonLogin">Login</button>
-        </div>
+
 
 
     </div>
@@ -37,34 +36,80 @@
         <div class="quadrado">
             <p class="espaçoDentroDoQuadrado"></p>
 
-            <div class="usuario">Usuário </div>
-            <input class="SeuUsuario" type="text" name="Usuario" placeholder="Nome de Usuário">
+            <!-- FLOAT INPUT  -->
+            <div class="label-float">
+                <!-- LEMBRAR DE USAR O REQUIRED DEPOIS DO PLACEHOLDER PARA QUE A DIGITAÇÃO SEJA OBRIGATORIA -->
+                <input type="text" placeholder=" " />
+                <label>Usuário</label>
+            </div>
+            <br />
+            <div class="label-float">
+                <!-- LEMBRAR DE USAR O REQUIRED DEPOIS DO PLACEHOLDER PARA QUE A DIGITAÇÃO SEJA OBRIGATORIA -->
+                <input type="password" placeholder=" " />
+                <label>Senha</label>
 
-            <p class="espaçoDentroDoQuadrado2"></p>
-            <div class="CPF">CPF</div>
-            <input class="SeuCPF" type="text" name="cpf" placeholder="Ex: 123.456.789-00">
-            <p class="espaçoDentroDoQuadrado3"></p>
-            <div class="botõesSuperioresDoQuadrado">
-                <button id="button"> cadastrar</button>
-                <p class="espaçoDentroDoQuadrado4"></p>
-                <div> Não possuo CPF</div>
+                <!-- OLHO -->
+                <span class="lnr lnr-eye"></span>
+            </div>
 
-                <div class="toggle-button">
-                    <input type="checkbox" id="toggle" class="toggle-input">
-                    <label for="toggle" class="toggle-label"></label>
+
+            <div class="inputsSuperioresDoQuadrado">
+
+                <a href="">✅manter-me logado</a>
+                <a href="">esqueci meu usuário</a>
+                <a href="">esqueci minha senha</a>
+
+            </div>
+
+            <div class="loginECadastreSE">
+
+                <a href="">
+                    <button id="buttonLogin"> Login </button>
+                </a>
+
+                <div id="cadastro">
+
+                    <p id="fraseAcesso">Não tem conta?</p>
+                    <a href="">
+                        <button id="buttonCadastro">Cadastre-se</button>
+                    </a>
                 </div>
             </div>
+
             <p class="espaçoDentroDoQuadrado2"></p>
-            <div>
-                <button>
-                    <img src="" alt="">
-                    Entre com Google
-                </button>
+
+            <div class="api">
+                <!-- ENTRE COM O GOOGLE -->
+
+                <div class="google-login-button">
+                    <a href="#">
+                        <img src="img\logoGoogle.png" />
+                        <span>Entre com o Google</span>
+                    </a>
+                </div>
+
+                <!-- ENTRE COM O FACEBOOK -->
+
+                <div class="facebook-login-button">
+                    <a href="#">
+                        <img src="img\logoFacebook.png" />
+                        <span>Entre com o Facebook</span>
+                    </a>
+                </div>
+
             </div>
+
+
+        </div>
+
+        <div class="imagem">
+            <img class="elipsePequena" src="img\elipsePequenaLogin.png" alt="elipsePequena">
+            <img class="elipseLogin" src="img\elipseLogin.png" alt="elipseDeFundo">
+            <img class="boneco" src="img\bonecoLogin.png" alt="fotoBonecoLogin">
         </div>
     </section>
 
-    
+
 
 </body>
 
