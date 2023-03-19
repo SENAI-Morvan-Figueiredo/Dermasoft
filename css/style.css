@@ -4,14 +4,16 @@ h1 {
 
 a {
     color: #83D4EE;
+
 }
 
-hr{
+hr {
     background-color: #000000;
     margin: 50px 100px 50px 100px;
 }
 
 
+/* LINKS DO HEADER */
 
 #Links {
     background-color: #3C798C;
@@ -22,9 +24,34 @@ hr{
     align-items: center;
 }
 
+.underline {
+    position: relative;
+    display: inline-block;
+    text-decoration: none;
+}
+
+.underline::before {
+    content: "";
+    position: absolute;
+    top: 18px;
+    bottom: 0;
+    left: 0;
+    width: 0;
+    height: 2px;
+    background-color: #83D4EE;
+    transition: width 0.3s ease-in-out;
+}
+
+.underline:hover::before {
+    width: 100%;
+}
+
+
+
 #logo {
     width: 5%;
 }
+
 
 
 #login {
@@ -40,6 +67,10 @@ hr{
 
 }
 
+#login a button {
+    cursor: pointer;
+}
+
 #button {
     padding: 10px 25px 10px 25px;
     background: #739DDC;
@@ -47,6 +78,10 @@ hr{
     border: none;
     color: #FFFFFF;
 }
+
+
+/* BANNER */
+
 
 #Banner {
     background-color: #3C798C;
@@ -60,33 +95,56 @@ hr{
 }
 
 .textoSobreposto1 {
+    text-align: start;
     font-family: 'Source Sans Pro';
     font-style: normal;
     font-size: 64px;
     position: absolute;
     top: 400px;
     left: 50px;
-    z-index: 1;
 
 }
 
 .textoSobreposto2 {
+    width: 50%;
+    text-align: start;
     font-family: 'Source Sans Pro';
     font-style: normal;
-    font-size: 20px;
+    font-size: 30px;
     position: absolute;
-    top: 700px;
+    top: 600px;
     left: 50px;
-    z-index: 1;
-    color: #323232;
+    color: #000000;
 
 }
 
+/* ICONES DE CORAÇÃO E PASTA */
+
 .icones {
+
     display: flex;
     justify-content: space-around;
     align-items: center;
+    margin: 25px 0 25px 0;
 }
+
+.iconeEFrase {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.icones img {
+    width: 50%;
+    margin-bottom: 25px;
+}
+
+.icones .iconeEFrase p {
+    width: 200px;
+}
+
+
+/* CONEÇA A DERMASOFT */
 
 .tituloConheçaADermaSoft {
     font-family: 'Source Sans Pro';
@@ -115,6 +173,10 @@ hr{
     align-items: center;
     width: 40%;
 }
+
+
+/* NOSSA EQUIPE */
+
 
 .NossaEquipe {
     display: flex;
@@ -231,6 +293,12 @@ hr{
 
 }
 
+
+
+/* NOSSOS TRATAMENTOS */
+
+
+
 .nossosTratamentos {
     display: flex;
     flex-direction: column;
@@ -245,7 +313,13 @@ hr{
 .nossosTratamentos img {
     width: 396px;
     height: 335px;
-    margin: 100px 0 100px 0;
+    border: 2px solid #000000;
+    border-radius: 5%;
+
+}
+
+.nossosTratamentos a {
+    color: #000000;
 }
 
 .tratamentos {
@@ -253,49 +327,125 @@ hr{
     flex-direction: row;
     justify-content: space-around;
     margin: 20px 0 80px 0;
+    font-size: 25px;
 }
 
-.estéticaCorporal{
+.tratamentos section{
+    margin-top: 100px;
+}
+
+.estéticaCorporal {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-.tratamentosFaciais{
+.imgEstéticaCorporal:hover {
+    transform: scale(1.07);
+    transition: transform 0.7s ease;
+  }
+
+.tratamentosFaciais {
     display: flex;
     flex-direction: column;
     align-items: center;
-    
+
 }
 
-.tratamentosCapilar{
+.imgTratamentosFaciais:hover {
+    transform: scale(1.07);
+    transition: transform 0.7s ease;
+  }
+
+.tratamentosCapilar {
     display: flex;
     flex-direction: column;
     align-items: center;
-    
+
 }
 
+.imgTratamentosCapilar:hover {
+    transform: scale(1.07);
+    transition: transform 0.7s ease;
+  }
 
-footer{
+
+
+/* FOOTER */
+
+
+footer {
     background-color: #586875;
 }
 
-.endereços{
+
+.button{
+    position: absolute;;
+    margin: 40px 25px 70px 1700px;
+    width: 10%;
+    border: 2px solid #FFFFFF;
+    border-radius: 50px;
+}
+
+
+.endereços {
     display: flex;
     align-items: center;
     justify-content: space-around;
     height: 200px;
+    padding-top: 50px;
     
+
 }
 
-.endereços ul li a{
-   display: flex;
-   justify-content: center;
+.endereços ul li a {
+    display: flex;
+    justify-content: center;
     color: #FFFFFF;
 }
 
-.redesSociais{
+
+
+.endereços ul li p {
     display: flex;
     justify-content: center;
+}
+
+.endereços ul li img {
+    width: 3%;
+    padding-right: 10px;
+}
+
+
+
+
+
+.redesSociais {
+    display: flex;
+    align-items: center;
     flex-direction: column;
+    justify-content: center;
+}
+
+.redesSociais p{
+    color: #FFFFFF;
+}
+
+.redesSociais img {
+    width: 20%;
+}
+
+.redessociaisFacebookEInstagram {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    text-align: center;
+    margin: 50px 0 50px 0;
+    width: 50%;
+}
+
+
+.redesSociais .copyright{
+    color: #000000;
+    margin-bottom: 25px;
 }
