@@ -169,7 +169,7 @@ hr {
     transition: 0.5s;
 }
 
-
+/* TEXTO CPF */
 #cadastro {
     display: flex;
     flex-direction: row;
