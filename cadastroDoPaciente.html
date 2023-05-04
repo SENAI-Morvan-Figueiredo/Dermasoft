@@ -2,37 +2,40 @@
 <html lang="pt-BR">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>DermaSoft</title>
-    <link rel="stylesheet" type="text/css" href="css/cadastroDoPaciente.css">
-    <link rel="stylesheet" type="text/css" href="css/reset.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200&display=swap" rel="stylesheet">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>DermaSoft</title>
+  <link rel="stylesheet" type="text/css" href="css/cadastroDoPaciente.css">
+  <link rel="stylesheet" type="text/css" href="css/reset.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200&display=swap" rel="stylesheet">
 
 </head>
 
 <body>
 
-  
-<header><!--gera um paragrafo verde agua-->
-    <p class="p1"><img class="logo" src="img\DermaSoft.png"></p>
-    </header>
 
-    <div class="hamburger-menu">
-        <div class="line"></div>
-        <div class="line"></div>
-        <div class="line"></div>
-      </div>
-      <div class="overlay"></div>
-      
-      <script>const hamburgerMenu = document.querySelector('.hamburger-menu');
 
-        hamburgerMenu.addEventListener('click', function() {
-          hamburgerMenu.classList.toggle('open');
-        });
-        </script>
-    
+  <p class="p1"><img class="logo" src="img\DermaSoft.png"></p>
+
+
+  <div id="mySidenav" class="sidenav">
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+    <a href="#">About</a>
+    <a href="#">Services</a>
+    <a href="#">Clients</a>
+    <a href="#">Contact</a>
+  </div>
+
+  <div id="main">
+
+
+    <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; </span>
+  </div>
+
+
+  <script src="js/cadastroDoPaciente.js"></script>
+
 </body>
