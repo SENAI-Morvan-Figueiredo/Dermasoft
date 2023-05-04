@@ -30,12 +30,36 @@
   </div>
 
   <div id="main">
-
-
     <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; </span>
   </div>
 
+  <div id="cadastro">
+    <h1>Registro de Paciente</h1>
+
+    <div class="form-container">
+      <h2>Dados Pessoais</h2>
+      <form>
+          <label for="nome">Nome:</label>
+          <input type="text" id="nome" name="nome" required>
+
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" required>
+
+          <label for="telefone">Telefone:</label>
+          <input type="text" id="telefone" name="telefone">
+         
+          <label for="Idade">Idade:</label>
+          <input type="date" id="Idade" name="Idade">
+          
+          <label for="endereco">Endereço:</label>
+          <textarea id="endereco" name="endereco"></textarea>
+
+          <button type="submit">Enviar</button>
+      </form>
+  </div>
+  </div>
 
   <script src="js/cadastroDoPaciente.js"></script>
+
 
 </body>
