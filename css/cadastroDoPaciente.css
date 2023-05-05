@@ -4,9 +4,9 @@
   align-items: center;
   background-color: #3C798C;
   transition: margin-left .5s;
-
-
 }
+
+
 
 .logo {
   right: 5rem;
@@ -75,6 +75,7 @@ body {
 #cadastro h1 {
   display: flex;
   justify-content: center;
+  font-size: 2.5rem;
 }
 
 
@@ -82,7 +83,7 @@ body {
 /* formulario para o cadastro do paciente */
 
 .form-container {
-  max-width: 400px;
+  max-width: 800px;
   margin: 20px auto;
   padding: 20px;
 
@@ -182,7 +183,7 @@ body {
 
 
 
-@media screen and (max-height: 650px) {
+@media screen and (max-width: 480px) {
   .sidenav {
     padding-top: 15px;
   }
@@ -191,8 +192,13 @@ body {
     font-size: 18px;
   }
 
+  #buttonRegistrar{
+    width: 6rem;
+    height: 3rem;
+  }
+
   #buttonCancelar{
-    width: 5rem;
-    height: 1rem;
+    width: 6rem;
+    height: 3rem;
   }
 }

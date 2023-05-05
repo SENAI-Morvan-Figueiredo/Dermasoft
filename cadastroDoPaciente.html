@@ -11,7 +11,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200&display=swap" rel="stylesheet">
-  
+
 
 </head>
 
@@ -22,13 +22,13 @@
   <div class="p1">
     <img class="logo" src="img\DermaSoft.png">
 
-<div class="dropdown">
-  <button class="dropbtn"><img src="img/iconAvatar.png" alt=""></button>
-  <div class="dropdown-content">
-    <a href="#">Informações de Perfil</a>
-    <a href="#">Sair🚪</a>
-  </div>
-</div>
+    <div class="dropdown">
+      <button class="dropbtn"><img src="img/iconAvatar.png" alt=""></button>
+      <div class="dropdown-content">
+        <a href="#">Informações de Perfil</a>
+        <a href="#">Sair🚪</a>
+      </div>
+    </div>
   </div>
 
   <!-- sidenav que aparecerá ao clicar no botão hamburger -->
@@ -45,10 +45,11 @@
     <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; </span>
   </div>
 
+  
   <!-- forulario de cadastro -->
   <div id="cadastro">
-    <h1>Registro de Paciente</h1>
-
+    
+    <h1>Registro de Pacientes</h1>
     <div class="form-container">
       <h2>Dados Pessoais</h2>
       <br>
@@ -60,13 +61,13 @@
         <input type="email" id="email" name="email" required>
 
         <label for="telefone">Telefone:</label>
-        <input type="text" id="telefone" name="telefone">
+        <input type="text" id="telefone" name="telefone" required>
 
         <label for="Idade">Idade:</label>
-        <input type="date" id="Idade" name="Idade">
+        <input type="date" id="Idade" name="Idade" required>
 
         <label for="endereco">Endereço:</label>
-        <textarea id="endereco" name="endereco"></textarea>
+        <textarea id="endereco" name="endereco"></textarea required>
 
         <button id="buttonCancelar" type="submit">Cancelar</button>
         <button id="buttonRegistrar" type="submit">Registrar</button>
