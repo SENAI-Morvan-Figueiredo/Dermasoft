@@ -120,7 +120,7 @@ body {
   float: right;
 }
 
-#buttonCancelar {
+/* #buttonCancelar {
   background-color: #FE5B5B;
   width: 10rem;
   height: 3rem;
@@ -131,7 +131,7 @@ body {
   margin: 1rem 0 1rem 1rem;
   cursor: pointer;
   float: right;
-}
+} */
 
 .form-container button:hover {
   background-color: #45a049;
@@ -197,8 +197,8 @@ body {
     height: 3rem;
   }
 
-  #buttonCancelar{
+  /* #buttonCancelar{
     width: 6rem;
     height: 3rem;
-  }
+  } */
 }
