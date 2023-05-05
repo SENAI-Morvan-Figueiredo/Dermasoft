@@ -13,3 +13,5 @@ function closeNav() {
     document.getElementById("cadastro").style.marginLeft= "0";
     document.body.style.backgroundColor = B9DDE8;
 }
+
+
