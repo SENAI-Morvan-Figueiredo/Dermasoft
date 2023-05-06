@@ -40,16 +40,18 @@ ___
   ___
 ###  <div align="center">:computer: A seguir apresento a prévia do projeto.:computer:</div>
 
-[![Prévia do Projeto](img/telaPC.png)](https://github.com/YuriSampaio10/ProjetoDev#readme)
+
+
 ___
 ###  <div align="center">:iphone: Uma Prévia em dispositivos menores.:iphone:</div>
 
-<div align="center"><a href="https://github.com/YuriSampaio10/ProjetoDev#readme"><img src="https://j.gifs.com/GRxYk5.gif" width="380" alt="Prévia Do Sistema Funcionando"></a></div>
+
 
 ___ 
 ###  <div align="center">:on: Uma prévia do sistema em funcionamento.:on:</div>
 
-[![Prévia do Projeto](https://j.gifs.com/jYW8Pl.gif)](https://github.com/YuriSampaio10/ProjetoDev#readme)
+<div align="center"><img align="center" alt="Yuri-js" height="400" width="600" src="https://user-images.githubusercontent.com/102839085/236649338-334f6b03-1fe4-4d84-9266-8a0f54e4346b.gif"></div>
+
 ___
 ### <div align="center">:heavy_check_mark: Links Uteis</div>
 
