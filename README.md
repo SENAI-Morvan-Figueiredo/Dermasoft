@@ -68,7 +68,7 @@ ___
 
 
 ___
- <div align="center">Desenvolvedores/Contribuintes :octocat:
+ <div align="center">Desenvolvedores/Contribuintes :octocat:>
 
 | [<img src="https://avatars.githubusercontent.com/u/102839085?s=400&u=ca12d62cdc893b83486100dc979f339f05ac5865&v=4" width=115><br><sub>Yuri Nogueira Sampaio</sub>](https://github.com/YuriSampaio10)
 | :---: |
@@ -78,3 +78,4 @@ ___
 
 | [<img align="center" alt="gabriel" height="100" width="100" src="https://avatars.githubusercontent.com/u/126294475?v=4"><br><sub>Gabriel</sub>](https://github.com/Toperatoperaldo)
 | :---: |
+</div>
