@@ -1,9 +1,17 @@
-# <div align="center"><h1>:lock: Projeto DermaSoft :old_key::unlock:</h1></div>
+<div > <img align="center" alt="Yuri-RedPill" height="60" width="300" src="https://github.com/YuriSampaio10/ProjetoDev/blob/main/img/RedPill.png">
+<p>Somos a RedPill
+
+Transformando Ideias em Realidade Tecnológica
+
+A RedPill é uma inovadora empresa de tecnologia que está na vanguarda da revolução digital, ajudando indivíduos e empresas a transformar suas ideias em realidade tecnológica. Fundada com o propósito de desafiar as convenções e abrir novos caminhos na indústria, a RedPill tem se destacado como uma parceira confiável e líder em soluções tecnológicas de ponta.</p></div>
+
+# <div align="center"><h1>:star::man_technologist: Projeto DermaSoft :man_technologist::star:</h1></div>
  
 ### <div align="center"><h2>:green_circle: Projeto Proposto no Curso Técnico em Análise e Desenvolvimento de Sistemas :green_circle:</h2></div>
 ___
 
-[ <div align="center"> ![Capa](img/logo.png)](https://github.com/YuriSampaio/ProjetoDev#readme) </div>
+<div align="center"> <img align="center" alt="Yuri-logoDermaSoft" height="100" width="150" src="https://github.com/YuriSampaio10/ProjetoDev/blob/main/img/DermaSoft.png"></div>
+
 
 [<div align="center">![Olá Mundo](https://shields.io/badge/Olá-Mundo-blue)](https://github.com/YuriSampaio10/ProjetoDev#readme)
 [![Status](https://shields.io/badge/STATUS-V%200.2%20Em%20Andamento-green)](https://github.com/YuriSampaio10/ProjetoDev#readme)  
@@ -32,16 +40,16 @@ ___
   ___
 ###  <div align="center">:computer: A seguir apresento a prévia do projeto.:computer:</div>
 
-[![Prévia do Projeto](img/telaPC.png)](https://github.com/YuriSampaio10/Decodificador#readme)
+[![Prévia do Projeto](img/telaPC.png)](https://github.com/YuriSampaio10/ProjetoDev#readme)
 ___
 ###  <div align="center">:iphone: Uma Prévia em dispositivos menores.:iphone:</div>
 
-<div align="center"><a href="https://github.com/YuriSampaio10/Decodificador#readme"><img src="https://j.gifs.com/GRxYk5.gif" width="380" alt="Prévia Do Sistema Funcionando"></a></div>
+<div align="center"><a href="https://github.com/YuriSampaio10/ProjetoDev#readme"><img src="https://j.gifs.com/GRxYk5.gif" width="380" alt="Prévia Do Sistema Funcionando"></a></div>
 
 ___ 
 ###  <div align="center">:on: Uma prévia do sistema em funcionamento.:on:</div>
 
-[![Prévia do Projeto](https://j.gifs.com/NOjEg2.gif)](https://github.com/YuriSampaio10/Decodificador#readme)
+[![Prévia do Projeto](https://j.gifs.com/jYW8Pl.gif)](https://github.com/YuriSampaio10/ProjetoDev#readme)
 ___
 ### <div align="center">:heavy_check_mark: Links Uteis</div>
 
