@@ -181,6 +181,23 @@ body {
   background-color: #3C798C;
 }
 
+.meuFormulario{
+  position: relative;
+}
+
+#popup{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 10px;
+  display: none;
+}
+
+
+
 
 
 @media screen and (max-width: 480px) {
