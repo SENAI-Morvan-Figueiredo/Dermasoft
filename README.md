@@ -1,5 +1,5 @@
 <div > <img align="center" alt="Yuri-RedPill" height="60" width="300" src="https://github.com/YuriSampaio10/ProjetoDev/blob/main/img/RedPill.png">
-<p>Somos a RedPill
+<p>Somos a RedPill</p></div>
 
 Transformando Ideias em Realidade Tecnológica
 
@@ -73,8 +73,8 @@ ___
 | [<img src="https://avatars.githubusercontent.com/u/102839085?s=400&u=ca12d62cdc893b83486100dc979f339f05ac5865&v=4" width=115><br><sub>Yuri Nogueira Sampaio</sub>](https://github.com/YuriSampaio10)
 | :---: |
 
-| [<img src="https://avatars.githubusercontent.com/u/?s=400&u=ca12d62cdc893b83486100dc979f339f05ac5865&v=4" width=115><br><sub>Giovanni Beralde</sub>](https://github.com/GiovanniBeralde0)
+| [<img align="center" alt="giovanni" height="100" width="100" src="https://avatars.githubusercontent.com/u/126211541?v=4"><br><sub>Giovanni Beralde</sub>](https://github.com/GiovanniBeralde0)
 | :---: |
 
- [<img src="https://avatars.githubusercontent.com/u/?s=400&u=ca12d62cdc893b83486100dc979f339f05ac5865&v=4" width=115><br><sub>Gabriel</sub>](https://github.com/Toperatoperaldo)
-
+| [<img align="center" alt="gabriel" height="100" width="100" src="https://avatars.githubusercontent.com/u/126294475?v=4"><br><sub>Gabriel</sub>](https://github.com/Toperatoperaldo)
+| :---: |
