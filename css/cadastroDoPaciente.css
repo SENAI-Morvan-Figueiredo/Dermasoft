@@ -214,6 +214,10 @@ body {
     height: 3rem;
   }
 
+  #popup img {
+    height: 5rem;
+  }
+
   /* #buttonCancelar{
     width: 6rem;
     height: 3rem;

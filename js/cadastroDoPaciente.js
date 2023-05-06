@@ -17,7 +17,7 @@ document.getElementById("meuFormulario").addEventListener("submit", function(eve
     var nome = document.getElementById("nome").value;
     var email = document.getElementById("email").value;
   
-    if (nome !== "" && email !== "") {
+    if (nome == "" ) {
       exibirPopup();
     } else {
       alert("Por favor, preencha todos os campos do formulário.");
