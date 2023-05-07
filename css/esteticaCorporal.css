@@ -4,7 +4,7 @@ h1 {
 
 a {
     color: #83D4EE;
-   
+
 }
 
 hr {
@@ -47,7 +47,7 @@ hr {
 
 .linklogo {
 
-width: 5%;
+    width: 5%;
 
 
 }
@@ -105,7 +105,7 @@ width: 5%;
     position: absolute;
     top: 400px;
     left: 50px;
-    
+
 }
 
 .textoSobreposto2 {
@@ -220,8 +220,8 @@ footer {
     justify-content: space-around;
     height: 200px;
     padding-top: 50px;
-    
-    
+
+
 }
 
 .endereços ul li a {
@@ -296,36 +296,36 @@ footer {
 @media only screen and (max-width: 750px) {
     #Links {
         padding: 0.8rem;
-    
+
     }
 
-    .underline{
+    .underline {
         font-size: 0.5rem;
         padding-left: 0.5rem;
         padding-right: 0.5rem;
     }
-    
+
     #linkLogo {
         width: 5%;
     }
 
-    #logo{
+    #logo {
         margin-top: 3px;
         width: 115%;
-    
+
     }
 
-    
+
     #fraseAcesso {
         display: flex;
         margin-right: 0.313rem;
         color: #FFFFFF;
         font-size: 0.5rem;
 
-    
+
     }
-    
-    
+
+
     #button {
         padding: 0.625rem 1.063rem 0.625rem 1.063rem;
         background: #739DDC;
@@ -338,77 +338,84 @@ footer {
     /* BANNER */
 
 
-#Banner {
-   
-    height: 30.125rem;
-}
+    #Banner {
 
-.textoSobreposto1 {
+        height: 30.125rem;
+    }
 
-    font-size: 44px;
-    top: 100px;
+    #fotoNossaEquipe {
 
-}
+        position: relative;
+        width: 100%;
+        height: 100%;
+    }
 
-.textoSobreposto2 {
-    font-size: 20px;
-    top: 400px;
+    .textoSobreposto1 {
 
-}
+        font-size: 44px;
+        top: 100px;
 
+    }
 
- /* FOOTER */
+    .textoSobreposto2 {
+        font-size: 20px;
+        top: 400px;
 
- .redesSociais {
-    margin-top: 20px;
-}
-
-footer {
-    background-color: #586875;
-}
-
-.endereços {
-    height: 100px;
-    padding-top: 20px;
-}
-
-.endereços ul li a {
-    font-size: 8px;
-    margin: 0 10px 0 10px;
-}
-
-.endereços ul li p {
-    font-size: 12px;
-}
-
-.endereços ul li img {
-    width: 10%;
-}
+    }
 
 
-.redessociaisFacebookEInstagram {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    text-align: center;
-    margin: 20px 0 50px 0;
-    width: 50%;
-}
+    /* FOOTER */
+
+    .redesSociais {
+        margin-top: 20px;
+    }
+
+    footer {
+        background-color: #586875;
+    }
+
+    .endereços {
+        height: 100px;
+        padding-top: 20px;
+    }
+
+    .endereços ul li a {
+        font-size: 8px;
+        margin: 0 10px 0 10px;
+    }
+
+    .endereços ul li p {
+        font-size: 12px;
+    }
+
+    .endereços ul li img {
+        width: 10%;
+    }
+
+
+    .redessociaisFacebookEInstagram {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        text-align: center;
+        margin: 20px 0 50px 0;
+        width: 50%;
+    }
 
 
 
-.button {
-    margin: 0 10px 15px 10px;
-    width: 20%;
-    border: 2px solid #FFFFFF;
-    border-radius: 50px;
-    font-size: 8px;
-}
+    .button {
+        margin: 0 10px 15px 10px;
+        width: 20%;
+        border: 2px solid #FFFFFF;
+        border-radius: 50px;
+        font-size: 8px;
+    }
 
-.copyright {
-    color: #FFFFFF;
-    padding-bottom: 15px;
-}
+    .copyright {
+        color: #FFFFFF;
+        padding-bottom: 15px;
+    }
 
 
 }
