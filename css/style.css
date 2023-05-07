@@ -380,13 +380,6 @@ footer {
 }
 
 
-.button {
-    position: initial;
-    margin: 2.5rem 1.563rem 4.375rem 75rem;
-    width: 10%;
-    border: 2px solid #FFFFFF;
-    border-radius: 50px;
-}
 
 
 .endereços {
@@ -395,8 +388,8 @@ footer {
     justify-content: space-around;
     height: 200px;
     padding-top: 50px;
-
-
+    
+    
 }
 
 .endereços ul li a {
@@ -445,11 +438,28 @@ footer {
     width: 50%;
 }
 
-
-.redesSociais .copyright {
-    color: #000000;
-    margin-bottom: 25px;
+.button {
+    margin: 0 10px 25px 20px;
+    position: initial;
+    width: 15%;
+    border: 2px solid #FFFFFF;
+    border-radius: 60px;
 }
+
+.copyright {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    color: #000000;
+    padding-bottom: 25px;
+}
+
+
+
+
+
+
 
 /* Estilos para dispositivos móveis */
 @media only screen and (max-width: 750px) {
@@ -593,30 +603,84 @@ footer {
 
 
 
-/* NOSSOS TRATAMENTOS */
+    /* NOSSOS TRATAMENTOS */
 
 
-.nossosTratamentos h1 {
-    font-size: 44px;
-}
+    .nossosTratamentos h1 {
+        font-size: 44px;
+    }
 
-.nossosTratamentos img {
-    width: 100px;
-    height: 150px;
-}
+    .nossosTratamentos img {
+        width: 100px;
+        height: 150px;
+    }
 
-.nossosTratamentos a {
-    color: #000000;
-}
+    .nossosTratamentos a {
+        color: #000000;
+    }
 
-.tratamentos {
-    margin: 20px 10px 80px 10px;
-    font-size: 12px;
-}
+    .tratamentos {
+        margin: 20px 10px 80px 10px;
+        font-size: 12px;
+    }
 
-.tratamentos section {
-    margin-top: 50px;
-}
+    .tratamentos section {
+        margin-top: 50px;
+    }
 
+
+
+    /* FOOTER */
+
+    .redesSociais {
+        margin-top: 20px;
+    }
+
+    footer {
+        background-color: #586875;
+    }
+
+    .endereços {
+        height: 100px;
+        padding-top: 20px;
+    }
+
+    .endereços ul li a {
+        font-size: 8px;
+        margin: 0 10px 0 10px;
+    }
+
+    .endereços ul li p {
+        font-size: 12px;
+    }
+
+    .endereços ul li img {
+        width: 10%;
+    }
+
+
+    .redessociaisFacebookEInstagram {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        text-align: center;
+        margin: 20px 0 50px 0;
+        width: 50%;
+    }
+
+
+
+    .button {
+        margin: 0 10px 15px 10px;
+        width: 20%;
+        border: 2px solid #FFFFFF;
+        border-radius: 50px;
+        font-size: 8px;
+    }
+
+    .copyright {
+        color: #000000;
+        padding-bottom: 15px;
+    }
 
 }
