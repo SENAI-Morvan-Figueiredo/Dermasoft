@@ -20,7 +20,7 @@ hr {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    padding: 25px;
+    padding: 1.563rem;
     align-items: center;
 }
 
@@ -62,7 +62,7 @@ hr {
 
 #fraseAcesso {
     display: flex;
-    margin-right: 5px;
+    margin-right: 0.313rem;
     color: #FFFFFF;
 
 }
@@ -72,7 +72,7 @@ hr {
 }
 
 #button {
-    padding: 10px 25px 10px 25px;
+    padding: 0.625rem 1.563rem 0.625rem 1.563rem;
     background: #739DDC;
     border-radius: 10px;
     border: none;
@@ -380,8 +380,8 @@ footer {
 
 
 .button{
-    position: absolute;;
-    margin: 40px 25px 70px 1700px;
+    position: initial;
+    margin: 2.5rem 1.563rem 4.375rem 75rem; 
     width: 10%;
     border: 2px solid #FFFFFF;
     border-radius: 50px;
@@ -448,4 +448,79 @@ footer {
 .redesSociais .copyright{
     color: #000000;
     margin-bottom: 25px;
+}
+
+/* Estilos para dispositivos móveis */
+@media only screen and (max-width: 750px) {
+    #Links {
+        padding: 0.8rem;
+    
+    }
+
+    .underline{
+        font-size: 0.5rem;
+        padding-left: 0.5rem;
+        padding-right: 0.5rem;
+    }
+    
+    #logo {
+        width: 5%;
+    }
+    
+    #fraseAcesso {
+        display: flex;
+        margin-right: 0.313rem;
+        color: #FFFFFF;
+        font-size: 0.5rem;
+
+    
+    }
+    
+    
+    #button {
+        padding: 0.625rem 1.063rem 0.625rem 1.063rem;
+        background: #739DDC;
+        border-radius: 10px;
+        border: none;
+        color: #FFFFFF;
+    }
+
+
+    /* BANNER */
+
+
+#Banner {
+   
+    height: 30.125rem;
+}
+
+#fotoEscritorio {
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+.textoSobreposto1 {
+    text-align: start;
+    font-family: 'Source Sans Pro';
+    font-style: normal;
+    font-size: 64px;
+    position: absolute;
+    top: 400px;
+    left: 50px;
+
+}
+
+.textoSobreposto2 {
+    width: 50%;
+    text-align: start;
+    font-family: 'Source Sans Pro';
+    font-style: normal;
+    font-size: 30px;
+    position: absolute;
+    top: 600px;
+    left: 50px;
+    color: #000000;
+
+}
 }
