@@ -46,6 +46,11 @@ ___
 ###  <div align="center">:iphone: Uma Prévia em dispositivos menores.:iphone:</div>
 
 
+<div align="center"><img align="center" alt="Yuri-js" height="700" width="600" src="https://user-images.githubusercontent.com/102839085/236668980-18e0e8c9-d793-4646-8457-3294d6229865.gif"></div>
+
+
+
+
 
 ___ 
 ###  <div align="center">:on: Uma prévia do sistema em funcionamento.:on:</div>
