@@ -318,3 +318,58 @@ footer {
     color: #000000;
     margin-bottom: 25px;
 }
+
+
+/* Estilos para dispositivos móveis */
+@media only screen and (max-width: 750px) {
+    #Links {
+        padding: 0.8rem;
+
+    }
+
+    .underline {
+        font-size: 0.5rem;
+        padding-left: 0.5rem;
+        padding-right: 0.5rem;
+    }
+
+    #linkLogo {
+        width: 5%;
+    }
+
+    #logo {
+        margin-top: 3px;
+        width: 115%;
+
+    }
+
+
+    #fraseAcesso {
+        display: flex;
+        margin-right: 0.313rem;
+        color: #FFFFFF;
+        font-size: 0.5rem;
+
+
+    }
+
+
+    #button {
+        padding: 0.625rem 1.063rem 0.625rem 1.063rem;
+        background: #739DDC;
+        border-radius: 10px;
+        border: none;
+        color: #FFFFFF;
+    }
+
+
+    /* BANNER */
+
+
+    #Banner {
+
+        height: 30.125rem;
+    }
+
+
+}

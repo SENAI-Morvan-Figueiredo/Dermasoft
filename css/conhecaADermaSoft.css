@@ -4,7 +4,7 @@ h1 {
 
 a {
     color: #83D4EE;
-   
+
 }
 
 hr {
@@ -19,7 +19,7 @@ hr {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    padding: 25px;
+    padding: 1.563rem;
     align-items: center;
 }
 
@@ -47,7 +47,7 @@ hr {
 
 .linklogo {
 
-width: 5%;
+    width: 5%;
 
 
 }
@@ -65,7 +65,7 @@ width: 5%;
 
 #fraseAcesso {
     display: flex;
-    margin-right: 5px;
+    margin-right: 0.313rem;
     color: #FFFFFF;
 
 }
@@ -75,7 +75,7 @@ width: 5%;
 }
 
 #button {
-    padding: 10px 25px 10px 25px;
+    padding: 0.625rem 1.063rem 0.625rem 1.063rem;
     background: #739DDC;
     border-radius: 10px;
     border: none;
@@ -88,7 +88,7 @@ width: 5%;
 
 #Banner {
     background-color: #3C798C;
-    height: 850px;
+    height: 53.125rem;
 }
 
 #fotoEscritorio {
@@ -105,7 +105,7 @@ width: 5%;
     position: absolute;
     top: 400px;
     left: 50px;
-    
+
 }
 
 .textoSobreposto2 {
@@ -160,8 +160,9 @@ footer {
 }
 
 
-.button{
-    position: absolute;;
+.button {
+    position: absolute;
+    ;
     margin: 40px 25px 70px 1700px;
     width: 10%;
     border: 2px solid #FFFFFF;
@@ -175,7 +176,7 @@ footer {
     justify-content: space-around;
     height: 200px;
     padding-top: 50px;
-    
+
 
 }
 
@@ -208,7 +209,7 @@ footer {
     justify-content: center;
 }
 
-.redesSociais p{
+.redesSociais p {
     color: #FFFFFF;
 }
 
@@ -226,7 +227,61 @@ footer {
 }
 
 
-.redesSociais .copyright{
+.redesSociais .copyright {
     color: #000000;
     margin-bottom: 25px;
+}
+
+/* Estilos para dispositivos móveis */
+@media only screen and (max-width: 750px) {
+    #Links {
+        padding: 0.8rem;
+
+    }
+
+    .underline {
+        font-size: 0.5rem;
+        padding-left: 0.5rem;
+        padding-right: 0.5rem;
+    }
+
+    #linkLogo {
+        width: 5%;
+    }
+
+    #logo {
+        margin-top: 3px;
+        width: 115%;
+
+    }
+
+
+    #fraseAcesso {
+        display: flex;
+        margin-right: 0.313rem;
+        color: #FFFFFF;
+        font-size: 0.5rem;
+
+
+    }
+
+
+    #button {
+        padding: 0.625rem 1.063rem 0.625rem 1.063rem;
+        background: #739DDC;
+        border-radius: 10px;
+        border: none;
+        color: #FFFFFF;
+    }
+
+
+    /* BANNER */
+
+
+    #Banner {
+
+        height: 30.125rem;
+    }
+
+
 }

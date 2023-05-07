@@ -4,7 +4,7 @@ h1 {
 
 a {
     color: #83D4EE;
-
+   
 }
 
 hr {
@@ -18,8 +18,8 @@ hr {
     background-color: #3C798C;
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
-    padding: 25px;
+    justify-content: space-between;
+    padding: 1.563rem;
     align-items: center;
 }
 
@@ -47,7 +47,7 @@ hr {
 
 .linklogo {
 
-    width: 5%;
+width: 5%;
 
 
 }
@@ -336,4 +336,29 @@ hr {
     position: absolute;
     right: 90px;
     top: 20px;
+}
+
+
+/* Estilos para dispositivos móveis */
+@media only screen and (max-width: 750px) {
+    #Links {
+        padding: 0.8rem;
+
+    }
+
+    .underline {
+        font-size: 0.5rem;
+        padding-left: 0.5rem;
+        padding-right: 0.5rem;
+    }
+
+    #linkLogo {
+        width: 5%;
+    }
+
+    #logo {
+        margin-top: 3px;
+        width: 115%;
+
+    }
 }

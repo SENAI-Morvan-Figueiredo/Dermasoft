@@ -85,7 +85,7 @@ hr {
 
 #Banner {
     background-color: #3C798C;
-    height: 850px;
+    height: 53.125rem;
 }
 
 #fotoEscritorio {
@@ -330,7 +330,7 @@ hr {
     font-size: 25px;
 }
 
-.tratamentos section{
+.tratamentos section {
     margin-top: 100px;
 }
 
@@ -343,7 +343,7 @@ hr {
 .imgEstéticaCorporal:hover {
     transform: scale(1.07);
     transition: transform 0.7s ease;
-  }
+}
 
 .tratamentosFaciais {
     display: flex;
@@ -355,7 +355,7 @@ hr {
 .imgTratamentosFaciais:hover {
     transform: scale(1.07);
     transition: transform 0.7s ease;
-  }
+}
 
 .tratamentosCapilar {
     display: flex;
@@ -367,7 +367,7 @@ hr {
 .imgTratamentosCapilar:hover {
     transform: scale(1.07);
     transition: transform 0.7s ease;
-  }
+}
 
 
 
@@ -379,9 +379,9 @@ footer {
 }
 
 
-.button{
+.button {
     position: initial;
-    margin: 2.5rem 1.563rem 4.375rem 75rem; 
+    margin: 2.5rem 1.563rem 4.375rem 75rem;
     width: 10%;
     border: 2px solid #FFFFFF;
     border-radius: 50px;
@@ -394,7 +394,7 @@ footer {
     justify-content: space-around;
     height: 200px;
     padding-top: 50px;
-    
+
 
 }
 
@@ -427,7 +427,7 @@ footer {
     justify-content: center;
 }
 
-.redesSociais p{
+.redesSociais p {
     color: #FFFFFF;
 }
 
@@ -445,7 +445,7 @@ footer {
 }
 
 
-.redesSociais .copyright{
+.redesSociais .copyright {
     color: #000000;
     margin-bottom: 25px;
 }
@@ -454,29 +454,29 @@ footer {
 @media only screen and (max-width: 750px) {
     #Links {
         padding: 0.8rem;
-    
+
     }
 
-    .underline{
+    .underline {
         font-size: 0.5rem;
         padding-left: 0.5rem;
         padding-right: 0.5rem;
     }
-    
+
     #logo {
         width: 5%;
     }
-    
+
     #fraseAcesso {
         display: flex;
         margin-right: 0.313rem;
         color: #FFFFFF;
         font-size: 0.5rem;
 
-    
+
     }
-    
-    
+
+
     #button {
         padding: 0.625rem 1.063rem 0.625rem 1.063rem;
         background: #739DDC;
@@ -489,38 +489,10 @@ footer {
     /* BANNER */
 
 
-#Banner {
-   
-    height: 30.125rem;
-}
+    #Banner {
 
-#fotoEscritorio {
-    position: relative;
-    width: 100%;
-    height: 100%;
-}
+        height: 30.125rem;
+    }
 
-.textoSobreposto1 {
-    text-align: start;
-    font-family: 'Source Sans Pro';
-    font-style: normal;
-    font-size: 64px;
-    position: absolute;
-    top: 400px;
-    left: 50px;
 
-}
-
-.textoSobreposto2 {
-    width: 50%;
-    text-align: start;
-    font-family: 'Source Sans Pro';
-    font-style: normal;
-    font-size: 30px;
-    position: absolute;
-    top: 600px;
-    left: 50px;
-    color: #000000;
-
-}
 }
