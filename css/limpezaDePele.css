@@ -309,14 +309,6 @@ footer {
 }
 
 
-.button {
-    position: absolute;
-    ;
-    margin: 40px 25px 70px 1700px;
-    width: 10%;
-    border: 2px solid #FFFFFF;
-    border-radius: 50px;
-}
 
 
 .endereços {
@@ -325,8 +317,8 @@ footer {
     justify-content: space-around;
     height: 200px;
     padding-top: 50px;
-
-
+    
+    
 }
 
 .endereços ul li a {
@@ -375,11 +367,27 @@ footer {
     width: 50%;
 }
 
-
-.redesSociais .copyright {
-    color: #000000;
-    margin-bottom: 25px;
+.button {
+    margin: 0 10px 25px 20px;
+    position: initial;
+    width: 15%;
+    border: 2px solid #FFFFFF;
+    border-radius: 60px;
 }
+
+.copyright {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    color: #FFFFFF;
+    padding-bottom: 25px;
+}
+
+
+
+
+
 
 
 /* Estilos para dispositivos móveis */
@@ -444,6 +452,60 @@ footer {
     font-size: 20px;
     top: 400px;
 
+}
+
+
+ /* FOOTER */
+
+ .redesSociais {
+    margin-top: 20px;
+}
+
+footer {
+    background-color: #586875;
+}
+
+.endereços {
+    height: 100px;
+    padding-top: 20px;
+}
+
+.endereços ul li a {
+    font-size: 8px;
+    margin: 0 10px 0 10px;
+}
+
+.endereços ul li p {
+    font-size: 12px;
+}
+
+.endereços ul li img {
+    width: 10%;
+}
+
+
+.redessociaisFacebookEInstagram {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    text-align: center;
+    margin: 20px 0 50px 0;
+    width: 50%;
+}
+
+
+
+.button {
+    margin: 0 10px 15px 10px;
+    width: 20%;
+    border: 2px solid #FFFFFF;
+    border-radius: 50px;
+    font-size: 8px;
+}
+
+.copyright {
+    color: #FFFFFF;
+    padding-bottom: 15px;
 }
 
 
