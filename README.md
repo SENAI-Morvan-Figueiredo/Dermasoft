@@ -40,7 +40,7 @@ ___
   ___
 ###  <div align="center">:computer: A seguir apresento a prévia do projeto.:computer:</div>
 
-
+<div align="center"><img align="center" alt="Yuri-js" height="500" width="600" src="https://user-images.githubusercontent.com/102839085/236670138-2a1775f8-cf1e-4474-9a36-151a66cac211.gif"></div>
 
 ___
 ###  <div align="center">:iphone: Uma Prévia em dispositivos menores.:iphone:</div>
@@ -55,7 +55,7 @@ ___
 ___ 
 ###  <div align="center">:on: Uma prévia do sistema em funcionamento.:on:</div>
 
-<div align="center"><img align="center" alt="Yuri-js" height="400" width="600" src="https://user-images.githubusercontent.com/102839085/236649338-334f6b03-1fe4-4d84-9266-8a0f54e4346b.gif"></div>
+<div align="center"><img align="center" alt="Yuri-js" height="500" width="600" src="https://user-images.githubusercontent.com/102839085/236649338-334f6b03-1fe4-4d84-9266-8a0f54e4346b.gif"></div>
 
 ___
 ### <div align="center">:heavy_check_mark: Links Uteis</div>
