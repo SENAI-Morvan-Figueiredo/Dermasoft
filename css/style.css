@@ -132,6 +132,7 @@ hr {
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
 }
 
 .icones img {
@@ -452,6 +453,14 @@ footer {
 
 /* Estilos para dispositivos móveis */
 @media only screen and (max-width: 750px) {
+    h1 {
+        font-size: 44px;
+    }
+
+    hr {
+        margin: 50px 50px 50px 50px;
+    }
+
     #Links {
         padding: 0.8rem;
 
@@ -493,6 +502,121 @@ footer {
 
         height: 30.125rem;
     }
+
+
+    .textoSobreposto1 {
+
+        font-size: 44px;
+        top: 100px;
+
+    }
+
+    .textoSobreposto2 {
+        font-size: 20px;
+        top: 400px;
+
+    }
+
+    /* ICONES DE CORAÇÃO E PASTA */
+
+
+    .icones img {
+        margin-bottom: 25px;
+    }
+
+    .icones .iconeEFrase p {
+        width: 120px;
+    }
+
+
+    /* CONEÇA A DERMASOFT */
+
+    .tituloConheçaADermaSoft {
+        font-size: 44px;
+    }
+
+    .ConhecaADermaSOft {
+        height: 1298px;
+    }
+
+    .imagensDaClinica {
+        width: 150px;
+    }
+
+    .textoDermasoft {
+        font-size: 32px;
+        font-size: 18px;
+    }
+
+    /* NOSSA EQUIPE */
+
+
+    .doutores {
+        margin-left: 50px;
+    }
+
+    .NossaEquipe h1 {
+        font-size: 44px;
+    }
+
+    .NossaEquipe img {
+        width: 150px;
+        height: 200px;
+    }
+
+
+    .drFranciscoDados {
+        padding: 40px;
+    }
+
+
+    .draGabriellyDados {
+
+        padding: 40px;
+
+    }
+
+
+
+    .draLucemaDados {
+        padding: 40px;
+    }
+
+
+
+
+
+    .drLuisDados {
+        padding: 40px;
+    }
+
+
+
+
+/* NOSSOS TRATAMENTOS */
+
+
+.nossosTratamentos h1 {
+    font-size: 44px;
+}
+
+.nossosTratamentos img {
+    width: 100px;
+    height: 150px;
+}
+
+.nossosTratamentos a {
+    color: #000000;
+}
+
+.tratamentos {
+    margin: 20px 10px 80px 10px;
+    font-size: 12px;
+}
+
+.tratamentos section {
+    margin-top: 50px;
+}
 
 
 }

@@ -357,5 +357,20 @@ footer {
     height: 30.125rem;
 }
 
+.textoSobreposto1 {
+
+    font-size: 44px;
+    top: 100px;
+
+}
+
+.textoSobreposto2 {
+    font-size: 20px;
+    top: 400px;
+
+}
+
+
+
 
 }

@@ -371,5 +371,58 @@ footer {
         height: 30.125rem;
     }
 
+    .textoSobreposto1 {
+
+        font-size: 44px;
+        top: 100px;
+
+    }
+
+    .textoSobreposto2 {
+        font-size: 20px;
+        top: 400px;
+
+    }
+
+     /* NOSSA EQUIPE */
+
+
+     .doutores {
+        margin-left: 50px;
+    }
+
+    .NossaEquipe h1 {
+        font-size: 44px;
+    }
+
+    .NossaEquipe img {
+        width: 150px;
+        height: 200px;
+    }
+
+
+    .drFranciscoDados {
+        padding: 40px;
+    }
+
+    
+    .draGabriellyDados {  
+        padding: 40px;
+    }
+
+    
+
+    .draLucemaDados {  
+        padding: 40px;
+    }
+
+    
+
+    
+
+    .drLuisDados {
+        padding: 40px;
+    }
+
 
 }

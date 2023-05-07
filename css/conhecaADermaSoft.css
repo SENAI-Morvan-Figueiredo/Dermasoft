@@ -283,5 +283,39 @@ footer {
         height: 30.125rem;
     }
 
+    
+
+    .textoSobreposto1 {
+
+        font-size: 44px;
+        top: 100px;
+
+    }
+
+    .textoSobreposto2 {
+        font-size: 20px;
+        top: 400px;
+
+    }
+
+    /* CONEÇA A DERMASOFT */
+
+.tituloConheçaADermaSoft {
+    font-size: 44px;
+}
+
+.ConhecaADermaSOft {
+    height: 1298px;
+}
+
+.imagensDaClinica {
+    width: 150px;
+}
+
+.textoDermasoft {
+    font-size: 32px;
+    font-size: 18px;
+}
+
 
 }

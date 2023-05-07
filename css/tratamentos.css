@@ -326,5 +326,43 @@ footer {
     height: 30.125rem;
 }
 
+.textoSobreposto1 {
+
+    font-size: 44px;
+    top: 100px;
+
+}
+
+.textoSobreposto2 {
+    font-size: 20px;
+    top: 400px;
+
+}
+
+/* NOSSOS TRATAMENTOS */
+
+
+.nossosTratamentos h1 {
+    font-size: 44px;
+}
+
+.nossosTratamentos img {
+    width: 100px;
+    height: 150px;
+}
+
+.nossosTratamentos a {
+    color: #000000;
+}
+
+.tratamentos {
+    margin: 20px 10px 80px 10px;
+    font-size: 12px;
+}
+
+.tratamentos section {
+    margin-top: 50px;
+}
+
 
 }
