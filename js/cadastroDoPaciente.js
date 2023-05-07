@@ -27,11 +27,14 @@ document.getElementById("meuFormulario").addEventListener("submit", function(eve
     }
   });
   
+  // função para exibir o popuo 
   function exibirPopup() {
     var popup = document.getElementById("popup");
     popup.style.display = "block";
   }
-  
+
+
+// função para fechar o popup
   function fecharPopup() {
     var popup = document.getElementById("popup");
     popup.style.display = "none";
