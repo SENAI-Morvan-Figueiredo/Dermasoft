@@ -43,7 +43,7 @@ ___
 <div align="center"><img align="center" alt="Yuri-js" height="500" width="600" src="https://user-images.githubusercontent.com/102839085/236670138-2a1775f8-cf1e-4474-9a36-151a66cac211.gif"></div>
 
 ___
-###  <div align="center">:iphone: Uma Prévia em dispositivos m[oveis.:iphone:</div>
+###  <div align="center">:iphone: Uma Prévia em dispositivos moveis.:iphone:</div>
 
 
 <div align="center"><img align="center" alt="Yuri-js" height="700" width="600" src="https://user-images.githubusercontent.com/102839085/236668980-18e0e8c9-d793-4646-8457-3294d6229865.gif"></div>
