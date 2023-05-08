@@ -104,7 +104,7 @@ nav {
 
 
 #Banner {
-    height: 53.125rem;
+    height: 33.325rem;
 }
 
 #fotoEscritorio {
@@ -116,12 +116,13 @@ nav {
 
 .textoSobreposto1 {
     text-align: start;
-    font-family: 'Source Sans Pro';
+    font-family: sans-serif;
     font-style: normal;
-    font-size: 64px;
+    font-size: 54px;
     position: absolute;
-    top: 400px;
+    top: 300px;
     left: 50px;
+    color: #FFFFFF;
     opacity: 0;
     transform: translateY(50px);
     transition: opacity 1s ease, transform 1s ease;
@@ -131,11 +132,11 @@ nav {
 .textoSobreposto2 {
     width: 50%;
     text-align: start;
-    font-family: 'Source Sans Pro';
+    font-family: Times, serif;
     font-style: normal;
     font-size: 30px;
     position: absolute;
-    top: 600px;
+    top: 500px;
     left: 50px;
     color: #FFFFFF;
     opacity: 0;
