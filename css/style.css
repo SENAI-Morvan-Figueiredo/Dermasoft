@@ -1,10 +1,13 @@
+header {
+    background-color: #3C798C;
+}
+
 h1 {
     text-align: center;
 }
 
 a {
     color: #83D4EE;
-
 }
 
 hr {
@@ -15,8 +18,25 @@ hr {
 
 /* LINKS DO HEADER */
 
+nav {
+    position: relative;
+    top: 0;
+    animation: surgirNav;
+    animation-duration: 1.5s;
+    animation-direction: normal;
+}
+
+@keyframes surgirNav {
+    from {
+        top: -100px
+    }
+
+    to {
+        top: 0px
+    }
+}
+
 #Links {
-    background-color: #3C798C;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -84,7 +104,6 @@ hr {
 
 
 #Banner {
-    background-color: #3C798C;
     height: 53.125rem;
 }
 
@@ -92,6 +111,7 @@ hr {
     position: relative;
     width: 100%;
     height: 100%;
+
 }
 
 .textoSobreposto1 {
@@ -102,6 +122,9 @@ hr {
     position: absolute;
     top: 400px;
     left: 50px;
+    opacity: 0;
+    transform: translateY(50px);
+    transition: opacity 1s ease, transform 1s ease;
 
 }
 
@@ -119,6 +142,29 @@ hr {
 }
 
 /* ICONES DE CORAÇÃO E PASTA */
+.dr-savino {
+    position: relative;
+    left: -2000px;
+}
+
+.doutorAtivo {
+    position: relative;
+    left: 0;
+    animation: surgirDoutor;
+    animation-duration: 5s;
+    animation-direction: normal;
+
+}
+
+@keyframes surgirDoutor {
+    from {
+        left: -2000px
+    }
+
+    to {
+        left: 0px
+    }
+}
 
 .icones {
 
@@ -183,6 +229,7 @@ hr {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    background-color: #5991a1;
 
 }
 
@@ -199,6 +246,7 @@ hr {
     width: 296px;
     height: 335px;
     margin: 100px 0 100px 0;
+
 
 }
 
@@ -388,8 +436,8 @@ footer {
     justify-content: space-around;
     height: 200px;
     padding-top: 50px;
-    
-    
+
+
 }
 
 .endereços ul li a {
@@ -458,11 +506,35 @@ footer {
 
 
 
+/* Estilos para dispositivos móveis */
+@media only screen and (max-width: 1250px) {
 
+
+    /* NOSSOS TRATAMENTOS */
+
+
+    .nossosTratamentos h1 {
+        font-size: 96px;
+    }
+
+    .nossosTratamentos img {
+        width: 240px;
+        height: 240px;
+    }
+
+    .tratamentos {
+        margin: 20px 10px 80px 10px;
+        font-size: 12px;
+    }
+
+    .tratamentos section {
+        margin-top: 50px;
+    }
+}
 
 
 /* Estilos para dispositivos móveis */
-@media only screen and (max-width: 750px) {
+@media only screen and (max-width: 769px) {
     h1 {
         font-size: 44px;
     }
@@ -613,10 +685,6 @@ footer {
     .nossosTratamentos img {
         width: 100px;
         height: 150px;
-    }
-
-    .nossosTratamentos a {
-        color: #000000;
     }
 
     .tratamentos {
