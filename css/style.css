@@ -137,7 +137,10 @@ nav {
     position: absolute;
     top: 600px;
     left: 50px;
-    color: #000000;
+    color: #FFFFFF;
+    opacity: 0;
+    transform: translateY(50px);
+    transition: opacity 2s ease, transform 1s ease;
 
 }
 
