@@ -657,7 +657,7 @@ footer {
     }
 
     .drFrancisco{
-        flex-directon: column
+        flex-direction: column;
     }
     
     .drFranciscoDados {
@@ -665,7 +665,7 @@ footer {
     }
 
     .draGabrielly{
-        flex-directon: column
+        flex-direction: column;
     }
     
     .draGabriellyDados {
@@ -675,7 +675,7 @@ footer {
     }
 
     .draLucema{
-        flex-directon: column
+        flex-direction: column;
     }
 
     .draLucemaDados {
@@ -685,7 +685,7 @@ footer {
 
 
     .drLuis{
-        flex-directon: column
+        flex-direction: column;
     }
 
     .drLuisDados {
