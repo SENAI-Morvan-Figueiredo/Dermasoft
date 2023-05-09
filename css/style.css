@@ -642,6 +642,10 @@ footer {
 
     /* NOSSA EQUIPE */
 
+    .doutores {
+        margin-left: 200px;
+    }
+
     .NossaEquipe h1 {
         font-size: 44px;
     }
