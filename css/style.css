@@ -104,7 +104,7 @@ nav {
 
 
 #Banner {
-    height: 33.325rem;
+    height: 850px;
 }
 
 #fotoEscritorio {
@@ -146,20 +146,26 @@ nav {
 }
 
 /* ICONES DE CORAÇÃO E PASTA */
-.dr-savino {
+
+
+/* que faz os icones surgirem do lado da página */
+.animacao {
     position: relative;
     left: -2000px;
 }
 
-.doutorAtivo {
+
+/* que faz os icones surgirem do lado da página */
+.animacaoAtiva {
     position: relative;
     left: 0;
     animation: surgirDoutor;
-    animation-duration: 5s;
+    animation-duration: 3s;
     animation-direction: normal;
 
 }
 
+/* que faz os icones surgirem do lado da página */
 @keyframes surgirDoutor {
     from {
         left: -2000px

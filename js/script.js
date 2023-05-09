@@ -19,20 +19,18 @@ window.addEventListener('load', function () {
 
 
 // faz os icones de coração e pasta surgirem 
-functionadicionaClasseAoRolar(); {
+function adicionaClasseAoRolar() {
     // seleciona a div
-
-    const minhaDiv = document.querySelector('.doutor');
-
+    const minhaDiv = document.querySelector('.animacao');
+  
     // determina o ponto de rolagem da tela
-    const PontoDeRolagem = 700;
-
-    var alturaTela = window.innerHeight;
-    var posicaoScroll = window.scrollY || window.pageYOffset;
-
+    const pontoDeRolagem = 120;
+  
+    // adiciona a classe "ativo" quando a página é rolada para o ponto
     window.addEventListener('scroll', function () {
-        if (posicaoScroll > alturaTela) {
-            minhaDiv.classList.add('.doutorAtivo');
-        }
+      if (window.pageYOffset >= pontoDeRolagem) {
+        minhaDiv.classList.add('animacaoAtiva');
+      }
     });
-}
+  }
+  adicionaClasseAoRolar()
