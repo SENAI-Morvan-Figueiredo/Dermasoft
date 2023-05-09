@@ -24,7 +24,7 @@ function adicionaClasseAoRolar() {
     const minhaDiv = document.querySelector('.animacao');
   
     // determina o ponto de rolagem da tela
-    const pontoDeRolagem = 120;
+    const pontoDeRolagem = 100;
   
     // adiciona a classe "ativo" quando a página é rolada para o ponto
     window.addEventListener('scroll', function () {
