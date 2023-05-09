@@ -125,7 +125,7 @@ nav {
     color: #FFFFFF;
     opacity: 0;
     transform: translateY(50px);
-    transition: opacity 1s ease, transform 1s ease;
+    transition: opacity 2s ease, transform 2s ease;
 
 }
 
@@ -141,7 +141,7 @@ nav {
     color: #FFFFFF;
     opacity: 0;
     transform: translateY(50px);
-    transition: opacity 2s ease, transform 1s ease;
+    transition: opacity 3s ease, transform 2s ease;
 
 }
 
@@ -160,7 +160,7 @@ nav {
     position: relative;
     left: 0;
     animation: surgirDoutor;
-    animation-duration: 3s;
+    animation-duration: 2s;
     animation-direction: normal;
 
 }
