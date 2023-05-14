@@ -104,7 +104,7 @@ nav {
 
 
 #Banner {
-    height: 850px;
+    height: 33.325rem;
 }
 
 #fotoEscritorio {
@@ -125,7 +125,7 @@ nav {
     color: #FFFFFF;
     opacity: 0;
     transform: translateY(50px);
-    transition: opacity 2s ease, transform 2s ease;
+    transition: opacity 1s ease, transform 1s ease;
 
 }
 
@@ -141,21 +141,21 @@ nav {
     color: #FFFFFF;
     opacity: 0;
     transform: translateY(50px);
-    transition: opacity 3s ease, transform 2s ease;
+    transition: opacity 2s ease, transform 1s ease;
 
 }
 
 /* ICONES DE CORAÇÃO E PASTA */
 
 
-/* que faz os icones surgirem do lado da página */
-.animacao {
+
+
+
+/* .animacao {
     position: relative;
     left: -2000px;
 }
 
-
-/* que faz os icones surgirem do lado da página */
 .animacaoAtiva {
     position: relative;
     left: 0;
@@ -165,7 +165,6 @@ nav {
 
 }
 
-/* que faz os icones surgirem do lado da página */
 @keyframes surgirDoutor {
     from {
         left: -2000px
@@ -174,14 +173,14 @@ nav {
     to {
         left: 0px
     }
-}
+} */
 
 .icones {
 
     display: flex;
     justify-content: space-around;
     align-items: center;
-    margin: 25px 0 25px 0;
+    margin: 150px 0 150px 0;
 }
 
 .iconeEFrase {
@@ -191,15 +190,114 @@ nav {
     justify-content: center;
 }
 
-.icones img {
-    width: 50%;
-    margin-bottom: 25px;
+.coracao {
+    fill: transparent;
 }
 
-.icones .iconeEFrase p {
-    width: 200px;
+
+.coracao1 {
+    width: 40%;
+    height: 40%;
+    stroke: black;
+    stroke-width: 1px;
+    stroke-dasharray: var(--tamanhoTotalDoPath);
+    stroke-dashoffset: 0;
+    animation: 2s desenha;
 }
 
+@keyframes desenha {
+    from {
+        /* Inicio: Ponto inicial */
+        stroke-dashoffset: var(--tamanhoTotalDoPath);
+    }
+
+    to {
+        /* Fim: Altera o início para 0 */
+        stroke-dashoffset: 0;
+    }
+}
+
+
+.pasta {
+    fill: transparent;
+}
+
+.pasta1 {
+    width: 40%;
+    height: 40%;
+    stroke: black;
+    stroke-width: 3px;
+    stroke-dasharray: var(--tamanhoTotalDoPath2);
+    stroke-dashoffset: 0;
+    animation: 6s desenha2;
+}
+
+@keyframes desenha2 {
+    from {
+        /* Inicio: Ponto inicial */
+        stroke-dashoffset: var(--tamanhoTotalDoPath2);
+    }
+
+    to {
+        /* Fim: Altera o início para 0 */
+        stroke-dashoffset: 0;
+    }
+}
+
+
+.check {
+    fill: transparent;
+}
+
+.check1 {
+    width: 40%;
+    height: 40%;
+    stroke: black;
+    stroke-width: 0.3px;
+    stroke-dasharray: var(--tamanhoTotalDoPath3);
+    stroke-dashoffset: 0;
+    animation: 2s desenha3;
+}
+
+@keyframes desenha3 {
+    from {
+        /* Inicio: Ponto inicial */
+        stroke-dashoffset: var(--tamanhoTotalDoPath3);
+    }
+
+    to {
+        /* Fim: Altera o início para 0 */
+        stroke-dashoffset: 0;
+    }
+}
+
+
+.fraseicone {
+    margin: 50px 0 70px 0;
+    font-size: 25px;
+    width: 300px;
+    opacity: 0;
+    transform: translateY(50px);
+    transition: opacity 2s ease, transform 1s ease;
+}
+
+.fraseicone2 {
+    margin: 50px 0 70px 0;
+    font-size: 25px;
+    width: 300px;
+    opacity: 0;
+    transform: translateY(50px);
+    transition: opacity 2s ease, transform 1s ease;
+}
+
+.fraseicone3 {
+    margin: 50px 0 70px 0;
+    font-size: 25px;
+    width: 300px;
+    opacity: 0;
+    transform: translateY(50px);
+    transition: opacity 2s ease, transform 1s ease;
+}
 
 /* CONEÇA A DERMASOFT */
 
@@ -592,7 +690,7 @@ footer {
 
     #Banner {
 
-        height: 34.525rem;
+        height: 30.125rem;
     }
 
 
@@ -642,8 +740,9 @@ footer {
 
     /* NOSSA EQUIPE */
 
+
     .doutores {
-        margin-left: 10px;
+        margin-left: 50px;
     }
 
     .NossaEquipe h1 {
@@ -655,40 +754,30 @@ footer {
         height: 200px;
     }
 
-    .drFrancisco{
-        flex-direction: column;
-    }
-    
+
     .drFranciscoDados {
-        padding: 10px 0 0 0;
+        padding: 40px;
     }
 
-    .draGabrielly{
-        flex-direction: column;
-    }
-    
+
     .draGabriellyDados {
 
-        padding: 10px 0 0 0;
+        padding: 40px;
 
     }
 
-    .draLucema{
-        flex-direction: column;
-    }
+
 
     .draLucemaDados {
-        padding: 10px 0 0 0;
+        padding: 40px;
     }
 
 
 
-    .drLuis{
-        flex-direction: column;
-    }
+
 
     .drLuisDados {
-        padding: 10px 0 0 0;
+        padding: 40px;
     }
 
 
