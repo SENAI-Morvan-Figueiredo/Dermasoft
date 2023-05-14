@@ -618,6 +618,14 @@ footer {
 @media only screen and (max-width: 1250px) {
 
 
+  /* ICONES DE CORAÇÃO E PASTA */
+  
+    .icones { 
+        flex-direction: column;
+    }
+
+
+
     /* NOSSOS TRATAMENTOS */
 
 
@@ -643,6 +651,8 @@ footer {
 
 /* Estilos para dispositivos móveis */
 @media only screen and (max-width: 769px) {
+
+    
     h1 {
         font-size: 44px;
     }
@@ -709,13 +719,28 @@ footer {
 
     /* ICONES DE CORAÇÃO E PASTA */
 
-
-    .icones img {
-        margin-bottom: 25px;
+    .icones { 
+        flex-direction: column;
     }
 
-    .icones .iconeEFrase p {
-        width: 120px;
+    .fraseicone {
+        font-size: 15px;
+
+
+    
+    .fraseicone2 {
+    
+        font-size: 15px;
+      
+    }
+    
+    .fraseicone3 {
+        margin: 50px 0 70px 0;
+        font-size: 15px;
+        width: 300px;
+        opacity: 0;
+        transform: translateY(50px);
+        transition: opacity 2s ease, transform 1s ease;
     }
 
 
