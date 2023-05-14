@@ -360,9 +360,7 @@ footer {
         padding-right: 0.5rem;
     }
 
-    #logo {
-        width: 5%;
-    }
+ 
 
     #fraseAcesso {
         display: flex;
@@ -414,13 +412,16 @@ footer {
     }
 
     .nossosTratamentos img {
-        width: 100px;
-        height: 150px;
+        width: 250px;
+        height: 300px;
     }
 
     .tratamentos {
-        margin: 20px 10px 80px 10px;
-        font-size: 12px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        margin: 20px 0 80px 0;
+        font-size: 25px;
     }
 
     .tratamentos section {

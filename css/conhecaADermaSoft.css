@@ -114,7 +114,7 @@ nav {
     height: 34.325rem;
 }
 
-#fotoNossaEquipe {
+#fotoEscritorio {
     position: relative;
     width: 100%;
     height: 100%;
@@ -471,10 +471,6 @@ footer {
         font-size: 0.5rem;
         padding-left: 0.5rem;
         padding-right: 0.5rem;
-    }
-
-    #logo {
-        width: 5%;
     }
 
     #fraseAcesso {
