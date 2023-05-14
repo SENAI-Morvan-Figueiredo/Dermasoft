@@ -719,32 +719,17 @@ footer {
 
     /* ICONES DE CORAÇÃO E PASTA */
 
-    .icones { 
-        flex-direction: column;
-    }
-
-    .fraseicone {
-        font-size: 15px;
-
-
-    
-    .fraseicone2 {
-    
-        font-size: 15px;
-      
-    }
-    
-    .fraseicone3 {
-        margin: 50px 0 70px 0;
-        font-size: 15px;
-        width: 300px;
-        opacity: 0;
-        transform: translateY(50px);
-        transition: opacity 2s ease, transform 1s ease;
-    }
+ 
 
 
     /* CONEÇA A DERMASOFT */
+    .ConhecaADermaSOft {
+      
+        display: flex;
+        flex-direction: column;
+        justify-content: centers;
+    
+    }
 
     .tituloConheçaADermaSoft {
         font-size: 44px;
@@ -767,7 +752,7 @@ footer {
 
 
     .doutores {
-        margin-left: 50px;
+        margin-left: 0;
     }
 
     .NossaEquipe h1 {
@@ -777,7 +762,9 @@ footer {
     .NossaEquipe img {
         width: 150px;
         height: 200px;
+        margin: 50px 0 50px 0;
     }
+   
 
     .drFrancisco {
         flex-direction: column;
@@ -788,7 +775,7 @@ footer {
     }
 
 
-    .draGabriellyDados {
+    .draGabrielly {
         flex-direction: column;
     }
 
