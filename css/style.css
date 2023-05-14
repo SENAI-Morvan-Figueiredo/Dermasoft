@@ -611,57 +611,8 @@ footer {
     padding-bottom: 25px;
 }
 
-
-
-
 /* Estilos para dispositivos móveis */
 @media only screen and (max-width: 1250px) {
-
-
-    /* ICONES DE CORAÇÃO E PASTA */
-
-    .icones {
-        flex-direction: column;
-    }
-
-
-    /* CONEÇA A DERMASOFT */
-
-   
-
-    .tituloConheçaADermaSoft {
-        font-size: 96px;
-    }
-
-
-    .ConhecaADermaSOft {
-        height: 1100px;
-        align-items: center;
-        flex-direction: column;
-        justify-content: center;
-        
-
-    }
-
-    .imagensDaClinica {
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
-    }
-
-    .imagensDaClinica img{
-        margin: 0 20px 20px 20px;
-    }
-
-   
-
-    .textoDermasoft {
-        text-align: center;
-        width: 80%;
-    }
-
-
-
     /* NOSSOS TRATAMENTOS */
 
 
@@ -683,162 +634,35 @@ footer {
         margin-top: 50px;
     }
 }
-
-
-
-/* Estilos para dispositivos móveis  */
-@media only screen and (max-width: 820px) {
-
-
-     /* NOSSA EQUIPE */
-
-
-     .doutores {
-        margin-left: 0;
-    }
-
-    .NossaEquipe h1 {
-        font-size: 96px;
-    }
-
-    .NossaEquipe img {
-        width: 200px;
-        height: 250px;
-        margin: 50px 0 50px 0;
-    }
-
-
-    .drFrancisco {
-        flex-direction: column;
-    }
-
-    .drFranciscoDados {
-        padding: 40px;
-        font-size: 30px;
-    }
-
-
-    .draGabrielly {
-        flex-direction: column;
-    }
-
-    .draGabriellyDados {
-        padding: 40px;
-        font-size: 30px;
-    }
-
-
-    .draLucema {
-        flex-direction: column;
-    }
-
-    .draLucemaDados {
-        padding: 40px;
-        font-size: 30px;
-    }
-
-
-
-    .drLuis {
-        flex-direction: column;
-    }
-
-
-    .drLuisDados {
-        padding: 40px;
-        font-size: 30px;
-    }
 }
 
 
 /* Estilos para dispositivos móveis */
-@media only screen and (max-width: 769px) {
+@media only screen and (max-width: 1150px) {
 
-
-    h1 {
-        font-size: 44px;
-    }
-
-    hr {
-        margin: 50px 50px 50px 50px;
-    }
-
-    #Links {
-        padding: 0.8rem;
-
-    }
-
-    .underline {
-        font-size: 0.5rem;
-        padding-left: 0.5rem;
-        padding-right: 0.5rem;
-    }
-
-    #logo {
-        width: 5%;
-    }
-
-    #fraseAcesso {
-        display: flex;
-        margin-right: 0.313rem;
-        color: #FFFFFF;
-        font-size: 0.5rem;
-
-
-    }
-
-
-    #button {
-        padding: 0.625rem 1.063rem 0.625rem 1.063rem;
-        background: #739DDC;
-        border-radius: 10px;
-        border: none;
-        color: #FFFFFF;
-    }
-
-
-    /* BANNER */
-
-
-    #Banner {
-
-        height: 30.125rem;
-    }
-
-
-    .textoSobreposto1 {
-
-        font-size: 44px;
-        top: 100px;
-
-    }
-
-    .textoSobreposto2 {
-        font-size: 20px;
-        top: 400px;
-
-    }
 
     /* ICONES DE CORAÇÃO E PASTA */
 
-
+    .icones {
+        flex-direction: column;
+    }
 
 
     /* CONEÇA A DERMASOFT */
 
-   
+
 
     .tituloConheçaADermaSoft {
-        font-size: 44px;
+        font-size: 96px;
     }
 
 
     .ConhecaADermaSOft {
-        height: 800px;
+        height: 1100px;
         align-items: center;
         flex-direction: column;
         justify-content: center;
-        
+
 
     }
 
@@ -846,130 +670,310 @@ footer {
         display: flex;
         flex-direction: row;
         justify-content: center;
-        width: 1px;
     }
 
-    .imagensDaClinica img{
+    .imagensDaClinica img {
         margin: 0 20px 20px 20px;
-        width: 150px;
-        height: 150px;
     }
 
-   
+
 
     .textoDermasoft {
         text-align: center;
-        font-size: 18px;
         width: 80%;
     }
 
 
 
-    /* NOSSA EQUIPE */
-
-
-    
-
-    .NossaEquipe h1 {
-        font-size: 44px;
-    }
-    .drFranciscoDados {
-        padding: 40px;
-        font-size: 20px;
-    }
-
-    .draGabriellyDados {
-        padding: 40px;
-        font-size: 20px;
-    }
-
-    .draLucemaDados {
-        padding: 40px;
-        font-size: 20px;
-    }
-
-
-    .drLuisDados {
-        padding: 40px;
-        font-size: 20px;
-    }
 
 
 
-    /* NOSSOS TRATAMENTOS */
+
+    /* Estilos para dispositivos móveis  */
+    @media only screen and (max-width: 820px) {
 
 
-    .nossosTratamentos h1 {
-        font-size: 44px;
-    }
-
-    .nossosTratamentos img {
-        width: 100px;
-        height: 150px;
-    }
-
-    .tratamentos {
-        margin: 20px 10px 80px 10px;
-        font-size: 12px;
-    }
-
-    .tratamentos section {
-        margin-top: 50px;
-    }
+        /* NOSSA EQUIPE */
 
 
+        .doutores {
+            margin-left: 0;
+        }
 
-    /* FOOTER */
+        .NossaEquipe h1 {
+            font-size: 96px;
+        }
 
-    .redesSociais {
-        margin-top: 20px;
-    }
+        .NossaEquipe img {
+            width: 200px;
+            height: 250px;
+            margin: 50px 0 50px 0;
+        }
 
-    footer {
-        background-color: #586875;
-    }
 
-    .endereços {
-        height: 100px;
-        padding-top: 20px;
-    }
+        .drFrancisco {
+            flex-direction: column;
+        }
 
-    .endereços ul li a {
-        font-size: 8px;
-        margin: 0 10px 0 10px;
-    }
+        .drFranciscoDados {
+            padding: 40px;
+            font-size: 30px;
+        }
 
-    .endereços ul li p {
-        font-size: 12px;
-    }
 
-    .endereços ul li img {
-        width: 10%;
+        .draGabrielly {
+            flex-direction: column;
+        }
+
+        .draGabriellyDados {
+            padding: 40px;
+            font-size: 30px;
+        }
+
+
+        .draLucema {
+            flex-direction: column;
+        }
+
+        .draLucemaDados {
+            padding: 40px;
+            font-size: 30px;
+        }
+
+
+
+        .drLuis {
+            flex-direction: column;
+        }
+
+
+        .drLuisDados {
+            padding: 40px;
+            font-size: 30px;
+        }
     }
 
 
-    .redessociaisFacebookEInstagram {
-        display: flex;
-        flex-direction: row;
-        justify-content: space-around;
-        text-align: center;
-        margin: 20px 0 50px 0;
-        width: 50%;
+    /* Estilos para dispositivos móveis */
+    @media only screen and (max-width: 769px) {
+
+
+        h1 {
+            font-size: 44px;
+        }
+
+        hr {
+            margin: 50px 50px 50px 50px;
+        }
+
+        #Links {
+            padding: 0.8rem;
+
+        }
+
+        .underline {
+            font-size: 0.5rem;
+            padding-left: 0.5rem;
+            padding-right: 0.5rem;
+        }
+
+        #logo {
+            width: 5%;
+        }
+
+        #fraseAcesso {
+            display: flex;
+            margin-right: 0.313rem;
+            color: #FFFFFF;
+            font-size: 0.5rem;
+
+
+        }
+
+
+        #button {
+            padding: 0.625rem 1.063rem 0.625rem 1.063rem;
+            background: #739DDC;
+            border-radius: 10px;
+            border: none;
+            color: #FFFFFF;
+        }
+
+
+        /* BANNER */
+
+
+        #Banner {
+
+            height: 30.125rem;
+        }
+
+
+        .textoSobreposto1 {
+
+            font-size: 44px;
+            top: 100px;
+
+        }
+
+        .textoSobreposto2 {
+            font-size: 20px;
+            top: 400px;
+
+        }
+
+        /* ICONES DE CORAÇÃO E PASTA */
+
+
+
+
+        /* CONEÇA A DERMASOFT */
+
+
+
+        .tituloConheçaADermaSoft {
+            font-size: 44px;
+        }
+
+
+        .ConhecaADermaSOft {
+            height: 800px;
+            align-items: center;
+            flex-direction: column;
+            justify-content: center;
+
+
+        }
+
+        .imagensDaClinica {
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            width: 1px;
+        }
+
+        .imagensDaClinica img {
+            margin: 0 20px 20px 20px;
+            width: 150px;
+            height: 150px;
+        }
+
+
+
+        .textoDermasoft {
+            text-align: center;
+            font-size: 18px;
+            width: 80%;
+        }
+
+
+
+        /* NOSSA EQUIPE */
+
+
+
+
+        .NossaEquipe h1 {
+            font-size: 44px;
+        }
+
+        .drFranciscoDados {
+            padding: 40px;
+            font-size: 20px;
+        }
+
+        .draGabriellyDados {
+            padding: 40px;
+            font-size: 20px;
+        }
+
+        .draLucemaDados {
+            padding: 40px;
+            font-size: 20px;
+        }
+
+
+        .drLuisDados {
+            padding: 40px;
+            font-size: 20px;
+        }
+
+
+
+        /* NOSSOS TRATAMENTOS */
+
+
+        .nossosTratamentos h1 {
+            font-size: 44px;
+        }
+
+        .nossosTratamentos img {
+            width: 100px;
+            height: 150px;
+        }
+
+        .tratamentos {
+            margin: 20px 10px 80px 10px;
+            font-size: 12px;
+        }
+
+        .tratamentos section {
+            margin-top: 50px;
+        }
+
+
+
+        /* FOOTER */
+
+        .redesSociais {
+            margin-top: 20px;
+        }
+
+        footer {
+            background-color: #586875;
+        }
+
+        .endereços {
+            height: 100px;
+            padding-top: 20px;
+        }
+
+        .endereços ul li a {
+            font-size: 8px;
+            margin: 0 10px 0 10px;
+        }
+
+        .endereços ul li p {
+            font-size: 12px;
+        }
+
+        .endereços ul li img {
+            width: 10%;
+        }
+
+
+        .redessociaisFacebookEInstagram {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+            text-align: center;
+            margin: 20px 0 50px 0;
+            width: 50%;
+        }
+
+
+
+        .button {
+            margin: 0 10px 15px 10px;
+            width: 20%;
+            border: 2px solid #FFFFFF;
+            border-radius: 50px;
+            font-size: 8px;
+        }
+
+        .copyright {
+            color: #FFFFFF;
+            padding-bottom: 15px;
+        }
+
     }
-
-
-
-    .button {
-        margin: 0 10px 15px 10px;
-        width: 20%;
-        border: 2px solid #FFFFFF;
-        border-radius: 50px;
-        font-size: 8px;
-    }
-
-    .copyright {
-        color: #FFFFFF;
-        padding-bottom: 15px;
-    }
-
-}
