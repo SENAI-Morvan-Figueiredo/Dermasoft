@@ -1,10 +1,13 @@
+header {
+    background-color: #3C798C;
+}
+
 h1 {
     text-align: center;
 }
 
 a {
     color: #83D4EE;
-   
 }
 
 hr {
@@ -12,10 +15,28 @@ hr {
     margin: 50px 100px 50px 100px;
 }
 
+
 /* LINKS DO HEADER */
 
+nav {
+    position: relative;
+    top: 0;
+    animation: surgirNav;
+    animation-duration: 1.5s;
+    animation-direction: normal;
+}
+
+@keyframes surgirNav {
+    from {
+        top: -100px
+    }
+
+    to {
+        top: 0px
+    }
+}
+
 #Links {
-    background-color: #3C798C;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -45,15 +66,18 @@ hr {
     width: 100%;
 }
 
-.linklogo {
 
-width: 5%;
-
-
-}
 
 #logo {
     width: 100%;
+
+}
+
+.linklogo {
+
+    width: 5%;
+
+
 }
 
 
@@ -75,7 +99,7 @@ width: 5%;
 }
 
 #button {
-    padding: 0.625rem 1.063rem 0.625rem 1.063rem;
+    padding: 0.625rem 1.563rem 0.625rem 1.563rem;
     background: #739DDC;
     border-radius: 10px;
     border: none;
@@ -87,37 +111,44 @@ width: 5%;
 
 
 #Banner {
-    background-color: #3C798C;
-    height: 53.125rem;
+    height: 34.325rem;
 }
 
-#fotoEscritorio {
+#fotoTratamentos {
     position: relative;
     width: 100%;
     height: 100%;
+
 }
 
 .textoSobreposto1 {
     text-align: start;
-    font-family: 'Source Sans Pro';
+    font-family: sans-serif;
     font-style: normal;
-    font-size: 64px;
+    font-size: 54px;
     position: absolute;
-    top: 400px;
+    top: 300px;
     left: 50px;
-    
+    color: #FFFFFF;
+    opacity: 0;
+    transform: translateY(50px);
+    transition: opacity 1s ease, transform 1s ease;
+
 }
 
 .textoSobreposto2 {
     width: 50%;
     text-align: start;
-    font-family: 'Source Sans Pro';
+    font-family: Times, serif;
     font-style: normal;
     font-size: 30px;
     position: absolute;
-    top: 600px;
+    top: 500px;
     left: 50px;
-    color: #000000;
+    color: #FFFFFF;
+    opacity: 0;
+    transform: translateY(50px);
+    transition: opacity 2s ease, transform 1s ease;
 
 }
 
@@ -156,7 +187,7 @@ width: 5%;
     font-size: 25px;
 }
 
-.tratamentos section{
+.tratamentos section {
     margin-top: 100px;
 }
 
@@ -169,7 +200,7 @@ width: 5%;
 .imgEstéticaCorporal:hover {
     transform: scale(1.07);
     transition: transform 0.7s ease;
-  }
+}
 
 .tratamentosFaciais {
     display: flex;
@@ -181,7 +212,7 @@ width: 5%;
 .imgTratamentosFaciais:hover {
     transform: scale(1.07);
     transition: transform 0.7s ease;
-  }
+}
 
 .tratamentosCapilar {
     display: flex;
@@ -193,7 +224,7 @@ width: 5%;
 .imgTratamentosCapilar:hover {
     transform: scale(1.07);
     transition: transform 0.7s ease;
-  }
+}
 
 /* FOOTER */
 
@@ -211,8 +242,8 @@ footer {
     justify-content: space-around;
     height: 200px;
     padding-top: 50px;
-    
-    
+
+
 }
 
 .endereços ul li a {
@@ -278,46 +309,71 @@ footer {
     padding-bottom: 25px;
 }
 
+/* Estilos para dispositivos móveis */
+@media only screen and (max-width: 1250px) {
 
 
+    /* NOSSOS TRATAMENTOS */
 
+
+    .nossosTratamentos h1 {
+        font-size: 96px;
+    }
+
+    .nossosTratamentos img {
+        width: 240px;
+        height: 240px;
+    }
+
+    .tratamentos {
+        margin: 20px 10px 80px 10px;
+        font-size: 12px;
+    }
+
+    .tratamentos section {
+        margin-top: 50px;
+    }
+}
 
 
 
 /* Estilos para dispositivos móveis */
-@media only screen and (max-width: 750px) {
-    #Links {
-        padding: 0.8rem;
-    
+@media only screen and (max-width: 769px) {
+
+
+    h1 {
+        font-size: 44px;
     }
 
-    .underline{
+    hr {
+        margin: 50px 50px 50px 50px;
+    }
+
+    #Links {
+        padding: 0.8rem;
+
+    }
+
+    .underline {
         font-size: 0.5rem;
         padding-left: 0.5rem;
         padding-right: 0.5rem;
     }
-    
-    #linkLogo {
+
+    #logo {
         width: 5%;
     }
 
-    #logo{
-        margin-top: 3px;
-        width: 115%;
-    
-    }
-
-    
     #fraseAcesso {
         display: flex;
         margin-right: 0.313rem;
         color: #FFFFFF;
         font-size: 0.5rem;
 
-    
+
     }
-    
-    
+
+
     #button {
         padding: 0.625rem 1.063rem 0.625rem 1.063rem;
         background: #739DDC;
@@ -330,108 +386,100 @@ footer {
     /* BANNER */
 
 
-#Banner {
-   
-    height: 30.125rem;
-}
+    #Banner {
 
-#fotoTratamentos {
-    position: relative;
-    width: 100%;
-    height: 100%;
-}
-
-.textoSobreposto1 {
-
-    font-size: 44px;
-    top: 100px;
-
-}
-
-.textoSobreposto2 {
-    font-size: 20px;
-    top: 400px;
-
-}
-
-/* NOSSOS TRATAMENTOS */
+        height: 30.125rem;
+    }
 
 
-.nossosTratamentos h1 {
-    font-size: 44px;
-}
+    .textoSobreposto1 {
 
-.nossosTratamentos img {
-    width: 100px;
-    height: 150px;
-}
+        font-size: 44px;
+        top: 100px;
 
-.nossosTratamentos a {
-    color: #000000;
-}
+    }
 
-.tratamentos {
-    margin: 20px 10px 80px 10px;
-    font-size: 12px;
-}
+    .textoSobreposto2 {
+        font-size: 20px;
+        top: 400px;
 
-.tratamentos section {
-    margin-top: 50px;
-}
+    }
 
 
- /* FOOTER */
-
- .redesSociais {
-    margin-top: 20px;
-}
-
-footer {
-    background-color: #586875;
-}
-
-.endereços {
-    height: 100px;
-    padding-top: 20px;
-}
-
-.endereços ul li a {
-    font-size: 8px;
-    margin: 0 10px 0 10px;
-}
-
-.endereços ul li p {
-    font-size: 12px;
-}
-
-.endereços ul li img {
-    width: 10%;
-}
+    /* NOSSOS TRATAMENTOS */
 
 
-.redessociaisFacebookEInstagram {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    text-align: center;
-    margin: 20px 0 50px 0;
-    width: 50%;
-}
+    .nossosTratamentos h1 {
+        font-size: 44px;
+    }
+
+    .nossosTratamentos img {
+        width: 100px;
+        height: 150px;
+    }
+
+    .tratamentos {
+        margin: 20px 10px 80px 10px;
+        font-size: 12px;
+    }
+
+    .tratamentos section {
+        margin-top: 50px;
+    }
 
 
 
-.button {
-    margin: 0 10px 15px 10px;
-    width: 20%;
-    border: 2px solid #FFFFFF;
-    border-radius: 50px;
-    font-size: 8px;
-}
+    /* FOOTER */
 
-.copyright {
-    color: #FFFFFF;
-    padding-bottom: 15px;
-}
+    .redesSociais {
+        margin-top: 20px;
+    }
 
+    footer {
+        background-color: #586875;
+    }
+
+    .endereços {
+        height: 100px;
+        padding-top: 20px;
+    }
+
+    .endereços ul li a {
+        font-size: 8px;
+        margin: 0 10px 0 10px;
+    }
+
+    .endereços ul li p {
+        font-size: 12px;
+    }
+
+    .endereços ul li img {
+        width: 10%;
+    }
+
+
+    .redessociaisFacebookEInstagram {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        text-align: center;
+        margin: 20px 0 50px 0;
+        width: 50%;
+    }
+
+
+
+    .button {
+        margin: 0 10px 15px 10px;
+        width: 20%;
+        border: 2px solid #FFFFFF;
+        border-radius: 50px;
+        font-size: 8px;
+    }
+
+    .copyright {
+        color: #FFFFFF;
+        padding-bottom: 15px;
+    }
 
 }

@@ -1,10 +1,13 @@
+header {
+    background-color: #3C798C;
+}
+
 h1 {
     text-align: center;
 }
 
 a {
     color: #83D4EE;
-
 }
 
 hr {
@@ -12,10 +15,28 @@ hr {
     margin: 50px 100px 50px 100px;
 }
 
+
 /* LINKS DO HEADER */
 
+nav {
+    position: relative;
+    top: 0;
+    animation: surgirNav;
+    animation-duration: 1.5s;
+    animation-direction: normal;
+}
+
+@keyframes surgirNav {
+    from {
+        top: -100px
+    }
+
+    to {
+        top: 0px
+    }
+}
+
 #Links {
-    background-color: #3C798C;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -45,15 +66,18 @@ hr {
     width: 100%;
 }
 
+
+
+#logo {
+    width: 100%;
+
+}
+
 .linklogo {
 
     width: 5%;
 
 
-}
-
-#logo {
-    width: 100%;
 }
 
 
@@ -75,7 +99,7 @@ hr {
 }
 
 #button {
-    padding: 0.625rem 1.063rem 0.625rem 1.063rem;
+    padding: 0.625rem 1.563rem 0.625rem 1.563rem;
     background: #739DDC;
     border-radius: 10px;
     border: none;
@@ -87,37 +111,44 @@ hr {
 
 
 #Banner {
-    background-color: #3C798C;
-    height: 53.125rem;
+    height: 34.325rem;
 }
 
-#fotoEscritorio {
+#fotoNossaEquipe {
     position: relative;
     width: 100%;
     height: 100%;
+
 }
 
 .textoSobreposto1 {
     text-align: start;
-    font-family: 'Source Sans Pro';
+    font-family: sans-serif;
     font-style: normal;
-    font-size: 64px;
+    font-size: 54px;
     position: absolute;
-    top: 400px;
+    top: 300px;
     left: 50px;
+    color: #FFFFFF;
+    opacity: 0;
+    transform: translateY(50px);
+    transition: opacity 1s ease, transform 1s ease;
 
 }
 
 .textoSobreposto2 {
     width: 50%;
     text-align: start;
-    font-family: 'Source Sans Pro';
+    font-family: Times, serif;
     font-style: normal;
     font-size: 30px;
     position: absolute;
-    top: 600px;
+    top: 500px;
     left: 50px;
-    color: #000000;
+    color: #FFFFFF;
+    opacity: 0;
+    transform: translateY(50px);
+    transition: opacity 2s ease, transform 1s ease;
 
 }
 
@@ -168,8 +199,8 @@ footer {
     justify-content: space-around;
     height: 200px;
     padding-top: 50px;
-    
-    
+
+
 }
 
 .endereços ul li a {
@@ -291,7 +322,7 @@ footer {
         height: 30.125rem;
     }
 
-    
+
 
     .textoSobreposto1 {
 
@@ -308,74 +339,283 @@ footer {
 
     /* CONEÇA A DERMASOFT */
 
-.tituloConheçaADermaSoft {
-    font-size: 44px;
+    .tituloConheçaADermaSoft {
+        font-size: 44px;
+    }
+
+    .ConhecaADermaSOft {
+        height: 1298px;
+    }
+
+    .imagensDaClinica {
+        width: 150px;
+    }
+
+    .textoDermasoft {
+        font-size: 32px;
+        font-size: 18px;
+    }
+
+    /* FOOTER */
+
+    .redesSociais {
+        margin-top: 20px;
+    }
+
+    footer {
+        background-color: #586875;
+    }
+
+    .endereços {
+        height: 100px;
+        padding-top: 20px;
+    }
+
+    .endereços ul li a {
+        font-size: 8px;
+        margin: 0 10px 0 10px;
+    }
+
+    .endereços ul li p {
+        font-size: 12px;
+    }
+
+    .endereços ul li img {
+        width: 10%;
+    }
+
+
+    .redessociaisFacebookEInstagram {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        text-align: center;
+        margin: 20px 0 50px 0;
+        width: 50%;
+    }
+
+
+
+    .button {
+        margin: 0 10px 15px 10px;
+        width: 20%;
+        border: 2px solid #FFFFFF;
+        border-radius: 50px;
+        font-size: 8px;
+    }
+
+    .copyright {
+        color: #FFFFFF;
+        padding-bottom: 15px;
+    }
+
+
 }
 
-.ConhecaADermaSOft {
-    height: 1298px;
-}
 
-.imagensDaClinica {
-    width: 150px;
-}
-
-.textoDermasoft {
-    font-size: 32px;
-    font-size: 18px;
-}
-
- /* FOOTER */
-
- .redesSociais {
-    margin-top: 20px;
-}
-
-footer {
-    background-color: #586875;
-}
-
-.endereços {
-    height: 100px;
-    padding-top: 20px;
-}
-
-.endereços ul li a {
-    font-size: 8px;
-    margin: 0 10px 0 10px;
-}
-
-.endereços ul li p {
-    font-size: 12px;
-}
-
-.endereços ul li img {
-    width: 10%;
-}
+/* Estilos para dispositivos móveis */
+@media only screen and (max-width: 1250px) {
+    /* CONEÇA A DERMASOFT */
 
 
-.redessociaisFacebookEInstagram {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    text-align: center;
-    margin: 20px 0 50px 0;
-    width: 50%;
+
+    .tituloConheçaADermaSoft {
+        font-size: 96px;
+    }
+
+
+    .ConhecaADermaSOft {
+        height: 1100px;
+        align-items: center;
+        flex-direction: column;
+        justify-content: center;
+
+
+    }
+
+    .imagensDaClinica {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    .imagensDaClinica img {
+        margin: 0 20px 20px 20px;
+    }
+
+
+
+    .textoDermasoft {
+        text-align: center;
+        width: 80%;
+    }
 }
 
 
+/* Estilos para dispositivos móveis  */
+@media only screen and (max-width: 699px) {
+    h1 {
+        font-size: 44px;
+    }
 
-.button {
-    margin: 0 10px 15px 10px;
-    width: 20%;
-    border: 2px solid #FFFFFF;
-    border-radius: 50px;
-    font-size: 8px;
-}
+    hr {
+        margin: 50px 50px 50px 50px;
+    }
 
-.copyright {
-    color: #FFFFFF;
-    padding-bottom: 15px;
+    #Links {
+        padding: 0.8rem;
+
+    }
+
+    .underline {
+        font-size: 0.5rem;
+        padding-left: 0.5rem;
+        padding-right: 0.5rem;
+    }
+
+    #logo {
+        width: 5%;
+    }
+
+    #fraseAcesso {
+        display: flex;
+        margin-right: 0.313rem;
+        color: #FFFFFF;
+        font-size: 0.5rem;
+
+
+    }
+
+
+    #button {
+        padding: 0.625rem 1.063rem 0.625rem 1.063rem;
+        background: #739DDC;
+        border-radius: 10px;
+        border: none;
+        color: #FFFFFF;
+    }
+
+
+    /* BANNER */
+
+
+    #Banner {
+
+        height: 30.125rem;
+    }
+
+
+    .textoSobreposto1 {
+
+        font-size: 44px;
+        top: 100px;
+
+    }
+
+    .textoSobreposto2 {
+        font-size: 20px;
+        top: 400px;
+
+    }
+
+    /* ICONES DE CORAÇÃO E PASTA */
+
+
+
+
+    /* CONEÇA A DERMASOFT */
+
+
+
+    .tituloConheçaADermaSoft {
+        font-size: 44px;
+    }
+
+
+    .ConhecaADermaSOft {
+        height: 800px;
+        align-items: center;
+        flex-direction: column;
+        justify-content: center;
+
+
+    }
+
+    .imagensDaClinica {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        width: 1px;
+    }
+
+    .imagensDaClinica img {
+        margin: 0 20px 20px 20px;
+        width: 150px;
+        height: 150px;
+    }
+
+
+
+    .textoDermasoft {
+        text-align: center;
+        font-size: 18px;
+        width: 80%;
+    }
+
+
+    /* FOOTER */
+
+    .redesSociais {
+        margin-top: 20px;
+    }
+
+    footer {
+        background-color: #586875;
+    }
+
+    .endereços {
+        height: 100px;
+        padding-top: 20px;
+    }
+
+    .endereços ul li a {
+        font-size: 8px;
+        margin: 0 10px 0 10px;
+    }
+
+    .endereços ul li p {
+        font-size: 12px;
+    }
+
+    .endereços ul li img {
+        width: 10%;
+    }
+
+
+    .redessociaisFacebookEInstagram {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        text-align: center;
+        margin: 20px 0 50px 0;
+        width: 50%;
+    }
+
+
+
+    .button {
+        margin: 0 10px 15px 10px;
+        width: 20%;
+        border: 2px solid #FFFFFF;
+        border-radius: 50px;
+        font-size: 8px;
+    }
+
+    .copyright {
+        color: #FFFFFF;
+        padding-bottom: 15px;
+    }
+
 }
 
 
