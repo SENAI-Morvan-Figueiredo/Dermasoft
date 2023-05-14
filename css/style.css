@@ -779,6 +779,9 @@ footer {
         height: 200px;
     }
 
+    .drFrancisco {
+        flex-direction: column;
+    }
 
     .drFranciscoDados {
         padding: 40px;
@@ -786,12 +789,17 @@ footer {
 
 
     .draGabriellyDados {
+        flex-direction: column;
+    }
 
+    .draGabriellyDados {
         padding: 40px;
-
     }
 
 
+    .draLucema {
+        flex-direction: column;
+    }
 
     .draLucemaDados {
         padding: 40px;
@@ -799,6 +807,9 @@ footer {
 
 
 
+    .drLuis {
+        flex-direction: column;
+    }
 
 
     .drLuisDados {
