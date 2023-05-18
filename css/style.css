@@ -903,23 +903,26 @@ footer {
         /* NOSSOS TRATAMENTOS */
 
 
-        .nossosTratamentos h1 {
-            font-size: 44px;
-        }
+    .nossosTratamentos h1 {
+        font-size: 44px;
+    }
 
-        .nossosTratamentos img {
-            width: 100px;
-            height: 150px;
-        }
+    .nossosTratamentos img {
+        width: 250px;
+        height: 300px;
+    }
 
-        .tratamentos {
-            margin: 20px 10px 80px 10px;
-            font-size: 12px;
-        }
+    .tratamentos {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        margin: 20px 0 80px 0;
+        font-size: 25px;
+    }
 
-        .tratamentos section {
-            margin-top: 50px;
-        }
+    .tratamentos section {
+        margin-top: 50px;
+    }
 
 
 
