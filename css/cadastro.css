@@ -64,17 +64,15 @@ hr {
 
 
 .lugarDoQuadrado {
+    margin-top: 10rem;
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 1200px;
-    height: 750PX;
 }
 
 .quadrado {
-    background-color: #FFFFFF;
-    width: 550px;
-    height: 550PX;
+    width: 34rem;
+    height: 34rem;
     border: 5px solid #354150;
     flex-direction: row;
     text-align: center;
@@ -174,7 +172,7 @@ hr {
     display: flex;
     flex-direction: row;
     align-items: center;
-    margin-right: 5px;
+    margin-right: 80px;
 }
 
 #fraseAcesso {
@@ -307,7 +305,7 @@ hr {
     display: flex;
     align-items: center;
     text-decoration: none;
-    color: rgba(0, 0, 0, 0.54);
+    color: white
 }
 
 .facebook-login-button img {
@@ -345,9 +343,25 @@ hr {
     top: 20px;
 }
 
+/* Estilos para dispositivos móveis */
+@media screen and (max-width: 1300px) {
+    /* IMAGEM E ELIPSES */
+
+    .imagem {
+        display: none;
+    }
+}
 
 /* Estilos para dispositivos móveis */
-@media only screen and (max-width: 750px) {
+@media screen and (max-width: 750px) {
+    h1 {
+        font-size: 44px;
+    }
+
+    hr {
+        margin: 50px 50px 50px 50px;
+    }
+
     #Links {
         padding: 0.8rem;
 
@@ -368,30 +382,28 @@ hr {
         width: 115%;
 
     }
-    
-    
-    
+
+
+
 
     .lugarDoQuadrado {
-        width: 500px;
-        height: 350px;
-        margin-top: 100px;
-        margin-left: 2px;
+
+        margin-top: 7rem;
     }
 
-    .quadrado {
-        background-color: #FFFFFF;
-        width: 350px;
-        height: 350px;
-        margin-left: 0px;
-
-    }
 
     .espaçoDentroDoQuadrado {
         height: 20px;
     }
 
 
+    .quadrado {
+
+        width: 350px;
+        height: 350px;
+        margin-left: 0px;
+
+    }
 
     /* FLOAT INPUT */
 
@@ -427,7 +439,6 @@ hr {
         transition: all .1s linear;
         -webkit-transition: all .1s linear;
         -moz-transition: all .1s linear;
-        background-color: white;
         padding: 5px;
         box-sizing: border-box;
     }
@@ -467,14 +478,14 @@ hr {
         background-color: #6ABBE9;
         color: #FFFFFF;
         cursor: pointer;
-        
+
     }
-    
+
     #buttonLogin:hover {
         background-color: #2f9ddd;
         transition: 0.5s;
     }
-    
+
     /* TEXTO CPF */
     #cadastro {
         display: flex;
@@ -512,7 +523,7 @@ hr {
         display: block;
         width: 30px;
         height: 16px;
-       
+
     }
 
     /* Estilo do rótulo quando o toggle está ativado */
@@ -549,7 +560,7 @@ hr {
 
     /* DIV API */
 
- 
+
 
     /* LOGIN COM O GOOGLE */
 
@@ -571,15 +582,92 @@ hr {
     }
 
     .facebook-login-button img {
-        width: 15px;  
+        width: 15px;
     }
 
 
+}
 
 
-    /* IMAGEM E ELIPSES */
+/* Estilos para dispositivos móveis */
+@media screen and (max-width: 500px) {
 
-    .imagem {
-        display: none;
+    .lugarDoQuadrado {
+        margin-top: 5rem;
     }
+
+
+    .quadrado {
+
+        width: 300px;
+        height: 300px;
+
+    }
+
+    /* FLOAT INPUT */
+
+    .label-float {
+        position: relative;
+        padding-top: 10px;
+        font-size: 13px;
+
+    }
+
+    .label-float input {
+        min-width: 120px;
+        font-size: 10px;
+    }
+
+    /* TEXTO CPF */
+    #cadastro {
+        margin-right: 15px;
+
+    }
+
+
+}
+
+
+/* Estilos para dispositivos móveis */
+@media screen and (max-width: 400px) {
+
+    .espaçoDentroDoQuadrado {
+        height: 25px;
+    }
+
+    .lugarDoQuadrado {
+        margin-top: 5rem;
+    }
+
+   
+    .quadrado {
+
+        width: 240px;
+        height: 350px;
+
+    }
+
+    /* FLOAT INPUT */
+
+    .label-float {
+        position: relative;
+        padding-top: 10px;
+        font-size: 13px;
+
+    }
+
+    .label-float input {
+        min-width: 120px;
+        font-size: 10px;
+    }
+
+    .loginECadastreSE {
+        margin-left: 35px;
+        margin-top: 25px;
+    }
+
+    #cadastro {
+        margin-right: 0px;
+    }
+ 
 }
