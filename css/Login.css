@@ -168,7 +168,7 @@ hr {
 .loginECadastreSE {
     display: flex;
     flex-direction: row;
-    justify-content: flex-end;
+    justify-content: center;
 }
 
 #buttonLogin {
@@ -345,6 +345,8 @@ hr {
     }
 }
 
+
+
 /* Estilos para dispositivos móveis */
 @media screen and (max-width: 750px) {
     h1 {
@@ -458,11 +460,24 @@ hr {
         color: #3951b2;
     }
 
+
+
+    /* OLHO */
+
+    .lnr-eye {
+        right: 100px;
+    }
+
+
+    .inputsSuperioresDoQuadrado {
+        margin: 15px 0 15px 0;
+        font-size: 0.8rem;
+
+    }
+
     .loginECadastreSE {
-        display: flex;
-        flex-direction: row;
-        justify-content: flex-end;
-        margin-top: 25px;
+        align-items: center;
+        margin-top: 15px;
     }
 
     #buttonLogin {
@@ -481,4 +496,137 @@ hr {
         background-color: #2f9ddd;
         transition: 0.5s;
     }
+
+
+    /* LOGIN COM O GOOGLE */
+
+    .google-login-button {
+        padding: 10px 20px;
+        font-size: 10px;
+        margin-bottom: 10px;
+    }
+
+    .google-login-button img {
+        width: 15px;
+    }
+
+    /* LOGIN COM O FACEBOOK */
+
+    .facebook-login-button {
+        padding: 10px 20px;
+        font-size: 10px;
+    }
+
+    .facebook-login-button img {
+        width: 15px;
+    }
+
+
 }
+
+/* Estilos para dispositivos móveis */
+@media screen and (max-width: 500px) {
+
+    .lugarDoQuadrado {
+        margin-top: 5rem;
+    }
+
+
+    .quadrado {
+
+        width: 300px;
+        height: 350px;
+
+    }
+
+    /* FLOAT INPUT */
+
+    .label-float {
+        position: relative;
+        padding-top: 10px;
+        font-size: 13px;
+
+    }
+
+    .label-float input {
+        min-width: 120px;
+        font-size: 10px;
+    }
+
+
+
+    .label-float label {
+        left: 80px;   
+    }
+
+    #fraseAcesso{
+        font-size: 0.8rem;
+    }
+
+    /* Olho */
+    .lnr-eye {
+        top: 26px;
+        right: 90px;
+    }
+
+   
+
+
+}
+
+
+/* Estilos para dispositivos móveis */
+@media screen and (max-width: 350px) {
+
+    .espaçoDentroDoQuadrado {
+        height: 25px;
+    }
+
+    .lugarDoQuadrado {
+        margin-top: 5rem;
+    }
+
+   
+    .quadrado {
+
+        width: 240px;
+        height: 350px;
+
+    }
+
+    /* FLOAT INPUT */
+
+    .label-float {
+        position: relative;
+        padding-top: 10px;
+        font-size: 13px;
+
+    }
+
+    .label-float input {
+        min-width: 120px;
+        font-size: 10px;
+    }
+
+    .loginECadastreSE {
+        margin-left: 35px;
+        margin-top: 25px;
+    }
+
+    
+    .label-float label {
+        left: 50px;
+    }
+
+
+    /* Olho */
+    .lnr-eye {
+        right: 60px;
+    }
+
+    .loginECadastreSE{
+        margin-left: 0px;
+    }
+ 
+}
+
