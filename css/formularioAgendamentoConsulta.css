@@ -132,6 +132,32 @@ body {
     display: none;
   }
 
+ 
+        table {
+            border-collapse: collapse;
+            background: white;
+            color: black;
+            height: 100%;
+        }
+          
+        th,
+        td {
+            font-weight: bold;
+        }
+   
+
+
+  .formulario{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 800px;
+  margin: 20px auto;
+  padding: 20px;
+
+  border-radius: 5px;
+  }
 
 
 
