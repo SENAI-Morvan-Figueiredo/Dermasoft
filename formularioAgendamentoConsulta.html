@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="css/formularioAgendamentoConsulta.css">
+    <link rel="stylesheet" type="text/css" href="css/reset.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200&display=swap" rel="stylesheet">
+    <title>Formulario de Agendamento</title>
+</head>
+
+<body>
+
+    <div class="p1">
+        <!-- sidenav que aparecerá ao clicar no botão hamburger -->
+        <div id="mySidenav" class="sidenav">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+            <a href="#">About</a>
+            <a href="#">Services</a>
+            <a href="#">Clients</a>
+            <a href="#">Contact</a>
+        </div>
+
+        <!-- botão hamburger -->
+        <div id="main">
+            <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; </span>
+        </div>
+        <img class="logo" src="img\DermaSoft.png">
+
+        <div class="dropdown">
+            <button class="dropbtn"><img src="img/iconAvatar.png" alt=""></button>
+            <div class="dropdown-content">
+                <a href="#">Informações de Perfil</a>
+                <a href="#">Sair🚪</a>
+            </div>
+        </div>
+    </div>
+
+
+    <h2>Agendamento de Consulta</h2>
+
+    <form class="formulario">
+        <label for="nome">Nome:</label>
+        <input type="text" id="nome" name="nome" required><br><br>
+
+        <label for="data_nascimento">Data de Nascimento:</label>
+        <input type="date" id="data_nascimento" name="data_nascimento" required><br><br>
+
+        <label for="telefone">Telefone:</label>
+        <input type="tel" id="telefone" name="telefone" required><br><br>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required><br><br>
+
+        <label for="especialista">Especialista:</label>
+        <select id="especialista" name="especialista">
+            <option value="dermatologista1">Dermatologista 1</option>
+            <option value="dermatologista2">Dermatologista 2</option>
+            <option value="dermatologista3">Dermatologista 3</option>
+        </select><br><br>
+
+        <label for="data_consulta">Data da Consulta:</label>
+        <input type="date" id="data_consulta" name="data_consulta" required><br><br>
+
+        <input type="submit" value="Agendar Consulta">
+    </form>
+
+    <p class="copyright">
+        Clínica DermaSoft. 2023. Todos os direitos reservados
+    </p>
+
+    <script src="js/formularioAgendamentoConsulta.js"></script>
+
+</body>
+
+</html>

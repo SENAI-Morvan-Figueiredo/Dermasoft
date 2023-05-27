@@ -20,6 +20,19 @@
 
 
   <div class="p1">
+    <!-- sidenav que aparecerá ao clicar no botão hamburger -->
+    <div id="mySidenav" class="sidenav">
+      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+      <a href="#">About</a>
+      <a href="#">Services</a>
+      <a href="#">Clients</a>
+      <a href="#">Contact</a>
+    </div>
+
+    <!-- botão hamburger -->
+    <div id="main">
+      <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; </span>
+    </div>
     <img class="logo" src="img\DermaSoft.png">
 
     <div class="dropdown">
@@ -31,19 +44,7 @@
     </div>
   </div>
 
-  <!-- sidenav que aparecerá ao clicar no botão hamburger -->
-  <div id="mySidenav" class="sidenav">
-    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-    <a href="#">About</a>
-    <a href="#">Services</a>
-    <a href="#">Clients</a>
-    <a href="#">Contact</a>
-  </div>
 
-  <!-- botão hamburger -->
-  <div id="main">
-    <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; </span>
-  </div>
 
 
   <!-- forulario de cadastro -->
@@ -80,9 +81,18 @@
       </div>
     </div>
 
-    <script src="js/cadastroDoPaciente.js"></script>
     </form>
+  </div>
+
+  
+  <p class="copyright">
+    Clínica DermaSoft. 2023. Todos os direitos reservados
+  </p>
+
+  <script src="js/cadastroDoPaciente.js"></script>
 
 
 
 </body>
+
+</html>

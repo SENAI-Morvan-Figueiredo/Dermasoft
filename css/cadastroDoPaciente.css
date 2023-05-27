@@ -197,6 +197,15 @@ body {
 }
 
 
+.copyright {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  color: #FFFFFF;
+  padding-bottom: 25px;
+}
+
 
 
 

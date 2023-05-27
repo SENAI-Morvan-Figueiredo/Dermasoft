@@ -336,6 +336,17 @@ hr {
     top: 20px;
 }
 
+
+.copyright {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    color: #000000;
+    padding: 45px 0 25px 0;
+    
+}
+
 /* Estilos para dispositivos móveis */
 @media screen and (max-width: 1300px) {
     /* IMAGEM E ELIPSES */
