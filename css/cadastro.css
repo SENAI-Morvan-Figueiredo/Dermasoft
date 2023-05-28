@@ -382,15 +382,21 @@ hr {
 
 .imagem {
     position: relative;
-    left: 300px;
-    bottom: 200px;
+    left: 200px;
     width: 350px;
 }
 
-.boneco {
-    position: absolute;
-    right: 90px;
-    top: 20px;
+
+
+
+.copyright {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    color: #000000;
+    padding: 45px 0 25px 0;
+    
 }
 
 /* Estilos para dispositivos móveis */

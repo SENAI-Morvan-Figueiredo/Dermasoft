@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/Login.css">
+    <link rel="stylesheet" href="css/login.css">
     <link rel="stylesheet" href="css/reset.css">
     <!-- lib de icons -->
     <link rel="stylesheet" href="https://cdn.linearicons.com/free/1.0.0/icon-font.min.css">
@@ -16,9 +16,26 @@
     <!-- LINKS DO HEADER -->
 
     <div id="Links">
+
+         <!-- sidenav que aparecerá ao clicar no botão hamburger -->
+         <div id="mySidenav" class="sidenav">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+            <a href="#">About</a>
+            <a href="#">Services</a>
+            <a href="#">Clients</a>
+            <a href="#">Contact</a>
+        </div>
+
+        <!-- botão hamburger -->
+        <div id="main">
+            <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; </span>
+        </div>
+
         <a class="linklogo" href="index.html"> <img href="index.html" id="logo" src="img\DermaSoft.png"
                 alt="Logo da DermaSoft">
         </a>
+
+        <div></div>
 
 
 
@@ -108,7 +125,7 @@
         Clínica DermaSoft. 2023. Todos os direitos reservados
     </p>
 
-
+<script src="js/login.js"></script>
 
 </body>
 
