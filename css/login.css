@@ -359,4 +359,334 @@ hr {
 
 
 
+/* IMAGEM E ELIPSES */
+
+.imagem {
+    position: relative;
+    left: 200px;
+    bottom: 50px;
+    width: 350px;
+}
+
+.elipsePequena {
+    position: absolute;
+    bottom: 250px;
+    left: 20px;
+}
+
+.elipseLogin {
+    position: relative;
+    left: 50px;
+}
+
+.boneco {
+    position: absolute;
+    right: 90px;
+    top: 20px;
+}
+
+
+.copyright {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    color: #000000;
+    padding: 45px 0 25px 0;
+    
+}
+
+/* Estilos para dispositivos móveis */
+@media screen and (max-width: 1300px) {
+    /* IMAGEM E ELIPSES */
+
+    .imagem {
+        display: none;
+    }
+}
+
+
+
+/* Estilos para dispositivos móveis */
+@media screen and (max-width: 750px) {
+    h1 {
+        font-size: 44px;
+    }
+
+    hr {
+        margin: 50px 50px 50px 50px;
+    }
+
+    #Links {
+        padding: 0.8rem;
+
+    }
+
+    .underline {
+        font-size: 0.5rem;
+        padding-left: 0.5rem;
+        padding-right: 0.5rem;
+    }
+
+    #linkLogo {
+        width: 5%;
+    }
+
+    #logo {
+        margin-top: 3px;
+        width: 115%;
+
+    }
+
+
+
+
+    .lugarDoQuadrado {
+
+        margin-top: 7rem;
+    }
+
+
+    .espaçoDentroDoQuadrado {
+        height: 20px;
+    }
+
+
+    .quadrado {
+
+        width: 350px;
+        height: 350px;
+        margin-left: 0px;
+
+    }
+
+
+
+
+    /* FLOAT INPUT */
+
+    .label-float {
+        position: relative;
+        padding-top: 13px;
+        font-size: 13px;
+
+    }
+
+    .label-float input {
+        min-width: 120px;
+        font-size: 12px;
+        transition: all .1s linear;
+        -webkit-transition: all .1s linear;
+        -moz-transition: all .1s linear;
+        -webkit-appearance: none;
+    }
+
+    .label-float input:focus {
+        border: 2px solid #3951b2;
+    }
+
+    .label-float input::placeholder {
+        color: transparent;
+    }
+
+    .label-float label {
+        pointer-events: none;
+        position: absolute;
+        top: calc(50% - 8px);
+        left: 90px;
+        transition: all .1s linear;
+        -webkit-transition: all .1s linear;
+        -moz-transition: all .1s linear;
+        padding: 5px;
+        box-sizing: border-box;
+    }
+
+    .label-float input:required:invalid+label {
+        color: red;
+    }
+
+    .label-float input:focus:required:invalid {
+        border: 2px solid red;
+    }
+
+    .label-float input:required:invalid+label:before {
+        content: '*';
+    }
+
+    .label-float input:focus+label,
+    .label-float input:not(:placeholder-shown)+label {
+        font-size: 13px;
+        top: 0;
+        color: #3951b2;
+    }
+
+
+
+    /* OLHO */
+
+    .lnr-eye {
+        right: 100px;
+    }
+
+
+    .inputsSuperioresDoQuadrado {
+        margin: 15px 0 15px 0;
+        font-size: 0.8rem;
+
+    }
+
+    .loginECadastreSE {
+        align-items: center;
+        margin-top: 15px;
+    }
+
+    #buttonLogin {
+        border: 0 solid #000000;
+        border-radius: 10px;
+        width: 80px;
+        height: 25px;
+        font-size: 10px;
+        background-color: #6ABBE9;
+        color: #FFFFFF;
+        cursor: pointer;
+
+    }
+
+    #buttonLogin:hover {
+        background-color: #2f9ddd;
+        transition: 0.5s;
+    }
+
+
+    /* LOGIN COM O GOOGLE */
+
+    .google-login-button {
+        padding: 10px 20px;
+        font-size: 10px;
+        margin-bottom: 10px;
+    }
+
+    .google-login-button img {
+        width: 15px;
+    }
+
+    /* LOGIN COM O FACEBOOK */
+
+    .facebook-login-button {
+        padding: 10px 20px;
+        font-size: 10px;
+    }
+
+    .facebook-login-button img {
+        width: 15px;
+    }
+
+
+}
+
+/* Estilos para dispositivos móveis */
+@media screen and (max-width: 500px) {
+
+    .lugarDoQuadrado {
+        margin-top: 5rem;
+    }
+
+
+    .quadrado {
+
+        width: 300px;
+        height: 350px;
+
+    }
+
+    /* FLOAT INPUT */
+
+    .label-float {
+        position: relative;
+        padding-top: 10px;
+        font-size: 13px;
+
+    }
+
+    .label-float input {
+        min-width: 120px;
+        font-size: 10px;
+    }
+
+
+
+    .label-float label {
+        left: 80px;   
+    }
+
+    #fraseAcesso{
+        font-size: 0.8rem;
+    }
+
+    /* Olho */
+    .lnr-eye {
+        top: 26px;
+        right: 90px;
+    }
+
+   
+
+
+}
+
+
+/* Estilos para dispositivos móveis */
+@media screen and (max-width: 350px) {
+
+    .espaçoDentroDoQuadrado {
+        height: 25px;
+    }
+
+    .lugarDoQuadrado {
+        margin-top: 5rem;
+    }
+
+   
+    .quadrado {
+
+        width: 240px;
+        height: 350px;
+
+    }
+
+    /* FLOAT INPUT */
+
+    .label-float {
+        position: relative;
+        padding-top: 10px;
+        font-size: 13px;
+
+    }
+
+    .label-float input {
+        min-width: 120px;
+        font-size: 10px;
+    }
+
+    .loginECadastreSE {
+        margin-left: 35px;
+        margin-top: 25px;
+    }
+
+    
+    .label-float label {
+        left: 50px;
+    }
+
+
+    /* Olho */
+    .lnr-eye {
+        right: 60px;
+    }
+
+    .loginECadastreSE{
+        margin-left: 0px;
+    }
+ 
+}
 
