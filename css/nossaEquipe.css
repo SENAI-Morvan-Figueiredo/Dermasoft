@@ -1,0 +1,631 @@
+header {
+    background-color: #3C798C;
+}
+
+h1 {
+    text-align: center;
+}
+
+a {
+    color: #83D4EE;
+}
+
+hr {
+    background-color: #000000;
+    margin: 51px 100px 51px 100px;
+}
+
+
+/* LINKS DO HEADER */
+
+nav {
+    position: relative;
+    top: 0;
+    animation: surgirNav;
+    animation-duration: 1.5s;
+    animation-direction: normal;
+}
+
+@keyframes surgirNav {
+    from {
+        top: -100px
+    }
+
+    to {
+        top: 0px
+    }
+}
+
+#Links {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 1.563rem;
+    align-items: center;
+}
+
+.underline {
+    position: relative;
+    display: inline-block;
+    text-decoration: none;
+}
+
+.underline::before {
+    content: "";
+    position: absolute;
+    top: 18px;
+    bottom: 0;
+    left: 0;
+    width: 0;
+    height: 2px;
+    background-color: #83D4EE;
+    transition: width 0.3s ease-in-out;
+}
+
+.underline:hover::before {
+    width: 100%;
+}
+
+
+
+#logo {
+    width: 100%;
+
+}
+
+.linklogo {
+
+    width: 5%;
+
+
+}
+
+
+#login {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+#fraseAcesso {
+    display: flex;
+    margin-right: 0.313rem;
+    color: #FFFFFF;
+
+}
+
+#login a button {
+    cursor: pointer;
+}
+
+#button {
+    padding: 0.625rem 1.563rem 0.625rem 1.563rem;
+    background: #739DDC;
+    border-radius: 10px;
+    border: none;
+    color: #FFFFFF;
+}
+
+
+/* BANNER */
+
+
+#Banner {
+    height: 34.325rem;
+}
+
+#fotoNossaEquipe {
+    position: relative;
+    width: 100%;
+    height: 100%;
+
+}
+
+.textoSobreposto1 {
+    text-align: start;
+    font-family: sans-serif;
+    font-style: normal;
+    font-size: 54px;
+    position: absolute;
+    top: 300px;
+    left: 50px;
+    color: #FFFFFF;
+    opacity: 0;
+    transform: translateY(50px);
+    transition: opacity 1s ease, transform 1s ease;
+
+}
+
+.textoSobreposto2 {
+    width: 50%;
+    text-align: start;
+    font-family: Times, serif;
+    font-style: normal;
+    font-size: 30px;
+    position: absolute;
+    top: 500px;
+    left: 50px;
+    color: #FFFFFF;
+    opacity: 0;
+    transform: translateY(50px);
+    transition: opacity 2s ease, transform 1s ease;
+
+}
+
+/* NOSSA EQUIPE */
+
+
+.NossaEquipe {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 50px;
+
+}
+
+.doutores {
+    margin-left: 200px;
+}
+
+.NossaEquipe h1 {
+    font-family: 'Source Sans Pro';
+    font-size: 96px;
+}
+
+.NossaEquipe img {
+    width: 296px;
+    height: 335px;
+    margin: 100px 0 100px 0;
+
+}
+
+.drFrancisco {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.drFranciscoDados {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    align-content: center;
+    padding: 150px;
+}
+
+
+
+.drFranciscoDados h3 {
+    display: flex;
+    justify-content: flex-start;
+    margin-bottom: 15px;
+
+}
+
+.draGabrielly {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+}
+
+.draGabriellyDados {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    align-content: center;
+    padding: 150px;
+
+}
+
+.draGabriellyDados h3 {
+    display: flex;
+    justify-content: flex-start;
+    margin-bottom: 15px;
+
+}
+
+.draLucema {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+}
+
+.draLucemaDados {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    align-content: center;
+    padding: 150px;
+
+}
+
+.draLucemaDados h3 {
+    display: flex;
+    justify-content: flex-start;
+    margin-bottom: 15px;
+
+}
+
+.drLuis {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+}
+
+.drLuisDados {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    align-content: center;
+    padding: 150px;
+
+}
+
+.drLuisDados h3 {
+    display: flex;
+    justify-content: flex-start;
+    margin-bottom: 15px;
+
+}
+
+/* FOOTER */
+
+
+footer {
+    background-color: #586875;
+}
+
+
+
+
+.endereços {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 200px;
+    padding-top: 50px;
+
+
+}
+
+.endereços ul li a {
+    display: flex;
+    justify-content: center;
+    color: #FFFFFF;
+}
+
+
+
+.endereços ul li p {
+    display: flex;
+    justify-content: center;
+}
+
+.endereços ul li img {
+    width: 3%;
+    padding-right: 10px;
+}
+
+
+
+
+
+.redesSociais {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.redesSociais p {
+    color: #FFFFFF;
+}
+
+.redesSociais img {
+    width: 20%;
+}
+
+.redessociaisFacebookEInstagram {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    text-align: center;
+    margin: 50px 0 50px 0;
+    width: 50%;
+}
+
+.button {
+    margin: 0 10px 25px 20px;
+    position: initial;
+    width: 15%;
+    border: 2px solid #FFFFFF;
+    border-radius: 60px;
+}
+
+.copyright {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    color: #FFFFFF;
+    padding-bottom: 25px;
+}
+
+
+
+
+
+
+
+/* Estilos para dispositivos móveis  */
+@media only screen and (max-width: 950px) {
+
+
+    /* NOSSA EQUIPE */
+
+
+    .doutores {
+       margin-left: 0;
+   }
+
+   .NossaEquipe h1 {
+       font-size: 96px;
+   }
+
+   .NossaEquipe img {
+       width: 200px;
+       height: 250px;
+       margin: 50px 0 50px 0;
+   }
+
+
+   .drFrancisco {
+       flex-direction: column;
+   }
+
+   .drFranciscoDados {
+       padding: 40px;
+       font-size: 30px;
+   }
+
+
+   .draGabrielly {
+       flex-direction: column;
+   }
+
+   .draGabriellyDados {
+       padding: 40px;
+       font-size: 30px;
+   }
+
+
+   .draLucema {
+       flex-direction: column;
+   }
+
+   .draLucemaDados {
+       padding: 40px;
+       font-size: 30px;
+   }
+
+
+
+   .drLuis {
+       flex-direction: column;
+   }
+
+
+   .drLuisDados {
+       padding: 40px;
+       font-size: 30px;
+   }
+
+
+
+    /* FOOTER */
+
+    .redesSociais {
+        margin-top: 20px;
+    }
+
+    footer {
+        background-color: #586875;
+    }
+
+    .endereços {
+        height: 100px;
+        padding-top: 20px;
+    }
+
+    .endereços ul li a {
+        font-size: 8px;
+        margin: 0 10px 0 10px;
+    }
+
+    .endereços ul li p {
+        font-size: 12px;
+    }
+
+    .endereços ul li img {
+        width: 10%;
+    }
+
+
+    .redessociaisFacebookEInstagram {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        text-align: center;
+        margin: 20px 0 50px 0;
+        width: 50%;
+    }
+
+
+
+    .button {
+        margin: 0 10px 15px 10px;
+        width: 20%;
+        border: 2px solid #FFFFFF;
+        border-radius: 50px;
+        font-size: 8px;
+    }
+
+    .copyright {
+        color: #FFFFFF;
+        padding-bottom: 15px;
+    }
+
+
+}
+
+
+
+/* Estilos para dispositivos móveis */
+@media only screen and (max-width: 769px) {
+    h1 {
+        font-size: 44px;
+    }
+
+    hr {
+        margin: 50px 50px 50px 50px;
+    }
+
+    #Links {
+        padding: 0.8rem;
+
+    }
+
+    .underline {
+        font-size: 0.5rem;
+        padding-left: 0.5rem;
+        padding-right: 0.5rem;
+    }
+
+    #fraseAcesso {
+        display: flex;
+        margin-right: 0.313rem;
+        color: #FFFFFF;
+        font-size: 0.5rem;
+
+
+    }
+
+
+    #button {
+        padding: 0.625rem 1.063rem 0.625rem 1.063rem;
+        background: #739DDC;
+        border-radius: 10px;
+        border: none;
+        color: #FFFFFF;
+    }
+
+
+    /* BANNER */
+
+
+    #Banner {
+
+        height: 30.125rem;
+    }
+
+
+    .textoSobreposto1 {
+
+        font-size: 44px;
+        top: 100px;
+
+    }
+
+    .textoSobreposto2 {
+        font-size: 20px;
+        top: 400px;
+
+    }
+
+
+
+    /* NOSSA EQUIPE */
+
+
+    
+
+    .NossaEquipe h1 {
+        font-size: 44px;
+    }
+    .drFranciscoDados {
+        padding: 40px;
+        font-size: 20px;
+    }
+
+    .draGabriellyDados {
+        padding: 40px;
+        font-size: 20px;
+    }
+
+    .draLucemaDados {
+        padding: 40px;
+        font-size: 20px;
+    }
+
+
+    .drLuisDados {
+        padding: 40px;
+        font-size: 20px;
+    }
+
+    /* FOOTER */
+
+    .redesSociais {
+        margin-top: 20px;
+    }
+
+    footer {
+        background-color: #586875;
+    }
+
+    .endereços {
+        height: 100px;
+        padding-top: 20px;
+    }
+
+    .endereços ul li a {
+        font-size: 8px;
+        margin: 0 10px 0 10px;
+    }
+
+    .endereços ul li p {
+        font-size: 12px;
+    }
+
+    .endereços ul li img {
+        width: 10%;
+    }
+
+
+    .redessociaisFacebookEInstagram {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        text-align: center;
+        margin: 20px 0 50px 0;
+        width: 50%;
+    }
+
+
+
+    .button {
+        margin: 0 10px 15px 10px;
+        width: 20%;
+        border: 2px solid #FFFFFF;
+        border-radius: 50px;
+        font-size: 8px;
+    }
+
+    .copyright {
+        color: #FFFFFF;
+        padding-bottom: 15px;
+    }
+}
