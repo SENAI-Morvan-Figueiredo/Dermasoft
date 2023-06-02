@@ -145,7 +145,7 @@ nav {
 
 }
 
-/* ICONES DE CORAÇÃO E PASTA */
+/* ICONES DE CORAÇÃO, PASTA E CHECK */
 
 
 
@@ -273,6 +273,7 @@ nav {
 
 
 .fraseicone {
+    text-align: center;
     margin: 50px 0 70px 0;
     font-size: 25px;
     width: 300px;
@@ -282,6 +283,7 @@ nav {
 }
 
 .fraseicone2 {
+    text-align: center;
     margin: 50px 0 70px 0;
     font-size: 25px;
     width: 300px;
@@ -291,6 +293,7 @@ nav {
 }
 
 .fraseicone3 {
+    text-align: center;
     margin: 50px 0 70px 0;
     font-size: 25px;
     width: 300px;
@@ -319,7 +322,7 @@ nav {
 .imagensDaClinica {
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
+
 }
 
 .textoDermasoft {
@@ -337,8 +340,6 @@ nav {
     display: flex;
     flex-direction: column;
     justify-content: center;
-
-
 }
 
 .doutores {
@@ -470,8 +471,6 @@ nav {
 .nossosTratamentos img {
     width: 396px;
     height: 335px;
-    border: 2px solid #000000;
-    border-radius: 5%;
 
 }
 
@@ -646,6 +645,7 @@ footer {
     .icones {
         flex-direction: column;
     }
+
 
 
     /* CONEÇA A DERMASOFT */
@@ -823,7 +823,7 @@ footer {
         }
 
         /* ICONES DE CORAÇÃO E PASTA */
-
+      
 
 
 
@@ -903,26 +903,26 @@ footer {
         /* NOSSOS TRATAMENTOS */
 
 
-    .nossosTratamentos h1 {
-        font-size: 44px;
-    }
+        .nossosTratamentos h1 {
+            font-size: 44px;
+        }
 
-    .nossosTratamentos img {
-        width: 250px;
-        height: 300px;
-    }
+        .nossosTratamentos img {
+            width: 250px;
+            height: 300px;
+        }
 
-    .tratamentos {
-        display: flex;
-        flex-direction: column;
-        justify-content: space-around;
-        margin: 20px 0 80px 0;
-        font-size: 25px;
-    }
+        .tratamentos {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+            margin: 20px 0 80px 0;
+            font-size: 25px;
+        }
 
-    .tratamentos section {
-        margin-top: 50px;
-    }
+        .tratamentos section {
+            margin-top: 50px;
+        }
 
 
 
@@ -979,4 +979,36 @@ footer {
             padding-bottom: 15px;
         }
 
+    }
+}
+
+
+    /* Estilos para dispositivos móveis */
+    @media only screen and (max-width: 500px) {
+        .coracao1{
+            width: 20%;
+            height: 20%;
+        }
+
+        .pasta1{
+            width: 20%;
+            height: 20%;
+        }
+
+        .check1{
+            width: 20%;
+            height: 20%;
+        }
+
+        .fraseicone {
+            font-size: 15px;
+        }
+
+        .fraseicone2{
+            font-size: 15px;
+        }
+        
+        .fraseicone3{
+            font-size: 15px;
+        }
     }
