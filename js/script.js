@@ -36,6 +36,7 @@ function adicionaClasseAoRolar() {
   // determina o ponto de rolagem da tela
   const pontoDeRolagem = 300;
   const largura = 1150;
+  const largura500 = 499;
 
   // adiciona a classe "ativo" quando a página é rolada para o ponto
   window.addEventListener('scroll', function () {
@@ -80,6 +81,81 @@ function adicionaClasseAoRolar() {
   // adiciona a classe "ativo" quando a página é rolada para o ponto
   window.addEventListener('scroll', function () {
     if (window.screen.width > largura && window.pageYOffset > 300) {
+      
+      tagSVG.classList.add('coracao1');
+      tagSVG2.classList.add('pasta1');
+      tagSVG3.classList.add('check1');
+      
+      var fraseicone = document.querySelector('.fraseicone');
+      var fraseicone2 = document.querySelector('.fraseicone2');
+      var fraseicone3 = document.querySelector('.fraseicone3');
+
+      setTimeout(function () {
+        fraseicone.style.opacity = '1';
+        fraseicone.style.transform = 'translateY(0)';
+      }, 900); // Tempo de atraso em milissegundos antes do surgimento do texto
+
+      setTimeout(function () {
+        fraseicone2.style.opacity = '1';
+        fraseicone2.style.transform = 'translateY(0)';
+      }, 900); // Tempo de atraso em milissegundos antes do surgimento do texto
+
+      setTimeout(function () {
+        fraseicone3.style.opacity = '1';
+        fraseicone3.style.transform = 'translateY(0)';
+      }, 900); // Tempo de atraso em milissegundos antes do surgimento do texto
+
+    }
+  });
+
+
+
+
+
+
+  // adiciona a classe "ativo" quando a página é rolada para o ponto
+  window.addEventListener('scroll', function () {
+    if (window.screen.width <= largura500 && window.pageYOffset > 300) {
+      // minhaDiv.classList.add('animacaoAtiva');
+     
+      tagSVG.classList.add('coracao1');
+      var fraseicone = document.querySelector('.fraseicone');
+      setTimeout(function () {
+        fraseicone.style.opacity = '1';
+        fraseicone.style.transform = 'translateY(0)';
+      }, 900); // Tempo de atraso em milissegundos antes do surgimento do texto
+    }
+  });
+
+  // adiciona a classe "ativo" quando a página é rolada para o ponto
+  window.addEventListener('scroll', function () {
+    if (window.screen.width <= largura500 && window.pageYOffset > 500) {
+     
+      tagSVG2.classList.add('pasta1');
+      var fraseicone2 = document.querySelector('.fraseicone2');
+      setTimeout(function () {
+        fraseicone2.style.opacity = '1';
+        fraseicone2.style.transform = 'translateY(0)';
+      }, 900); // Tempo de atraso em milissegundos antes do surgimento do texto
+    }
+  });
+
+  // adiciona a classe "ativo" quando a página é rolada para o ponto
+  window.addEventListener('scroll', function () {
+    if (window.screen.width <= largura500 && window.pageYOffset > 700) {
+      
+      tagSVG3.classList.add('check1');
+      var fraseicone3 = document.querySelector('.fraseicone3');
+      setTimeout(function () {
+        fraseicone3.style.opacity = '1';
+        fraseicone3.style.transform = 'translateY(0)';
+      }, 900); // Tempo de atraso em milissegundos antes do surgimento do texto
+    }
+  });
+  
+  // adiciona a classe "ativo" quando a página é rolada para o ponto
+  window.addEventListener('scroll', function () {
+    if (window.screen.width > largura500 && window.pageYOffset > 300) {
       
       tagSVG.classList.add('coracao1');
       tagSVG2.classList.add('pasta1');
