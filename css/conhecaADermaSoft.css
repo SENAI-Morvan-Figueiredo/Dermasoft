@@ -91,7 +91,7 @@ nav {
     display: flex;
     margin-right: 0.313rem;
     color: #FFFFFF;
-
+    font-size: 18px;
 }
 
 #login a button {
@@ -129,7 +129,7 @@ nav {
 .sidenav a {
     padding: 8px 8px 8px 32px;
     text-decoration: none;
-    font-size: 25px;
+    font-size: 18px;
     color: #ffff;
     display: block;
     transition: 0.3s;
@@ -179,7 +179,7 @@ nav {
     font-style: normal;
     font-size: 54px;
     position: absolute;
-    top: 300px;
+    top: 150px;
     left: 50px;
     color: #FFFFFF;
     opacity: 0;
@@ -195,7 +195,7 @@ nav {
     font-style: normal;
     font-size: 30px;
     position: absolute;
-    top: 500px;
+    top: 400px;
     left: 50px;
     color: #FFFFFF;
     opacity: 0;
@@ -362,7 +362,7 @@ footer {
 /* Estilos para dispositivos móveis */
 @media only screen and (max-width: 750px) {
     #Links {
-       display: none;
+        display: none;
     }
 
     /* mostra o botão hamburguer e a sidenav */
