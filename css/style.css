@@ -100,6 +100,57 @@ nav {
 }
 
 
+/* sidenav que aparece ao clicar no botão hamburger */
+.side {
+    display: none;
+}
+
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #3C798C;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 2rem;
+}
+
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #ffff;
+    display: block;
+    transition: 0.3s;
+}
+
+.sidenav a:hover {
+    color: #000000;
+}
+
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+
+#cadastro {
+    transition: margin-left .5s;
+}
+
+#cadastro h1 {
+    display: flex;
+    justify-content: center;
+    font-size: 2.5rem;
+}
+
+
 /* BANNER */
 
 
@@ -766,29 +817,36 @@ footer {
             margin: 50px 50px 50px 50px;
         }
 
+
+        /* oculta os links para aparecer a sidenav */
         #Links {
+            display: none;
+
+        }
+
+
+        /* mostra o botão hamburguer e a sidenav */
+        .side {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: center;
             padding: 0.8rem;
-
         }
 
-        .underline {
-            font-size: 0.5rem;
-            padding-left: 0.5rem;
-            padding-right: 0.5rem;
-        }
 
-        #logo {
+        .linklogo {
             width: 5%;
         }
 
-        #fraseAcesso {
-            display: flex;
-            margin-right: 0.313rem;
-            color: #FFFFFF;
-            font-size: 0.5rem;
-
-
+        #logo {
+            width: 100%;
         }
+
+        .espaco {
+            width: 5%;
+        }
+
 
 
         #button {
@@ -823,7 +881,7 @@ footer {
         }
 
         /* ICONES DE CORAÇÃO E PASTA */
-      
+
 
 
 
@@ -983,32 +1041,32 @@ footer {
 }
 
 
-    /* Estilos para dispositivos móveis */
-    @media only screen and (max-width: 500px) {
-        .coracao1{
-            width: 20%;
-            height: 20%;
-        }
-
-        .pasta1{
-            width: 20%;
-            height: 20%;
-        }
-
-        .check1{
-            width: 20%;
-            height: 20%;
-        }
-
-        .fraseicone {
-            font-size: 15px;
-        }
-
-        .fraseicone2{
-            font-size: 15px;
-        }
-        
-        .fraseicone3{
-            font-size: 15px;
-        }
+/* Estilos para dispositivos móveis */
+@media only screen and (max-width: 500px) {
+    .coracao1 {
+        width: 20%;
+        height: 20%;
     }
+
+    .pasta1 {
+        width: 20%;
+        height: 20%;
+    }
+
+    .check1 {
+        width: 20%;
+        height: 20%;
+    }
+
+    .fraseicone {
+        font-size: 15px;
+    }
+
+    .fraseicone2 {
+        font-size: 15px;
+    }
+
+    .fraseicone3 {
+        font-size: 15px;
+    }
+}

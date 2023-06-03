@@ -38,6 +38,36 @@
             </div>
         </nav>
 
+        <nav class="side">
+            <!-- sidenav que aparecerá ao clicar no botão hamburger -->
+            <div id="mySidenav" class="sidenav">
+                <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                <a href="index.html">Home</a>
+                <a href="ConecaADermaSoft.html">Conheça a DermaSoft</a>
+                <a href="NossaEquipe.html">Nossa Equipe</a>
+                <a href="tratamentos.html">Tratamentos</a>
+                <div id="login">
+                    <p id="fraseAcesso">Já possui acesso?</p>
+                    <a href="login.html">
+                        <button id="button">Login</button>
+                    </a>
+                </div>
+            </div>
+
+            <!-- botão hamburger -->
+            <div id="main">
+                <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; </span>
+            </div>
+
+            <a class="linklogo" href="index.html"> <img href="index.html" id="logo" src="img\DermaSoft.png"
+                    alt="Logo da DermaSoft">
+            </a>
+
+
+            <div class="espaco"></div>
+
+        </nav>
+
 
         <!-- BANNER DA PAGINA -->
 
@@ -69,26 +99,35 @@
 
             <div class="iconeEFrase">
 
-                <svg class="coracao" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64"><path d="M1,21c0,20,31,38,31,38s31-18,31-38
-                    c0-8.285-6-16-15-16c-8.285,0-16,5.715-16,14c0-8.285-7.715-14-16-14C7,5,1,12.715,1,21z"/>
+                <svg class="coracao" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+                    <path d="M1,21c0,20,31,38,31,38s31-18,31-38
+                    c0-8.285-6-16-15-16c-8.285,0-16,5.715-16,14c0-8.285-7.715-14-16-14C7,5,1,12.715,1,21z" />
                 </svg>
                 <p class="fraseicone">Estamos prontos para cudar da sua saúde de forma única.</p>
             </div>
 
-            
+
             <div class="iconeEFrase">
-                <svg class="pasta" xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 256 256"><path d="M106 112a6 6 0 0 1 6-6h32a6 6 0 0 1 0 12h-32a6 6 0 0 1-6-6Zm124-40v128a14 14 0 0 1-14 14H40a14 14 0 0 1-14-14V72a14 14 0 0 1 14-14h42V48a22 22 0 0 1 22-22h48a22 22 0 0 1 22 22v10h42a14 14 0 0 1 14 14ZM94 58h68V48a10 10 0 0 0-10-10h-48a10 10 0 0 0-10 10ZM38 72v42.79A186 186 0 0 0 128 138a185.91 185.91 0 0 0 90-23.22V72a2 2 0 0 0-2-2H40a2 2 0 0 0-2 2Zm180 128v-71.63A198.12 198.12 0 0 1 128 150a198.05 198.05 0 0 1-90-21.62V200a2 2 0 0 0 2 2h176a2 2 0 0 0 2-2Z"/></svg>
+                <svg class="pasta" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256">
+                    <path
+                        d="M106 112a6 6 0 0 1 6-6h32a6 6 0 0 1 0 12h-32a6 6 0 0 1-6-6Zm124-40v128a14 14 0 0 1-14 14H40a14 14 0 0 1-14-14V72a14 14 0 0 1 14-14h42V48a22 22 0 0 1 22-22h48a22 22 0 0 1 22 22v10h42a14 14 0 0 1 14 14ZM94 58h68V48a10 10 0 0 0-10-10h-48a10 10 0 0 0-10 10ZM38 72v42.79A186 186 0 0 0 128 138a185.91 185.91 0 0 0 90-23.22V72a2 2 0 0 0-2-2H40a2 2 0 0 0-2 2Zm180 128v-71.63A198.12 198.12 0 0 1 128 150a198.05 198.05 0 0 1-90-21.62V200a2 2 0 0 0 2 2h176a2 2 0 0 0 2-2Z" />
+                </svg>
 
                 <p class="fraseicone2">Você irá contar com um time formado pelos melhores profissionais do país.</p>
             </div>
-            
+
             <div class="iconeEFrase">
-                <svg class="check" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path  d="M17.6 21.938a1.482 1.482 0 0 1-1.011-.4l-4.251-3.9a.5.5 0 0 0-.678 0l-4.25 3.9a1.5 1.5 0 0 1-2.517-1.1V4.563a2.5 2.5 0 0 1 2.5-2.5h9.214a2.5 2.5 0 0 1 2.5 2.5v15.872a1.483 1.483 0 0 1-.9 1.375a1.526 1.526 0 0 1-.607.128ZM12 16.5a1.5 1.5 0 0 1"/><path  d="M14.85 9.08c-.11.12-.23.23-.35.35c-.83.83-1.65 1.65-2.47 2.48a.513.513 0 0 1-.71 0c-.47-.48-.94-.95-1.42-1.42a.5.5 0 0 1 .71-.71c.35.36.7.71 1.06 1.06c.83-.82 1.65-1.65 2.48-2.47c.45-.46 1.16.25.7.71Z"/></svg>
+                <svg class="check" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                    <path
+                        d="M17.6 21.938a1.482 1.482 0 0 1-1.011-.4l-4.251-3.9a.5.5 0 0 0-.678 0l-4.25 3.9a1.5 1.5 0 0 1-2.517-1.1V4.563a2.5 2.5 0 0 1 2.5-2.5h9.214a2.5 2.5 0 0 1 2.5 2.5v15.872a1.483 1.483 0 0 1-.9 1.375a1.526 1.526 0 0 1-.607.128ZM12 16.5a1.5 1.5 0 0 1" />
+                    <path
+                        d="M14.85 9.08c-.11.12-.23.23-.35.35c-.83.83-1.65 1.65-2.47 2.48a.513.513 0 0 1-.71 0c-.47-.48-.94-.95-1.42-1.42a.5.5 0 0 1 .71-.71c.35.36.7.71 1.06 1.06c.83-.82 1.65-1.65 2.48-2.47c.45-.46 1.16.25.7.71Z" />
+                </svg>
                 <p class="fraseicone3"> A excelência no cuidado da sua pele é a nossa prioridade!</p>
             </div>
-            
+
         </div>
-        
+
     </div>
 
 
