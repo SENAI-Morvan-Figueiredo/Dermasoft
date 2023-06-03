@@ -319,7 +319,43 @@ footer {
 }
 
 
+/* Estilos para dispositivos móveis */
+@media only screen and (max-width: 1250px) {
+    /* CONEÇA A DERMASOFT */
 
+
+
+    .tituloConheçaADermaSoft {
+        font-size: 96px;
+    }
+
+
+    .ConhecaADermaSOft {
+        height: 1100px;
+        align-items: center;
+        flex-direction: column;
+        justify-content: center;
+
+
+    }
+
+    .imagensDaClinica {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    .imagensDaClinica img {
+        margin: 0 20px 20px 20px;
+    }
+
+
+
+    .textoDermasoft {
+        text-align: center;
+        width: 80%;
+    }
+}
 
 
 
@@ -460,43 +496,7 @@ footer {
 }
 
 
-/* Estilos para dispositivos móveis */
-@media only screen and (max-width: 1250px) {
-    /* CONEÇA A DERMASOFT */
 
-
-
-    .tituloConheçaADermaSoft {
-        font-size: 96px;
-    }
-
-
-    .ConhecaADermaSOft {
-        height: 1100px;
-        align-items: center;
-        flex-direction: column;
-        justify-content: center;
-
-
-    }
-
-    .imagensDaClinica {
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
-    }
-
-    .imagensDaClinica img {
-        margin: 0 20px 20px 20px;
-    }
-
-
-
-    .textoDermasoft {
-        text-align: center;
-        width: 80%;
-    }
-}
 
 
 /* Estilos para dispositivos móveis  */
