@@ -603,4 +603,11 @@ footer {
         border: none;
         color: #FFFFFF;
     }
+
+    .textoSobreposto1 {
+
+        font-size: 44px;
+        top: 150px;
+
+    }
 }
