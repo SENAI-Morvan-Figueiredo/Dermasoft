@@ -9,7 +9,7 @@ A RedPill é uma inovadora empresa de tecnologia que está na vanguarda da revol
  
 ### <div align="center"><h2>:green_circle: Projeto Proposto no Curso Técnico em Análise e Desenvolvimento de Sistemas :green_circle:</h2></div>
 ___
-
+###
 <div align="center"> <img align="center" alt="Yuri-logoDermaSoft" height="100" width="150" src="https://github.com/YuriSampaio10/ProjetoDev/blob/main/img/DermaSoft.png"></div>
 
 
