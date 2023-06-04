@@ -45,19 +45,30 @@ hr {
     width: 100%;
 } */
 
+
+
 .linklogo {
-
     width: 5%;
-
-
 }
 
 #logo {
     width: 100%;
 }
 
+.espaco {
+    width: 5%;
+}
+
 
 /* sidenav que aparece ao clicar no botão hamburger */
+.side {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.8rem;
+}
+
 .sidenav {
     height: 100%;
     width: 0;
@@ -69,43 +80,39 @@ hr {
     overflow-x: hidden;
     transition: 0.5s;
     padding-top: 2rem;
-  }
-  
-  .sidenav a {
+}
+
+.sidenav a {
     padding: 8px 8px 8px 32px;
     text-decoration: none;
-    font-size: 25px;
+    font-size: 18px;
     color: #ffff;
     display: block;
     transition: 0.3s;
-  }
-  
-  .sidenav a:hover {
+}
+
+.sidenav a:hover {
     color: #000000;
-  }
-  
-  .sidenav .closebtn {
+}
+
+.sidenav .closebtn {
     position: absolute;
     top: 0;
     right: 25px;
     font-size: 36px;
     margin-left: 50px;
-  }
-  
-  #main {
+}
+
+
+#cadastro {
     transition: margin-left .5s;
-    padding: 16px;
-  }
-  
-  #cadastro {
-    transition: margin-left .5s;
-  }
-  
-  #cadastro h1 {
+}
+
+#cadastro h1 {
     display: flex;
     justify-content: center;
     font-size: 2.5rem;
-  }
+}
 
 
 
@@ -122,7 +129,7 @@ hr {
 .quadrado {
     width: 34rem;
     height: 34rem;
-    border: 5px solid #354150;
+    border: 2px solid #354150;
     flex-direction: row;
     text-align: center;
     border-radius: 10px 118px 10px 10px;
@@ -393,7 +400,7 @@ hr {
     justify-content: center;
     color: #000000;
     padding: 45px 0 25px 0;
-    
+
 }
 
 /* Estilos para dispositivos móveis */
@@ -402,6 +409,14 @@ hr {
 
     .imagem {
         display: none;
+    }
+}
+
+
+/* Estilos para dispositivos móveis */
+@media screen and (max-width: 900px) {
+    .linklogo {
+        width: 10%;
     }
 }
 
@@ -422,14 +437,11 @@ hr {
 
     }
 
+
     .underline {
         font-size: 0.5rem;
         padding-left: 0.5rem;
         padding-right: 0.5rem;
-    }
-
-    #linkLogo {
-        width: 5%;
     }
 
     #logo {
@@ -437,6 +449,7 @@ hr {
         width: 115%;
 
     }
+
 
 
 
@@ -616,10 +629,10 @@ hr {
 
 
     .label-float label {
-        left: 80px;   
+        left: 80px;
     }
 
-    #fraseAcesso{
+    #fraseAcesso {
         font-size: 0.8rem;
     }
 
@@ -629,7 +642,7 @@ hr {
         right: 90px;
     }
 
-   
+
 
 
 }
@@ -646,7 +659,7 @@ hr {
         margin-top: 5rem;
     }
 
-   
+
     .quadrado {
 
         width: 240px;
@@ -673,7 +686,7 @@ hr {
         margin-top: 25px;
     }
 
-    
+
     .label-float label {
         left: 50px;
     }
@@ -684,9 +697,8 @@ hr {
         right: 60px;
     }
 
-    .loginECadastreSE{
+    .loginECadastreSE {
         margin-left: 0px;
     }
- 
-}
 
+}

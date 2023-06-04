@@ -360,7 +360,7 @@ footer {
 
 
 /* Estilos para dispositivos móveis */
-@media only screen and (max-width: 750px) {
+@media only screen and (max-width: 769px) {
     #Links {
         display: none;
     }
@@ -658,8 +658,5 @@ footer {
         color: #FFFFFF;
         padding-bottom: 15px;
     }
-
-}
-
 
 }

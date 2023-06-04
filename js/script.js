@@ -1,3 +1,18 @@
+// abre a sideNav 
+function openNav() {
+  document.getElementById("mySidenav").style.width = "250px";
+
+  document.body.style.backgroundColor = B9DDE8;
+}
+
+// Fecha a sideNav
+function closeNav() {
+  document.getElementById("mySidenav").style.width = "0";
+  document.body.style.backgroundColor = B9DDE8;
+}
+
+
+
 // faz os textos 1 e 2 do banner emergirem
 window.addEventListener('load', function () {
   var textoElement1 = document.querySelector('.textoSobreposto1');
@@ -19,18 +34,6 @@ window.addEventListener('load', function () {
 
 });
 
-// abre a sideNav 
-function openNav() {
-  document.getElementById("mySidenav").style.width = "250px";
-
-  document.body.style.backgroundColor = B9DDE8;
-}
-
-// Fecha a sideNav
-function closeNav() {
-  document.getElementById("mySidenav").style.width = "0";
-  document.body.style.backgroundColor = B9DDE8;
-}
 
 // faz os icones de coração e pasta surgirem 
 function adicionaClasseAoRolar() {
@@ -93,81 +96,6 @@ function adicionaClasseAoRolar() {
   // adiciona a classe "ativo" quando a página é rolada para o ponto
   window.addEventListener('scroll', function () {
     if (window.screen.width > largura && window.pageYOffset > 300) {
-
-      tagSVG.classList.add('coracao1');
-      tagSVG2.classList.add('pasta1');
-      tagSVG3.classList.add('check1');
-
-      var fraseicone = document.querySelector('.fraseicone');
-      var fraseicone2 = document.querySelector('.fraseicone2');
-      var fraseicone3 = document.querySelector('.fraseicone3');
-
-      setTimeout(function () {
-        fraseicone.style.opacity = '1';
-        fraseicone.style.transform = 'translateY(0)';
-      }, 900); // Tempo de atraso em milissegundos antes do surgimento do texto
-
-      setTimeout(function () {
-        fraseicone2.style.opacity = '1';
-        fraseicone2.style.transform = 'translateY(0)';
-      }, 900); // Tempo de atraso em milissegundos antes do surgimento do texto
-
-      setTimeout(function () {
-        fraseicone3.style.opacity = '1';
-        fraseicone3.style.transform = 'translateY(0)';
-      }, 900); // Tempo de atraso em milissegundos antes do surgimento do texto
-
-    }
-  });
-
-
-
-
-
-
-  // adiciona a classe "ativo" quando a página é rolada para o ponto
-  window.addEventListener('scroll', function () {
-    if (window.screen.width <= largura500 && window.pageYOffset > 300) {
-      // minhaDiv.classList.add('animacaoAtiva');
-
-      tagSVG.classList.add('coracao1');
-      var fraseicone = document.querySelector('.fraseicone');
-      setTimeout(function () {
-        fraseicone.style.opacity = '1';
-        fraseicone.style.transform = 'translateY(0)';
-      }, 900); // Tempo de atraso em milissegundos antes do surgimento do texto
-    }
-  });
-
-  // adiciona a classe "ativo" quando a página é rolada para o ponto
-  window.addEventListener('scroll', function () {
-    if (window.screen.width <= largura500 && window.pageYOffset > 500) {
-
-      tagSVG2.classList.add('pasta1');
-      var fraseicone2 = document.querySelector('.fraseicone2');
-      setTimeout(function () {
-        fraseicone2.style.opacity = '1';
-        fraseicone2.style.transform = 'translateY(0)';
-      }, 900); // Tempo de atraso em milissegundos antes do surgimento do texto
-    }
-  });
-
-  // adiciona a classe "ativo" quando a página é rolada para o ponto
-  window.addEventListener('scroll', function () {
-    if (window.screen.width <= largura500 && window.pageYOffset > 700) {
-
-      tagSVG3.classList.add('check1');
-      var fraseicone3 = document.querySelector('.fraseicone3');
-      setTimeout(function () {
-        fraseicone3.style.opacity = '1';
-        fraseicone3.style.transform = 'translateY(0)';
-      }, 900); // Tempo de atraso em milissegundos antes do surgimento do texto
-    }
-  });
-
-  // adiciona a classe "ativo" quando a página é rolada para o ponto
-  window.addEventListener('scroll', function () {
-    if (window.screen.width > largura500 && window.pageYOffset > 300) {
 
       tagSVG.classList.add('coracao1');
       tagSVG2.classList.add('pasta1');

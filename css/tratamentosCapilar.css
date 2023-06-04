@@ -81,7 +81,6 @@ nav {
 }
 
 
-
 #login {
     display: flex;
     flex-direction: row;
@@ -92,7 +91,7 @@ nav {
     display: flex;
     margin-right: 0.313rem;
     color: #FFFFFF;
-
+    font-size: 18px;
 }
 
 #login a button {
@@ -105,6 +104,58 @@ nav {
     border-radius: 10px;
     border: none;
     color: #FFFFFF;
+}
+
+
+
+/* sidenav que aparece ao clicar no botão hamburger */
+.side {
+    display: none;
+}
+
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #3C798C;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 2rem;
+}
+
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 18px;
+    color: #ffff;
+    display: block;
+    transition: 0.3s;
+}
+
+.sidenav a:hover {
+    color: #000000;
+}
+
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+
+#cadastro {
+    transition: margin-left .5s;
+}
+
+#cadastro h1 {
+    display: flex;
+    justify-content: center;
+    font-size: 2.5rem;
 }
 
 
@@ -368,15 +419,7 @@ footer {
         padding-right: 0.5rem;
     }
 
-    #fraseAcesso {
-        display: flex;
-        margin-right: 0.313rem;
-        color: #FFFFFF;
-        font-size: 0.5rem;
-
-
-    }
-
+   
 
     #button {
         padding: 0.625rem 1.063rem 0.625rem 1.063rem;
@@ -436,18 +479,18 @@ footer {
     }
 
     /* MMP */
-    
+
     .MMP {
         flex-direction: column;
         margin: 50px 100px 50px 100px;
     }
-    
-    
+
+
     .imagemMMP {
         width: 300px;
-        
+
     }
-    
+
     .textoMMP {
         display: flex;
         flex-direction: column;
@@ -455,12 +498,12 @@ footer {
         margin: 50px 0 50px 0;
         width: 100%;
         align-items: center;
-        
+
     }
-    
-    
+
+
     /* microagulhamento Capilar */
-    
+
     .microagulhamentoCapilar {
         flex-direction: column;
         margin: 50px 100px 50px 100px;
@@ -468,9 +511,9 @@ footer {
 
     .imagemMicroagulhamentoCapilar {
         width: 300px;
-        
+
     }
-    
+
     .textoMicroagulhamentoCapilar {
         display: flex;
         flex-direction: column;
@@ -479,21 +522,21 @@ footer {
         width: 100%;
         align-items: center;
     }
-    
-    
+
+
     /* misoterapia Capilar */
-    
+
     .misoterapiaCapilar {
         flex-direction: column;
         margin: 50px 100px 50px 100px;
     }
-    
-    
+
+
     .imagemMisoterapiaCapilar {
         width: 300px;
-        
+
     }
-    
+
     .textoMisoterapiaCapilar {
         display: flex;
         flex-direction: column;
@@ -502,20 +545,20 @@ footer {
         width: 100%;
         align-items: center;
     }
-    
-    
+
+
     /* tricoscopia Capilar E Tricograma */
-    
+
     .tricoscopiaCapilarETricograma {
         flex-direction: column;
         margin: 50px 100px 50px 100px;
     }
-    
+
     .imagemTricoscopiaCapilarETricograma {
         width: 300px;
-        
+
     }
-    
+
     .textoTricoscopiaCapilarETricograma {
         display: flex;
         flex-direction: column;
@@ -524,19 +567,19 @@ footer {
         width: 100%;
         align-items: center;
     }
-    
+
     /* terapia Capilar */
-    
+
     .terapiaCapilar {
         flex-direction: column;
         margin: 50px 100px 50px 100px;
     }
-    
+
     .imagemTerapiaCapilar {
         width: 300px;
-        
+
     }
-    
+
     .textoTerapiaCapilar {
         display: flex;
         flex-direction: column;
@@ -545,26 +588,26 @@ footer {
         width: 100%;
         align-items: center;
     }
-    
-    
-    
-    
-    
+
+
+
+
+
     /* FOOTER */
-    
+
     .redesSociais {
         margin-top: 20px;
     }
-    
+
     footer {
         background-color: #586875;
     }
-    
+
     .endereços {
         height: 100px;
         padding-top: 20px;
     }
-    
+
     .endereços ul li a {
         font-size: 8px;
         margin: 0 10px 0 10px;
@@ -603,4 +646,51 @@ footer {
         padding-bottom: 15px;
     }
 
+}
+
+
+/* Estilos para dispositivos móveis */
+@media only screen and (max-width: 769px) {
+    h1 {
+        font-size: 44px;
+    }
+
+    hr {
+        margin: 50px 50px 50px 50px;
+    }
+
+    #Links {
+        display: none;
+    }
+
+    /* mostra o botão hamburguer e a sidenav */
+    .side {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0.8rem;
+    }
+
+
+    .linklogo {
+        width: 10%;
+    }
+
+    #logo {
+        width: 100%;
+    }
+
+    .espaco {
+        width: 5%;
+    }
+
+
+    #button {
+        padding: 0.625rem 1.063rem 0.625rem 1.063rem;
+        background: #739DDC;
+        border-radius: 10px;
+        border: none;
+        color: #FFFFFF;
+    }
 }

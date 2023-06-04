@@ -595,4 +595,12 @@ footer {
     .espaco {
         width: 5%;
     }
+
+    #button {
+        padding: 0.625rem 1.063rem 0.625rem 1.063rem;
+        background: #739DDC;
+        border-radius: 10px;
+        border: none;
+        color: #FFFFFF;
+    }
 }

@@ -1,3 +1,17 @@
+// abre a sideNav 
+function openNav() {
+  document.getElementById("mySidenav").style.width = "250px";
+
+  document.body.style.backgroundColor = B9DDE8;
+}
+
+// Fecha a sideNav
+function closeNav() {
+  document.getElementById("mySidenav").style.width = "0";
+  document.body.style.backgroundColor = B9DDE8;
+}
+
+
 // faz os textos 1 e 2 do banner emergirem
 window.addEventListener('load', function () {
     var textoElement1 = document.querySelector('.textoSobreposto1');
