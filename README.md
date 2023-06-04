@@ -5,9 +5,8 @@ Transformando Ideias em Realidade Tecnológica
 
 A RedPill é uma inovadora empresa de tecnologia que está na vanguarda da revolução digital, ajudando indivíduos e empresas a transformar suas ideias em realidade tecnológica. Fundada com o propósito de desafiar as convenções e abrir novos caminhos na indústria, a RedPill tem se destacado como uma parceira confiável e líder em soluções tecnológicas de ponta.</p></div>
 ---
-###<div align="center"><h1>:star::man_technologist: Projeto Clínica DermaSoft :man_technologist::star:</h1></div>
- 
-### <div align="center"><h2>:green_circle: Projeto Proposto no Curso Técnico em Análise e Desenvolvimento de Sistemas :green_circle:</h2></div>
+<div align="center"><h1>:star::man_technologist: Projeto Clínica DermaSoft :man_technologist::star:</h1></div>
+<div align="center"><h2>:green_circle: Projeto Proposto no Curso Técnico em Análise e Desenvolvimento de Sistemas :green_circle:</h2></div>
 ___
 
 <div align="center"> <img align="center" alt="Yuri-logoDermaSoft" height="100" width="150" src="https://github.com/YuriSampaio10/ProjetoDev/blob/main/img/DermaSoft.png"></div>
