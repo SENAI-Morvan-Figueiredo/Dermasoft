@@ -1,3 +1,16 @@
+//diminui a div links quando a pagina e rolada para baixo
+window.onscroll = function() {
+  var scrollTop = window.pageYOffset || document.documentElement.scrollTop;
+  var newHeight = 60 - scrollTop;
+
+  if (newHeight < 0) {
+    newHeight = 15;
+  }
+
+  document.getElementById("Links").style.height = newHeight + "px";
+};
+
+
 // faz os textos 1 e 2 do banner emergirem
 window.addEventListener('load', function () {
     var textoElement1 = document.querySelector('.textoSobreposto1');
