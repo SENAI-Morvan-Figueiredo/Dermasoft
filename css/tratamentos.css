@@ -1,5 +1,7 @@
 header {
     background-color: #3C798C;
+    position: fixed;
+    z-index: 9999;
 }
 
 h1 {
@@ -112,6 +114,7 @@ nav {
 /* sidenav que aparece ao clicar no botão hamburger */
 .side {
     display: none;
+    color: #ffff;
 }
 
 .sidenav {
@@ -165,6 +168,7 @@ nav {
 
 #Banner {
     height: 34.325rem;
+    background-color: #3C798C;
 }
 
 #fotoTratamentos {
