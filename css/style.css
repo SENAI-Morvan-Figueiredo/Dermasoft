@@ -1,5 +1,7 @@
 header {
     background-color: #3C798C;
+    position: fixed;
+    z-index: 9999;
 }
 
 h1 {
@@ -104,6 +106,7 @@ nav {
 /* sidenav que aparece ao clicar no botão hamburger */
 .side {
     display: none;
+    color: #ffff;
 }
 
 .sidenav {
@@ -157,6 +160,7 @@ nav {
 
 #Banner {
     height: 34.325rem;
+    background-color: #3C798C;
 }
 
 #fotoEscritorio {
@@ -172,7 +176,7 @@ nav {
     font-style: normal;
     font-size: 54px;
     position: absolute;
-    top: 300px;
+    top: 150px;
     left: 50px;
     color: #FFFFFF;
     opacity: 0;
@@ -188,7 +192,7 @@ nav {
     font-style: normal;
     font-size: 30px;
     position: absolute;
-    top: 500px;
+    top: 400px;
     left: 50px;
     color: #FFFFFF;
     opacity: 0;
@@ -374,6 +378,7 @@ nav {
 .imagensDaClinica {
     display: flex;
     flex-direction: column;
+    justify-content: space-around;
 
 }
 
@@ -871,7 +876,7 @@ footer {
         .textoSobreposto1 {
 
             font-size: 44px;
-            top: 150px;
+            top: 100px;
 
         }
 

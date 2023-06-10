@@ -1,3 +1,16 @@
+//diminui a div links quando a pagina e rolada para baixo
+window.onscroll = function() {
+  var scrollTop = window.pageYOffset || document.documentElement.scrollTop;
+  var newHeight = 60 - scrollTop;
+
+  if (newHeight < 0) {
+    newHeight = 15;
+  }
+
+  document.getElementById("Links").style.height = newHeight + "px";
+};
+
+
 // abre a sideNav 
 function openNav() {
   document.getElementById("mySidenav").style.width = "250px";
@@ -69,7 +82,7 @@ function adicionaClasseAoRolar() {
 
   // adiciona a classe "ativo" quando a página é rolada para o ponto
   window.addEventListener('scroll', function () {
-    if (window.screen.width <= largura && window.pageYOffset > 700) {
+    if (window.screen.width <= largura && window.pageYOffset > 600) {
 
       tagSVG2.classList.add('pasta1');
       var fraseicone2 = document.querySelector('.fraseicone2');
@@ -82,7 +95,7 @@ function adicionaClasseAoRolar() {
 
   // adiciona a classe "ativo" quando a página é rolada para o ponto
   window.addEventListener('scroll', function () {
-    if (window.screen.width <= largura && window.pageYOffset > 1000) {
+    if (window.screen.width <= largura && window.pageYOffset > 850) {
 
       tagSVG3.classList.add('check1');
       var fraseicone3 = document.querySelector('.fraseicone3');
