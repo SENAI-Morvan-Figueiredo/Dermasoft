@@ -1,3 +1,16 @@
+//diminui a div links quando a pagina e rolada para baixo
+window.onscroll = function() {
+  var scrollTop = window.pageYOffset || document.documentElement.scrollTop;
+  var newHeight = 60 - scrollTop;
+
+  if (newHeight < 0) {
+    newHeight = 15;
+  }
+
+  document.getElementById("Links").style.height = newHeight + "px";
+};
+
+
 // abre a sideNav 
 function openNav() {
   document.getElementById("mySidenav").style.width = "250px";
