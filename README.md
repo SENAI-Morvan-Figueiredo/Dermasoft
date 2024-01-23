@@ -82,4 +82,7 @@ ___
 
 | [<img align="center" alt="gabriel" height="100" width="100" src="https://avatars.githubusercontent.com/u/126294475?v=4"><br><sub>Gabriel</sub>](https://github.com/Toperatoperaldo)
 | :---: |
+
+| [<img align="center" alt="Jorge" height="100" width="100" src="https://avatars.githubusercontent.com/u/7544824?v=4"/><br><sub>Jorge Vendramini</sub>](https://github.com/jorgevendramini)
+| :---: |
 </div>
