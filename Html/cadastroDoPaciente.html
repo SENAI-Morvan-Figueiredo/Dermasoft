@@ -6,8 +6,8 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>DermaSoft</title>
-  <link rel="stylesheet" type="text/css" href="css/cadastroDoPaciente.css">
-  <link rel="stylesheet" type="text/css" href="css/reset.css">
+  <link rel="stylesheet" type="text/css" href="../css/cadastroDoPaciente.css">
+  <link rel="stylesheet" type="text/css" href="../css/reset.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200&display=swap" rel="stylesheet">
@@ -22,22 +22,21 @@
   <div class="p1">
     <!-- sidenav que aparecerá ao clicar no botão hamburger -->
     <div id="mySidenav" class="sidenav">
-      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-    ="closeNav()">&times;</a>
-      <a href="cadastroDeFuncionários.html">cadastro de funcionarios</a>
-      <a href="formularioAgendamentoConsulta">Agendamento de consulta</a>
+      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>  
+      <a href="../html/cadastroDeFuncionários.html">cadastro de funcionarios</a>
+      <a href="../html/formularioAgendamentoConsulta.html">Agendamento de consulta</a>
       <a href="#">Clients</a>
       <a href="#">Contact</a>
     </div>
 
     <!-- botão hamburger -->
     <div id="main">
-      <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; </span>
+      <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</span>
     </div>
-    <img class="logo" src="img\DermaSoft.png">
+    <img class="logo" src="../img/DermaSoft.png">
 
     <div class="dropdown">
-      <button class="dropbtn"><img src="img/iconAvatar.png" alt=""></button>
+      <button class="dropbtn"><img src="../img/iconAvatar.png" alt=""></button>
       <div class="dropdown-content">
         <a href="#">Informações de Perfil</a>
         <a href="#">Sair🚪</a>
@@ -77,7 +76,7 @@
       </form>
 
       <div id="popup" style="display: none;">
-        <img src="img/iconeOk.png" alt="imagem de check">
+        <img src="../img/iconeOk.png" alt="imagem de check">
 
         <button onclick="fecharPopup()" type="submit">Fechar</button>
       </div>
@@ -91,7 +90,7 @@
     Clínica DermaSoft. 2023. Todos os direitos reservados
   </p>
 
-  <script src="js/cadastroDoPaciente.js"></script>
+  <script src="../js/cadastroDoPaciente.js"></script>
 
 
 
