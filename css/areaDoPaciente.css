@@ -1,0 +1,295 @@
+header {
+    background-color: #3C798C;
+    z-index: 9999;
+}
+
+h1 {
+    text-align: center;
+}
+
+a {
+    color: #83D4EE;
+}
+
+hr {
+    background-color: #000000;
+    margin: 50px 100px 50px 100px;
+}
+
+/* sidenav que aparece ao clicar no botão hamburger */
+.side {
+    display: none;
+    color: #ffff;
+}
+
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #3C798C;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 2rem;
+}
+
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 18px;
+    color: #ffff;
+    display: block;
+    transition: 0.3s;
+}
+
+.sidenav a:hover {
+    color: #000000;
+}
+
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+
+#cadastro {
+    transition: margin-left .5s;
+}
+
+#cadastro h1 {
+    display: flex;
+    justify-content: center;
+    font-size: 2.5rem;
+}
+
+
+/* LINKS DO HEADER */
+
+nav {
+    position: relative;
+    top: 0;
+    animation: surgirNav;
+    animation-duration: 1.5s;
+    animation-direction: normal;
+}
+
+@keyframes surgirNav {
+    from {
+        top: -100px
+    }
+
+    to {
+        top: 0px
+    }
+}
+
+#Links {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 1.563rem;
+    align-items: center;
+}
+
+.underline {
+    position: relative;
+    display: inline-block;
+    text-decoration: none;
+}
+
+.underline::before {
+    content: "";
+    position: absolute;
+    top: 18px;
+    bottom: 0;
+    left: 0;
+    width: 0;
+    height: 2px;
+    background-color: #83D4EE;
+    transition: width 0.3s ease-in-out;
+}
+
+.underline:hover::before {
+    width: 100%;
+}
+
+
+
+#logo {
+    width: 5%;
+}
+
+
+
+#login {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+#fraseAcesso {
+    display: flex;
+    margin-right: 0.313rem;
+    color: #FFFFFF;
+    font-size: 18px;
+
+}
+
+#login a button {
+    cursor: pointer;
+}
+
+#button {
+    padding: 0.625rem 1.563rem 0.625rem 1.563rem;
+    background: #739DDC;
+    border-radius: 10px;
+    border: none;
+    color: #FFFFFF;
+}
+
+
+/* dropdown que aparece ao passar o mouse por cima */
+
+.dropbtn {
+    background-color: #3C798C;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {
+    background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown:hover .dropbtn {
+    background-color: #3C798C;
+}
+
+.meuFormulario {
+    position: relative;
+}
+
+#popup {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    display: none;
+}
+
+.consultas {
+    display: flex;
+    align-items: center;
+}
+
+.estetoscopio {
+    background-color: #ddd;
+    width: 36px;
+}
+
+.exames {
+    display: flex;
+    align-items: center;
+}
+
+.minhaSaude {
+    display: flex;
+    align-items: center;
+}
+
+.textoBoasVindas {
+    margin: 20px 0 20px 100px;
+    font-style: italic;
+}
+
+
+.copyright {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    color: #000000;
+    padding: 45px 0 25px 0;
+    width: 100%;
+}
+
+
+/* Estilos para dispositivos móveis */
+@media only screen and (max-width: 769px) {
+
+
+    h1 {
+        font-size: 44px;
+    }
+
+    hr {
+        margin: 50px 50px 50px 50px;
+    }
+
+
+    /* oculta os links para aparecer a sidenav */
+    #Links {
+        display: none;
+
+    }
+
+
+    /* mostra o botão hamburguer e a sidenav */
+    .side {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+       
+    }
+
+   #main{
+    padding: 16px;
+   }
+   
+    .linklogo {
+        width: 10%;
+    }
+
+    #logo {
+        width: 100%;
+
+    }
+
+    .dropbtn {
+        padding: 16px 0 16px 0;
+    }
