@@ -70,6 +70,51 @@ hr {
 
 /* LINKS DO HEADER */
 
+/* Estilize o menu suspenso */
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+/* Estilize o botão do menu */
+.dropbtn {
+    background-color: #3498db;
+    color: white;
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+
+
+/* Estilize o conteúdo do menu suspenso (invisível por padrão) */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+/* Estilize os links dentro do menu suspenso */
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    display: block;
+    text-decoration: none;
+}
+
+/* Mude a cor do link ao passar o mouse sobre ele */
+.dropdown-content a:hover {
+    background-color: #f1f1f1;
+}
+
+/* Exiba o conteúdo do menu suspenso quando o mouse estiver sobre ele */
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
 nav {
     position: relative;
     top: 0;
@@ -249,7 +294,7 @@ nav {
 
 
 /* Estilos para dispositivos móveis */
-@media only screen and (max-width: 769px) {
+@media only screen and (max-width: 900px) {
 
 
     h1 {
@@ -274,13 +319,13 @@ nav {
         flex-direction: row;
         justify-content: space-between;
         align-items: center;
-       
+
     }
 
-   #main{
-    padding: 16px;
-   }
-   
+    #main {
+        padding: 16px;
+    }
+
     .linklogo {
         width: 10%;
     }
@@ -292,4 +337,19 @@ nav {
 
     .dropbtn {
         padding: 16px 0 16px 0;
+    }
+
+    
+    .underline::before {
+       
+        top: 28px;
+        left: 30px;
+        width: 0;
+        height: 2px;
+        background-color: #83D4EE;
+        transition: width 0.3s ease-in-out;
+    }
+    
+    .underline:hover::before {
+        width: 80%;
     }
