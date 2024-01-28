@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>DermaSoft</title>
-    <link rel="stylesheet" type="text/css" href="../css/areaDoPaciente.css">
+    <link rel="stylesheet" type="text/css" href="../css/resultadoDosExames.css">
     <link rel="stylesheet" type="text/css" href="../css/reset.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -15,7 +15,10 @@
 
 </head>
 
+
 <body>
+
+
 
     <header>
 
@@ -50,7 +53,7 @@
                         </svg>
                         <div class="dropdown-content">
                             <a href="marcarConsulta.html">MARCAR CONSULTA</a>
-                            <a href="#">HISTÓRICO DE CONSULTAS</a>
+                            <a href="historicoDeConsultas.html">HISTÓRICO DE CONSULTAS</a>
                         </div>
                     </div>
 
@@ -100,9 +103,9 @@
                             <path d="M84 56L64 76L44 56" stroke-miterlimit="10"></path>
                         </svg>
                         <div class="dropdown-content">
-                            <a href="#">MARCAR EXAME</a>
-                            <a href="#">RESULTADO DOS EXAMES</a>
-                            <a href="#">HISTÓRICO DE AGENDAMENTOS</a>
+                            <a href="marcarExame.html">MARCAR EXAME</a>
+                            <a href="resultadoDosExames.html">RESULTADO DOS EXAMES</a>
+                            <a href="historicoDeAgendamentos.html">HISTÓRICO DE AGENDAMENTOS</a>
                         </div>
                     </div>
                 </div>
@@ -131,9 +134,9 @@
                             <path d="M84 56L64 76L44 56" stroke-miterlimit="10"></path>
                         </svg>
                         <div class="dropdown-content">
-                            <a href="#">FICHA MÉDICA</a>
-                            <a href="#">MEUS MÉDICOS</a>
-                            <a href="#">PRONTUARIO</a>
+                            <a href="fichaMedica.html">FICHA MÉDICA</a>
+                            <a href="meusMedicos.html">MEUS MÉDICOS</a>
+                            <a href="prontuario.html">PRONTUARIO</a>
                         </div>
                     </div>
 
@@ -166,7 +169,14 @@
                             </path>
                         </g>
                     </svg>
-                    <a class="underline" href="#">CONSULTAS </a>
+                    <div class="sidebar" onclick="toggleSidebar(this)">
+                        <span>CONSULTAS</span>
+                        <a href="marcarConsulta.html">MARCAR CONSULTA</a>
+                        <a href="historicoDeConsultas.html">HISTÓRICO DE CONSULTAS</a>
+                    </div>
+
+
+
                 </div>
 
                 <div class="exames"><svg height="64px" width="64px" version="1.1" id="_x32_"
@@ -199,7 +209,14 @@
                             </g>
                         </g>
                     </svg>
-                    <a class="underline" href="#">EXAMES</a>
+                    <div class="sidebar" onclick="toggleSidebar(this)">
+                        <span>EXAMES</span>
+                        <a href="marcarExame.html">MARCAR EXAME</a>
+                        <a href="resultadoDosExames.html">RESULTADO DOS EXAMES</a>
+                        <a href="historicoDeAgendamentos.html">HISTÓRICO DE AGENDAMENTOS</a>
+
+                    </div>
+
                 </div>
 
                 <div class="minhaSaude"> <svg height="64px" width="64px" version="1.1" id="Capa_1"
@@ -213,7 +230,14 @@
                             </path>
                         </g>
                     </svg>
-                    <a class="underline" href="#">MINHA SAÚDE</a>
+                    <div class="sidebar" onclick="toggleSidebar(this)">
+                        <span>MINHA SAÚDE</span>
+                        <a href="fichaMedica.html">FICHA MÉDICA</a>
+                        <a href="meusMedicos.html">MEUS MÉDICOS</a>
+                        <a href="prontuario.html">PRONTUARIO</a>
+                        
+                      </div>
+                       
                 </div>
 
             </div>
@@ -240,11 +264,15 @@
 
     </header>
 
+
     <div class="textoBoasVindas">
-        <p>Área do Paciente</p>
+        <p>MARCAR CONSULTA</p>
         <p>Olá, @</p>
 
     </div>
+
+
+    <P>Para quem você gostaria de agendar uma consulta?</P>
 
     <div class="copyright">
         <p class="copyright">
@@ -255,7 +283,7 @@
 
 
 
-    <script src="../js/areaDoPaciente.js"></script>
+    <script src="../js/resultadoDosExames.js"></script>
 
 
 
