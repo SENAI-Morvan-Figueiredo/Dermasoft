@@ -200,6 +200,10 @@ nav {
     background-color: #3C798C;
 }
 
+.dropbtn img {
+    width: 100px;
+}
+
 .meuFormulario {
     position: relative;
 }
@@ -298,6 +302,10 @@ nav {
         padding: 16px 0 16px 0;
     }
 
+    .dropbtn img {
+        width: 50px;
+    }
+
 
     .underline::before {
 
@@ -317,13 +325,16 @@ nav {
     .sidebar {
         width: 200px;
         background-color: #3C798C;
+        padding: 15px;
         cursor: pointer;
         transition: width 0.3s;
+       
         margin-bottom: 20px; /* Adicionado para criar espaço entre as sidebars */
       }
   
       .sidebar a {
         display: none;
+        padding: 10px;
         color: #000000;
         text-decoration: none;
       }

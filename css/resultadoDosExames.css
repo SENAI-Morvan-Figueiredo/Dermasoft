@@ -200,6 +200,10 @@ nav {
     background-color: #3C798C;
 }
 
+.dropbtn img {
+    width: 100px;
+}
+
 .meuFormulario {
     position: relative;
 }
@@ -296,6 +300,10 @@ nav {
 
     .dropbtn {
         padding: 16px 0 16px 0;
+    }
+
+    .dropbtn img {
+        width: 50px;
     }
 
 
