@@ -3,11 +3,14 @@ header {
     z-index: 9999;
 }
 
+
+
 h1 {
     text-align: center;
 }
 
 a {
+    text-decoration: none;
     color: #83D4EE;
 }
 
@@ -87,7 +90,6 @@ nav {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    padding: 1.563rem;
     align-items: center;
 }
 
@@ -168,7 +170,7 @@ nav {
 
 
 /* Estilize o conteúdo do menu suspenso (invisível por padrão) */
-.dropdown-content{
+.dropdown-content {
     display: none;
     position: absolute;
     background-color: #FFFFFF;
@@ -179,7 +181,7 @@ nav {
 }
 
 /* Estilize os links dentro do menu suspenso */
-.dropdown-content a{
+.dropdown-content a {
     color: black;
     padding: 12px 16px;
     text-decoration: none;
@@ -187,7 +189,7 @@ nav {
 }
 
 /* Mude a cor do link ao passar o mouse sobre ele */
-.dropdown-content a:hover{
+.dropdown-content a:hover {
     background-color: #ffffff;
 }
 
@@ -245,6 +247,45 @@ nav {
 }
 
 
+.btn-group {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+.btn-group .button {
+    background-color: #ffffff;
+    border: 1px solid rgb(181, 214, 181);
+    border-radius: 5px;
+    color: rgb(100, 152, 212);
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-size: 16px;
+    cursor: pointer;
+    float: left;
+    margin: 0 10px 0 10px;
+}
+
+.btn-group2 {
+    display: none;
+}
+
+
+
+.btn-group .button:hover {
+    background-color: #3e8e41;
+}
+
+
+
+
+
+
 .copyright {
     display: flex;
     align-items: center;
@@ -255,6 +296,54 @@ nav {
     width: 100%;
 }
 
+
+/* Estilos para dispositivos móveis */
+@media only screen and (max-width: 1114px) {
+
+    .btn-group {
+        display: none;
+    }
+
+    .btn-group2 {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 100px;
+    }
+
+    .btn-group2 a {
+        margin: 0 10px 0 10px;
+        text-decoration: none;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        color: rgb(100, 152, 212);
+    }
+
+    .btn-group2 .button {
+        background-color: #ffffff;
+        border: 1px solid rgb(181, 214, 181);
+        border-radius: 5px;
+        color: rgb(128, 178, 235);
+        padding: 15px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        font-size: 16px;
+        cursor: pointer;
+        float: left;
+
+    }
+
+
+    .btn-group2 a p {
+        margin-top: 10px;
+    }
+
+}
 
 /* Estilos para dispositivos móveis */
 @media only screen and (max-width: 900px) {
@@ -328,28 +417,48 @@ nav {
         padding: 15px;
         cursor: pointer;
         transition: width 0.3s;
-       
-        margin-bottom: 20px; /* Adicionado para criar espaço entre as sidebars */
-      }
-  
-      .sidebar a {
+
+        margin-bottom: 20px;
+        /* Adicionado para criar espaço entre as sidebars */
+    }
+
+    .sidebar a {
         display: none;
         padding: 10px;
         color: #000000;
         text-decoration: none;
-      }
-  
-      .sidebar.active {
+    }
+
+    .sidebar.active {
         width: 300px;
     }
-    
+
     .sidebar.active a {
         display: block;
     }
 
-    
-  
-      .sidebar a:hover {
+
+
+    .sidebar a:hover {
         background-color: #FFFFFF;
         color: black;
-      }
+    }
+
+
+    .btn-group .button {
+        width: 50px;
+        font-size: 10px;
+        margin: 0 10px 0 10px;
+    }
+
+}
+
+
+@media only screen and (max-width: 601px) {
+
+    .btn-group2 .button {
+        width: 10px;
+
+    }
+
+}
