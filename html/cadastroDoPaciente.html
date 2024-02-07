@@ -22,7 +22,7 @@
   <div class="p1">
     <!-- sidenav que aparecerá ao clicar no botão hamburger -->
     <div id="mySidenav" class="sidenav">
-      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>  
+      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
       <a href="../html/cadastroDeFuncionários.html">cadastro de funcionarios</a>
       <a href="../html/formularioAgendamentoConsulta.html">Agendamento de consulta</a>
       <a href="#">Clients</a>
@@ -44,7 +44,7 @@
     </div>
   </div>
 
-  
+
 
 
 
@@ -53,7 +53,7 @@
 
     <h1>Registro de Pacientes</h1>
     <div class="form-container">
-      <h2>Dados Pessoais</h2>
+      <h2>DADOS PESSOAIS</h2>
       <br>
       <form id="meuFormulario">
         <label for="nome">Nome:</label>
@@ -65,11 +65,37 @@
         <label for="telefone">Telefone:</label>
         <input type="text" id="telefone" name="telefone">
 
-        <label for="Idade">Idade:</label>
+        <label for="Idade">Data de Nascimento:</label>
         <input type="date" id="Idade" name="Idade">
 
         <label for="endereco">Endereço:</label>
-        <textarea id="endereco" name="endereco"></textarea>
+        <input id="endereco" name="endereco"></input>
+
+        <label for="sexo">Selecione o Sexo:</label>
+        <select id="sexo" name="sexo">
+          <option value="masculino">Masculino</option>
+          <option value="feminino">Feminino</option>
+          <option value="outro">Outro</option>
+        </select>
+
+        <label for="newPassword">Nova Senha</label>
+        <input id="newPassword" class="textInput" type="password" placeholder="Nova Senha" aria-label="Nova Senha"
+          pattern="^(?=.*[A-Z])(?=.*\d)(?=.*[@$&amp;amp;amp;amp;#!%*+_?=-])[A-Za-z\d@$&amp;amp;amp;amp;#!%*+_?=-]{8,}$"
+          title="Digite uma nova senha" aria-required="true" aria-autocomplete="list">
+
+
+        <label for="reenterPassword">Confirme nova senha</label>
+        <input id="reenterPassword" class="textInput" type="password" placeholder="Confirme nova senha"
+          aria-label="Confirme nova senha"
+          pattern="^(?=.*[A-Z])(?=.*\d)(?=.*[@$&amp;amp;amp;amp;#!%*+_?=-])[A-Za-z\d@$&amp;amp;amp;amp;#!%*+_?=-]{8,}$"
+          title="Confirm new password" aria-required="true">
+          <br>
+
+          A senha deve possuir:
+          8 caracteres ou mais
+          Pelo menos uma letra maiúscula (A-Z)
+          Um número (0-9)
+          Um ou mais caracteres especiais, caracteres aceitos: @ $ ! % * + _ ? = - # &
 
         <!-- <button id="buttonCancelar" type="submit">Cancelar</button> -->
         <button id="buttonRegistrar" type="submit">Registrar</button>

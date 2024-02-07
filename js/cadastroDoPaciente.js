@@ -19,8 +19,9 @@ document.getElementById("meuFormulario").addEventListener("submit", function(eve
   var telefone = document.getElementById("telefone").value;
   var idade = document.getElementById("idade");
   var endereco = document.getElementById("endereco").value;
+  var sexo = document.getElementById("sexo").value
 
-  if (nome !== "" && email !== "" && telefone !== ""  && idade !== ""  && endereco !== ""  ) {
+  if (nome !== "" && email !== "" && telefone !== ""  && idade !== ""  && endereco !== "" && sexo !== "" ) {
     exibirPopup();
   } else {
     alert("Por favor, preencha todos os campos do formulário.");

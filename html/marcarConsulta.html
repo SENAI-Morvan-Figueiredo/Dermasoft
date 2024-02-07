@@ -274,6 +274,30 @@
 
     <P>Para quem você gostaria de agendar uma consulta?</P>
 
+
+    <form id="consultaForm">
+    
+        <label for="especialidade">Especialidade:</label>
+        <select id="especialidade" required>
+          <option value="cardiologia">Cardiologia</option>
+          <option value="ortopedia">Ortopedia</option>
+          <!-- Adicione mais especialidades conforme necessário -->
+        </select>
+    
+        <label for="medico">Médico:</label>
+        <select id="medico" required>
+          <!-- Opções de médicos dentro da especialidade selecionada serão preenchidas dinamicamente com JavaScript -->
+        </select>
+    
+        <label for="dataConsulta">Data da Consulta:</label>
+        <input type="date" id="dataConsulta" required>
+    
+        <label for="horarioConsulta">Horário da Consulta:</label>
+        <input type="time" id="horarioConsulta" required>
+    
+        <button type="button" onclick="confirmarConsulta()">Confirmar Consulta</button>
+      </form>
+
     <div class="copyright">
         <p class="copyright">
             Clínica DermaSoft. 2023. Todos os direitos reservados
