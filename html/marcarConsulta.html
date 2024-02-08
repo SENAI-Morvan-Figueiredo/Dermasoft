@@ -235,9 +235,9 @@
                         <a href="fichaMedica.html">FICHA MÉDICA</a>
                         <a href="meusMedicos.html">MEUS MÉDICOS</a>
                         <a href="prontuario.html">PRONTUARIO</a>
-                        
-                      </div>
-                       
+
+                    </div>
+
                 </div>
 
             </div>
@@ -274,29 +274,31 @@
 
     <P>Para quem você gostaria de agendar uma consulta?</P>
 
+    <div class="center-form">
+        <form id="consultaForm">
+            <label for="especialidade">Especialidade:</label>
+            <select id="especialidade" required>
+                <option value="cardiologia">Cardiologia</option>
+                <option value="ortopedia">Ortopedia</option>
+                <!-- Adicione mais especialidades conforme necessário -->
+            </select>
 
-    <form id="consultaForm">
-    
-        <label for="especialidade">Especialidade:</label>
-        <select id="especialidade" required>
-          <option value="cardiologia">Cardiologia</option>
-          <option value="ortopedia">Ortopedia</option>
-          <!-- Adicione mais especialidades conforme necessário -->
-        </select>
-    
-        <label for="medico">Médico:</label>
-        <select id="medico" required>
-          <!-- Opções de médicos dentro da especialidade selecionada serão preenchidas dinamicamente com JavaScript -->
-        </select>
-    
-        <label for="dataConsulta">Data da Consulta:</label>
-        <input type="date" id="dataConsulta" required>
-    
-        <label for="horarioConsulta">Horário da Consulta:</label>
-        <input type="time" id="horarioConsulta" required>
-    
-        <button type="button" onclick="confirmarConsulta()">Confirmar Consulta</button>
-      </form>
+            <label for="medico">Médico:</label>
+            <select id="medico" required>
+                <!-- Opções de médicos dentro da especialidade selecionada serão preenchidas dinamicamente com JavaScript -->
+            </select>
+            <label for="dataConsulta">Data da Consulta:</label>
+            <input type="date" id="dataConsulta" required>
+
+            <label for="horarioConsulta">Horário da Consulta:</label>
+            <input type="time" id="horarioConsulta" required>
+
+            <label for="file">Adicione arquivos com informações relevantes para o médico aqui:</label>
+            <input type="file" id="file" name="file" accept=".pdf, .doc, .docx">
+
+            <button type="submit" onclick="confirmarConsulta()">Confirmar Consulta</button>
+        </form>
+    </div>
 
     <div class="copyright">
         <p class="copyright">
