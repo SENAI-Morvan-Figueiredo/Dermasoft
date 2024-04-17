@@ -76,9 +76,10 @@ WSGI_APPLICATION = "DermaSoft.wsgi.application"
 
 DATABASES = {
     "default": config(
-        "DATABASE_URL", default=f'sqlite:///{BASE_DIR /   "db.sqlite3"}', 
+        "DATABASE_URL",
+        default=f'sqlite:///{BASE_DIR /   "db.sqlite3"}',
         cast=db_url,
-        )
+    )
 }
 
 
