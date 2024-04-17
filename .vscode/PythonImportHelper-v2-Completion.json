@@ -167,7 +167,7 @@
         "kind": 5,
         "importPath": "DermaSoft.settings",
         "description": "DermaSoft.settings",
-        "peekOfCode": "WSGI_APPLICATION = \"DermaSoft.wsgi.application\"\n# Database\n# https://docs.djangoproject.com/en/5.0/ref/settings/#databases\nDATABASES = {\n    \"default\": {\n        \"ENGINE\": \"django.db.backends.sqlite3\",\n        \"NAME\": BASE_DIR / \"db.sqlite3\",\n    }\n}\n# Password validation",
+        "peekOfCode": "WSGI_APPLICATION = \"DermaSoft.wsgi.application\"\n# Database\n# https://docs.djangoproject.com/en/5.0/ref/settings/#databases\nDATABASES = {\n    \"default\": config(\n        \"DATABASE_URL\", default=f'sqlite:///{BASE_DIR /   \"db.sqlite3\"}', \n        cast=db_url,\n        )\n}\n# Password validation",
         "detail": "DermaSoft.settings",
         "documentation": {}
     },
@@ -176,7 +176,7 @@
         "kind": 5,
         "importPath": "DermaSoft.settings",
         "description": "DermaSoft.settings",
-        "peekOfCode": "DATABASES = {\n    \"default\": {\n        \"ENGINE\": \"django.db.backends.sqlite3\",\n        \"NAME\": BASE_DIR / \"db.sqlite3\",\n    }\n}\n# Password validation\n# https://docs.djangoproject.com/en/5.0/ref/settings/#auth-password-validators\nAUTH_PASSWORD_VALIDATORS = [\n    {",
+        "peekOfCode": "DATABASES = {\n    \"default\": config(\n        \"DATABASE_URL\", default=f'sqlite:///{BASE_DIR /   \"db.sqlite3\"}', \n        cast=db_url,\n        )\n}\n# Password validation\n# https://docs.djangoproject.com/en/5.0/ref/settings/#auth-password-validators\nAUTH_PASSWORD_VALIDATORS = [\n    {",
         "detail": "DermaSoft.settings",
         "documentation": {}
     },
