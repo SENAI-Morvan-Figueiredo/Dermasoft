@@ -1,3 +1,4 @@
 {
-    "livePreview.defaultPreviewPath": "/index.html"
+    "livePreview.defaultPreviewPath": "/index.html",
+    "python.pythonPath": ".venv\\Scripts\\python.exe"
 }
