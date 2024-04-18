@@ -22,5 +22,5 @@ from usuarios import views
 
 urlpatterns = [
     path("admin/", admin.site.urls),
-    path("home/", views.cadastrar),
+    path("usuarios/", views.cadastrar),
 ]
