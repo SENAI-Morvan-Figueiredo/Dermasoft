@@ -1,0 +1,18 @@
+.margin-top {
+    margin-top: 2em;
+}
+
+body{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+footer {
+    line-height: 60px;
+    margin-top: auto 0;
+}
+
+.padding-left {
+    padding-left: 10px;
+}
