@@ -11,9 +11,9 @@
     <title>DermaSoft</title>
     <link rel="stylesheet" href="{% static 'css/style.css' %}">
     <link rel="stylesheet" href="{% static 'css.reset.css' %}">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="{% static 'https://fonts.googleapis.com' %}">
+    <link rel="preconnect" href="{% static 'https://fonts.gstatic.com' %}" crossorigin>
+    <link href="{% static 'https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200&display=swap' %}" rel="stylesheet">
 
 </head>
 
@@ -209,7 +209,7 @@
             </div>
 
             <div class="draGabrielly">
-                <img src="img\draGabrielly.png">
+                <img src="{% static 'img\draGabrielly.png' %}">
 
                 <div class="draGabriellyDados">
                     <h3>dra. Gabrielly Rogrigues </h3>
@@ -232,7 +232,7 @@
             </div>
 
             <div class="draLucema">
-                <img src="img\draLucelma.png">
+                <img src="{% static 'img\draLucelma.png' %}">
 
                 <div class="draLucemaDados">
                     <h3>dra. Lucelma Cruz </h3>
@@ -261,7 +261,7 @@
             </div>
 
             <div class="drLuis">
-                <img src="img\drLuisHenrique.png">
+                <img src="{% static 'img\drLuisHenrique.png' %}">
 
                 <div class="drLuisDados">
                     <h3>dr. Luís Pazuello </h3>
@@ -306,7 +306,7 @@
             <div class="estéticaCorporal">
                 <section class="imgEstéticaCorporal">
                     <a href="html/esteticaCorporal.html">
-                        <img src="img\imgTratamentoCorporal.png">
+                        <img src="{% static 'img\imgTratamentoCorporal.png' %}">
                     </a>
 
                 </section>
@@ -323,7 +323,7 @@
                 <section class="imgTratamentosFaciais">
 
                     <a href="tratamentosFaciais.html">
-                        <img src="img\imgTratamentoFacial.png">
+                        <img src="{% static 'img\imgTratamentoFacial.png' %}">
                     </a>
                 </section>
 
@@ -339,7 +339,7 @@
             <div class="tratamentosCapilar">
                 <section class="imgTratamentosCapilar">
                     <a href="html/tratamentosCapilar.html">
-                        <img src="img\imgTratamentoCapilar.png">
+                        <img src="{% static 'img\imgTratamentoCapilar.png' %}">
                     </a>
 
                 </section>
@@ -382,7 +382,7 @@
 
 
                     <a href="https://api.whatsapp.com/send?phone=5511958080950" target="_blank"><img
-                            src="img\iconeWhatsApp.png" alt="WhatsApp" />+55 (11)
+                            src="{% static 'img\iconeWhatsApp.png' %}" alt="WhatsApp" />+55 (11)
                         95808-0950</a>
                 </li>
             </ul>
@@ -407,7 +407,7 @@
 
                 <li>
                     <a href="https://api.whatsapp.com/send?phone=5511958080950" target="_blank"><img
-                            src="img\iconeWhatsApp.png" alt="WhatsApp" />+55 (11)
+                            src="{% static 'img\iconeWhatsApp.png' %}" alt="WhatsApp" />+55 (11)
                         95808-0950</a>
                 </li>
             </ul>
@@ -434,7 +434,7 @@
 
                 <li>
                     <a href="https://api.whatsapp.com/send?phone=5511958080950" target="_blank"><img
-                            src="img\iconeWhatsApp.png" alt="WhatsApp" />+55 (11)
+                            src="{% static 'img\iconeWhatsApp.png' %}" alt="WhatsApp" />+55 (11)
                         95808-0950</a>
                 </li>
             </ul>
@@ -448,18 +448,18 @@
             <div class="redessociaisFacebookEInstagram">
 
                 <div class="redessociaisFacebook">
-                    <img src="img\qrCodeFacebook.png">
+                    <img src="{% static 'img\qrCodeFacebook.png' %}">
 
                     <a href="https://www.facebook.com/profile.php?id=100090315183773">
-                        <img src="img\IconeFacebook.png">
+                        <img src="{% static 'img\IconeFacebook.png' %}">
                     </a>
                 </div>
 
                 <div class="redessociaisInstagram">
-                    <img src="img\qrCodeInstagram.png">
+                    <img src="{% static 'img\qrCodeInstagram.png' %}">
 
                     <a href="https://www.instagram.com/dermasoft.23/">
-                        <img src="img\IconeInstagram.png">
+                        <img src="{% static 'img\IconeInstagram.png' %}">
                     </a>
                 </div>
 
@@ -475,7 +475,7 @@
         </p>
     </footer>
 
-    <script src="js/script.js"></script>
+    <script src="{% static 'js/script.js' %}"></script>
 
 
 </body>
