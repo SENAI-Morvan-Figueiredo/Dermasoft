@@ -1,0 +1,483 @@
+{%load static%}
+
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DermaSoft</title>
+    <link rel="stylesheet" href="{% static 'css/style.css' %}">
+    <link rel="stylesheet" href="{% static 'css.reset.css' %}">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+
+    <header>
+
+        <!-- LINKS DO HEADER -->
+        <nav>
+            <div id="Links">
+                <img id="logo" src="{% static 'img\DermaSoft.png' %}" alt="Logo da DermaSoft">
+
+                <a class="underline" href="index.html">Home</a>
+                <a class="underline" href="html/ConecaADermaSoft.html">Conheca a DermaSoft</a>
+                <a class="underline" href="html/NossaEquipe.html">Nossa equipe </a>
+                <a class="underline" href="html/tratamentos.html">Tratamentos</a>
+
+                <div id="login">
+                    <p id="fraseAcesso">Já possui acesso?</p>
+                    <a href="html/login.html">
+                        <button id="button">Login</button>
+                    </a>
+                </div>
+
+            </div>
+        </nav>
+
+        <nav class="side">
+            <!-- sidenav que aparecerá ao clicar no botão hamburger -->
+            <div id="mySidenav" class="sidenav">
+                <a href="javascript:void(0)" class="closebtn" onclick="closeNav()"></a>
+                <a href="index.html">Home</a>
+                <a href="html/ConecaADermaSoft.html">Conheça a DermaSoft</a>
+                <a href="html/NossaEquipe.html">Nossa Equipe</a>
+                <a href="html/tratamentos.html">Tratamentos</a>
+                <div id="login">
+                    <p id="fraseAcesso">Já possui acesso?</p>
+                    <a href="html/login.html">
+                        <button id="button">Login</button>
+                    </a>
+                </div>
+            </div>
+
+            <!-- botão hamburger -->
+            <div id="main">
+                <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; </span>
+            </div>
+
+            <a class="linklogo" href="index.html"> <img href="index.html" id="logo" src="{% static 'img\DermaSoft.png' %}"
+                    alt="Logo da DermaSoft">
+            </a>
+
+
+            <div class="espaco"></div>
+            
+        </nav>
+    </header>
+
+
+        <!-- BANNER DA PAGINA -->
+
+        <div id="Banner">
+
+            <img id="fotoEscritorio" src="{% static 'img\imgHeader.png' %}">
+            <h1 class="textoSobreposto1">Transforme sua pele em um reflexo de saúde e beleza com a DermaSoft.</h1>
+            <h3 class="textoSobreposto2">Valorizar a si mesmo é o primeiro passo para uma relação duradoura e plena com
+                a vida.
+
+            </h3>
+
+        </div>
+
+
+
+    <!-- Botão "Voltar para o topo" -->
+    <button id="scrollToTop">Voltar para o topo</button>
+
+
+
+    <!-- ICONES DE CORAÇÃO E PASTA -->
+
+    <!-- animção que faz os icones surgirem do lado da página -->
+    <div class="animacao">
+
+        <Div class="icones">
+
+            <div class="iconeEFrase">
+
+                <svg class="coracao" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+                    <path d="M1,21c0,20,31,38,31,38s31-18,31-38
+                    c0-8.285-6-16-15-16c-8.285,0-16,5.715-16,14c0-8.285-7.715-14-16-14C7,5,1,12.715,1,21z" />
+                </svg>
+                <p class="fraseicone">Estamos prontos para cudar da sua saúde de forma única.</p>
+            </div>
+
+
+            <div class="iconeEFrase">
+                <svg class="pasta" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256">
+                    <path
+                        d="M106 112a6 6 0 0 1 6-6h32a6 6 0 0 1 0 12h-32a6 6 0 0 1-6-6Zm124-40v128a14 14 0 0 1-14 14H40a14 14 0 0 1-14-14V72a14 14 0 0 1 14-14h42V48a22 22 0 0 1 22-22h48a22 22 0 0 1 22 22v10h42a14 14 0 0 1 14 14ZM94 58h68V48a10 10 0 0 0-10-10h-48a10 10 0 0 0-10 10ZM38 72v42.79A186 186 0 0 0 128 138a185.91 185.91 0 0 0 90-23.22V72a2 2 0 0 0-2-2H40a2 2 0 0 0-2 2Zm180 128v-71.63A198.12 198.12 0 0 1 128 150a198.05 198.05 0 0 1-90-21.62V200a2 2 0 0 0 2 2h176a2 2 0 0 0 2-2Z" />
+                </svg>
+
+                <p class="fraseicone2">Você irá contar com um time formado pelos melhores profissionais do país.</p>
+            </div>
+
+            <div class="iconeEFrase">
+                <svg class="check" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                    <path
+                        d="M17.6 21.938a1.482 1.482 0 0 1-1.011-.4l-4.251-3.9a.5.5 0 0 0-.678 0l-4.25 3.9a1.5 1.5 0 0 1-2.517-1.1V4.563a2.5 2.5 0 0 1 2.5-2.5h9.214a2.5 2.5 0 0 1 2.5 2.5v15.872a1.483 1.483 0 0 1-.9 1.375a1.526 1.526 0 0 1-.607.128ZM12 16.5a1.5 1.5 0 0 1" />
+                    <path
+                        d="M14.85 9.08c-.11.12-.23.23-.35.35c-.83.83-1.65 1.65-2.47 2.48a.513.513 0 0 1-.71 0c-.47-.48-.94-.95-1.42-1.42a.5.5 0 0 1 .71-.71c.35.36.7.71 1.06 1.06c.83-.82 1.65-1.65 2.48-2.47c.45-.46 1.16.25.7.71Z" />
+                </svg>
+                <p class="fraseicone3"> A excelência no cuidado da sua pele é a nossa prioridade!</p>
+            </div>
+
+        </div>
+
+    </div>
+
+
+
+
+    <hr>
+
+
+    <!-- CONHEÇA A DERMASOFT -->
+
+    <div>
+        <div class="tituloConheçaADermaSoft">
+            <h1>Conheça a DermaSoft</h1>
+        </div>
+        <div class="ConhecaADermaSOft">
+            <div class="imagensDaClinica">
+                <img src="{% static 'img\imgConhecaDermaSoft.png' %}">
+                <img src="{% static 'img\imgConhecaDermaSoft2.png' %}">
+            </div>
+            <p class="textoDermasoft">
+                "Bem-vindo à DermaSoft! Somos uma equipe de profissionais altamente qualificados e dedicados,
+                comprometidos
+                em fornecer aos nossos pacientes os melhores cuidados de saúde da pele. Nós acreditamos que todas as
+                pessoas
+                merecem ter acesso a um tratamento dermatológico de qualidade, e estamos comprometidos em fornecer
+                soluções
+                personalizadas para atender às suas necessidades individuais.
+                Nossa clínica está equipada com tecnologia de ponta e contamos com uma equipe de especialistas
+                dermatológicos altamente treinados e capacitados para oferecer aos nossos pacientes uma ampla gama
+                de
+                serviços, incluindo consultas, exames, tratamentos médicos e cirúrgicos. Nós abordamos cada caso de
+                forma
+                cuidadosa e individual, garantindo que todas as necessidades e preocupações dos pacientes sejam
+                abordadas e
+                tratadas com atenção e profissionalismo.
+                Se você está procurando por cuidados de saúde de pele de alta qualidade, não procure mais. Entre em
+                contato
+                conosco hoje para agendar uma consulta e experimentar a diferença que somente a DermaSoft pode
+                oferecer."
+            </p>
+        </div>
+    </div>
+    <hr>
+
+    <!-- NOSSA EQUIPE -->
+
+    <Div class="NossaEquipe">
+        <h1>Nossa Equipe</h1>
+
+        <div class="doutores">
+            <div class="drFrancisco">
+                <img src="{% static 'img\drFranciscoDamasceno.png' %}">
+
+                <div class="drFranciscoDados">
+                    <h3>dr. Francisco Damasceno </h3>
+
+                    <ul>
+                        <li>
+                            •Médico formado pela Faculdade de Medicina da Santa Casa de São Paulo.
+                        </li>
+
+                        <li>
+                            •Residência Médica em Clínica Médica pela Universidade Federal de São Paulo/UNIFESP
+                        </li>
+
+                        <li>
+                            •Título de Especialista em Dermatologia pela Sociedade Brasileira de Dermatologia (SBD).
+                        </li>
+
+                        <li>
+                            •Especialista em Dermatologia pelo Conselho Federal de Medicina.
+                        </li>
+                    </ul>
+
+                </div>
+            </div>
+
+            <div class="draGabrielly">
+                <img src="img\draGabrielly.png">
+
+                <div class="draGabriellyDados">
+                    <h3>dra. Gabrielly Rogrigues </h3>
+
+                    <ul>
+                        <li>
+                            •dra. Graduação em Medicina pela Faculdade de Ciências Médicas da Santa Casa de São
+                            Paulo.
+                        </li>
+
+                        <li>
+                            •Residência em Dermatologia pela Santa Casa de São Paulo.
+                        </li>
+
+                        <li>
+                            •efetivo da Sociedade Brasileira de Dermatologia – Regional São Paulo.
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="draLucema">
+                <img src="img\draLucelma.png">
+
+                <div class="draLucemaDados">
+                    <h3>dra. Lucelma Cruz </h3>
+
+                    <ul>
+                        <li>
+                            •Graduação pela Universidade Federal de Santa Maria.
+                        </li>
+
+                        <li>
+                            •Residência médica em Dermatologia pelo Hospital Sírio Libanês.
+
+                        </li>
+
+
+                        <li>•Pós-graduada em tricologia pelo Hospital Ipiranga (TricoMed).
+
+                        </li>
+
+                        <li>
+                            •Membro efetivo da Sociedade Brasileira de Dermatologia (SBD)
+                        </li>
+                    </ul>
+                </div>
+
+            </div>
+
+            <div class="drLuis">
+                <img src="img\drLuisHenrique.png">
+
+                <div class="drLuisDados">
+                    <h3>dr. Luís Pazuello </h3>
+
+                    <ul>
+                        <li>
+                            •Graduação pela Universidade de São Paulo (USP).
+                        </li>
+
+                        <li>
+                            •Residência médica em Dermatologia pelo Hospital Albert Einstein .
+                        </li>
+
+                        <li>
+                            •Título de especialista em Dermatologia pela Sociedade Brasileira de Dermatologia (SBD)
+                        </li>
+
+                        <li>
+                            •Membro efetivo da Sociedade Brasileira de Dermatologia (SBD)
+                        </li>
+                    </ul>
+
+                </div>
+            </div>
+
+        </div>
+    </Div>
+    <hr>
+
+
+    <!-- NOSSOS TRATAMENTOS -->
+
+
+    <div class="nossosTratamentos">
+
+        <h1>Nossos Tratamentos</h1>
+
+        <div class="tratamentos">
+
+            <!-- ESTETICA CORPORAl -->
+
+            <div class="estéticaCorporal">
+                <section class="imgEstéticaCorporal">
+                    <a href="html/esteticaCorporal.html">
+                        <img src="img\imgTratamentoCorporal.png">
+                    </a>
+
+                </section>
+
+                <section>
+                    <a href="html/esteticaCorporal.html">Estética corporal</a>
+                </section>
+
+            </div>
+
+            <!-- TRATAMENTO FACIAL -->
+
+            <div class="tratamentosFaciais">
+                <section class="imgTratamentosFaciais">
+
+                    <a href="tratamentosFaciais.html">
+                        <img src="img\imgTratamentoFacial.png">
+                    </a>
+                </section>
+
+                <section>
+                    <a href="html/tratamentosFaciais.html">Tratamentos Faciais</a>
+                </section>
+
+            </div>
+
+
+            <!-- TRATAMENTO CAPILAR -->
+
+            <div class="tratamentosCapilar">
+                <section class="imgTratamentosCapilar">
+                    <a href="html/tratamentosCapilar.html">
+                        <img src="img\imgTratamentoCapilar.png">
+                    </a>
+
+                </section>
+
+                <section>
+                    <a href="html/tratamentosCapilar.html">Tratamentos Capilar</a>
+                </section>
+
+            </div>
+        </div>
+    </div>
+
+
+    <!-- FOOTER ONDE ESTÃO ENDEREÇO E AS REDES SOCIAIS -->
+    <footer>
+
+
+        <div class="endereços">
+
+
+            <ul>
+                <li>
+                    <p> UNIDADE MOOCA</p>
+                </li>
+                <br>
+
+                <li>
+                    <a href="https://goo.gl/maps/AVAwJAR75rhtGThZ9"> R. Sussui, 641a - Mooca, São Paulo</a>
+                </li>
+
+                <li>
+                    <a href="mailto:dermasoft2@gmail.com">E-mail: dermasoft2@gmail.com</a>
+                </li>
+
+                <li>
+                    <a>Tel.: +55 (11)7885-4838</a>
+                </li>
+
+                <li>
+
+
+                    <a href="https://api.whatsapp.com/send?phone=5511958080950" target="_blank"><img
+                            src="img\iconeWhatsApp.png" alt="WhatsApp" />+55 (11)
+                        95808-0950</a>
+                </li>
+            </ul>
+
+            <ul>
+                <li>
+                    <p> UNIDADE PAULISTA</p>
+                </li>
+                <br>
+
+                <li>
+                    <a href="https://goo.gl/maps/7YSVKPDxULP1KPJP9">R. Bela Cintra, 746 - Consolação, São Paulo</a>
+                </li>
+
+                <li>
+                    <a href="mailto:dermasoft2@gmail.com">E-mail: dermasoft2@gmail.com</a>
+                </li>
+
+                <li>
+                    <a>Tel.: +55 (11)7885-4838</a>
+                </li>
+
+                <li>
+                    <a href="https://api.whatsapp.com/send?phone=5511958080950" target="_blank"><img
+                            src="img\iconeWhatsApp.png" alt="WhatsApp" />+55 (11)
+                        95808-0950</a>
+                </li>
+            </ul>
+
+            <ul>
+
+                <li>
+                    <p>UNIDADE MORUMBI</p>
+                </li>
+                <br>
+
+                <li>
+                    <a href="https://goo.gl/maps/qXSpaBvpmMixa7TWA"> Av. Jorge João Saad, 767 - Morumbi, São
+                        Paulo</a>
+                </li>
+
+                <li>
+                    <a href="mailto:dermasoft2@gmail.com">E-mail: dermasoft2@gmail.com</a>
+                </li>
+
+                <li>
+                    <a>Tel.: +55 (11)7885-4838</a>
+                </li>
+
+                <li>
+                    <a href="https://api.whatsapp.com/send?phone=5511958080950" target="_blank"><img
+                            src="img\iconeWhatsApp.png" alt="WhatsApp" />+55 (11)
+                        95808-0950</a>
+                </li>
+            </ul>
+
+
+        </div>
+
+
+        <div class="redesSociais">
+            <p>Nossas redes sociais</P>
+            <div class="redessociaisFacebookEInstagram">
+
+                <div class="redessociaisFacebook">
+                    <img src="img\qrCodeFacebook.png">
+
+                    <a href="https://www.facebook.com/profile.php?id=100090315183773">
+                        <img src="img\IconeFacebook.png">
+                    </a>
+                </div>
+
+                <div class="redessociaisInstagram">
+                    <img src="img\qrCodeInstagram.png">
+
+                    <a href="https://www.instagram.com/dermasoft.23/">
+                        <img src="img\IconeInstagram.png">
+                    </a>
+                </div>
+
+            </div>
+
+
+        </div>
+        <a>
+            <button class="button">Fale conosco</button>
+        </a>
+        <p class="copyright">
+            Clínica DermaSoft. 2023. Todos os direitos reservados
+        </p>
+    </footer>
+
+    <script src="js/script.js"></script>
+
+
+</body>
+
+</html>
