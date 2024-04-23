@@ -5,5 +5,8 @@ def index(request):
     return render(request, "index.html")
 
 
-def NossaEquipe(request):
-    return render(request, "NossaEquipe.html")
+def nossa_equipe(request):
+    return render(request, "nossa_equipe.html")
+
+def tratamentos(request):
+    return render(request, "tratamentos.html")
