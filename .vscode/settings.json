@@ -5,9 +5,11 @@
     "python.formatting.provider": "black",
     "editor.defaultFormatter": "ms-python.black-formatter",
     "files.associations": {
-        "**/templates/**/*.html": "django-html"
+        "**/templates/**/*.html": "django-html",
+        "**/templates/**/*.css": "django-css"
     },
     "emmet.includeLanguages": {
-        "django-html": "html"
+        "django-html": "html",
+        "django txt": "css",
     },
 }
