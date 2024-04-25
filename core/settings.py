@@ -41,7 +41,7 @@ INSTALLED_APPS = [
     "django.contrib.staticfiles",
     "medico.apps.MedicoConfig",
     "home.apps.HomeConfig",
-    "paciente.apps.PacienteConfig"
+    "paciente.apps.PacienteConfig",
     "usuarios.apps.UsuariosConfig"
 
 ]
