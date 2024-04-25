@@ -10,3 +10,6 @@ def nossa_equipe(request):
 
 def tratamentos(request):
     return render(request, "tratamentos.html")
+
+def estetica_corporal(request):
+    return render(request, "estetica_corporal.html")

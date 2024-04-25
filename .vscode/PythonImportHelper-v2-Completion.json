@@ -65,6 +65,62 @@
         "documentation": {}
     },
     {
+        "label": "admin",
+        "importPath": "django.contrib",
+        "description": "django.contrib",
+        "isExtraImport": true,
+        "detail": "django.contrib",
+        "documentation": {}
+    },
+    {
+        "label": "messages",
+        "importPath": "django.contrib",
+        "description": "django.contrib",
+        "isExtraImport": true,
+        "detail": "django.contrib",
+        "documentation": {}
+    },
+    {
+        "label": "admin",
+        "importPath": "django.contrib",
+        "description": "django.contrib",
+        "isExtraImport": true,
+        "detail": "django.contrib",
+        "documentation": {}
+    },
+    {
+        "label": "messages",
+        "importPath": "django.contrib",
+        "description": "django.contrib",
+        "isExtraImport": true,
+        "detail": "django.contrib",
+        "documentation": {}
+    },
+    {
+        "label": "admin",
+        "importPath": "django.contrib",
+        "description": "django.contrib",
+        "isExtraImport": true,
+        "detail": "django.contrib",
+        "documentation": {}
+    },
+    {
+        "label": "messages",
+        "importPath": "django.contrib",
+        "description": "django.contrib",
+        "isExtraImport": true,
+        "detail": "django.contrib",
+        "documentation": {}
+    },
+    {
+        "label": "auth",
+        "importPath": "django.contrib",
+        "description": "django.contrib",
+        "isExtraImport": true,
+        "detail": "django.contrib",
+        "documentation": {}
+    },
+    {
         "label": "path",
         "importPath": "django.urls",
         "description": "django.urls",
@@ -74,6 +130,30 @@
     },
     {
         "label": "include",
+        "importPath": "django.urls",
+        "description": "django.urls",
+        "isExtraImport": true,
+        "detail": "django.urls",
+        "documentation": {}
+    },
+    {
+        "label": "path",
+        "importPath": "django.urls",
+        "description": "django.urls",
+        "isExtraImport": true,
+        "detail": "django.urls",
+        "documentation": {}
+    },
+    {
+        "label": "path",
+        "importPath": "django.urls",
+        "description": "django.urls",
+        "isExtraImport": true,
+        "detail": "django.urls",
+        "documentation": {}
+    },
+    {
+        "label": "path",
         "importPath": "django.urls",
         "description": "django.urls",
         "isExtraImport": true,
@@ -105,6 +185,118 @@
         "documentation": {}
     },
     {
+        "label": "AppConfig",
+        "importPath": "django.apps",
+        "description": "django.apps",
+        "isExtraImport": true,
+        "detail": "django.apps",
+        "documentation": {}
+    },
+    {
+        "label": "AppConfig",
+        "importPath": "django.apps",
+        "description": "django.apps",
+        "isExtraImport": true,
+        "detail": "django.apps",
+        "documentation": {}
+    },
+    {
+        "label": "AppConfig",
+        "importPath": "django.apps",
+        "description": "django.apps",
+        "isExtraImport": true,
+        "detail": "django.apps",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
         "label": "models",
         "importPath": "django.db",
         "description": "django.db",
@@ -121,11 +313,260 @@
         "documentation": {}
     },
     {
+        "label": "TestCase",
+        "importPath": "django.test",
+        "description": "django.test",
+        "isExtraImport": true,
+        "detail": "django.test",
+        "documentation": {}
+    },
+    {
+        "label": "TestCase",
+        "importPath": "django.test",
+        "description": "django.test",
+        "isExtraImport": true,
+        "detail": "django.test",
+        "documentation": {}
+    },
+    {
+        "label": "TestCase",
+        "importPath": "django.test",
+        "description": "django.test",
+        "isExtraImport": true,
+        "detail": "django.test",
+        "documentation": {}
+    },
+    {
         "label": "render",
         "importPath": "django.shortcuts",
         "description": "django.shortcuts",
         "isExtraImport": true,
         "detail": "django.shortcuts",
+        "documentation": {}
+    },
+    {
+        "label": "render",
+        "importPath": "django.shortcuts",
+        "description": "django.shortcuts",
+        "isExtraImport": true,
+        "detail": "django.shortcuts",
+        "documentation": {}
+    },
+    {
+        "label": "redirect",
+        "importPath": "django.shortcuts",
+        "description": "django.shortcuts",
+        "isExtraImport": true,
+        "detail": "django.shortcuts",
+        "documentation": {}
+    },
+    {
+        "label": "render",
+        "importPath": "django.shortcuts",
+        "description": "django.shortcuts",
+        "isExtraImport": true,
+        "detail": "django.shortcuts",
+        "documentation": {}
+    },
+    {
+        "label": "redirect",
+        "importPath": "django.shortcuts",
+        "description": "django.shortcuts",
+        "isExtraImport": true,
+        "detail": "django.shortcuts",
+        "documentation": {}
+    },
+    {
+        "label": "render",
+        "importPath": "django.shortcuts",
+        "description": "django.shortcuts",
+        "isExtraImport": true,
+        "detail": "django.shortcuts",
+        "documentation": {}
+    },
+    {
+        "label": "redirect",
+        "importPath": "django.shortcuts",
+        "description": "django.shortcuts",
+        "isExtraImport": true,
+        "detail": "django.shortcuts",
+        "documentation": {}
+    },
+    {
+        "label": "django.db.models.deletion",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "django.db.models.deletion",
+        "description": "django.db.models.deletion",
+        "detail": "django.db.models.deletion",
+        "documentation": {}
+    },
+    {
+        "label": "settings",
+        "importPath": "django.conf",
+        "description": "django.conf",
+        "isExtraImport": true,
+        "detail": "django.conf",
+        "documentation": {}
+    },
+    {
+        "label": "settings",
+        "importPath": "django.conf",
+        "description": "django.conf",
+        "isExtraImport": true,
+        "detail": "django.conf",
+        "documentation": {}
+    },
+    {
+        "label": "settings",
+        "importPath": "django.conf",
+        "description": "django.conf",
+        "isExtraImport": true,
+        "detail": "django.conf",
+        "documentation": {}
+    },
+    {
+        "label": "User",
+        "importPath": "django.contrib.auth.models",
+        "description": "django.contrib.auth.models",
+        "isExtraImport": true,
+        "detail": "django.contrib.auth.models",
+        "documentation": {}
+    },
+    {
+        "label": "User",
+        "importPath": "django.contrib.auth.models",
+        "description": "django.contrib.auth.models",
+        "isExtraImport": true,
+        "detail": "django.contrib.auth.models",
+        "documentation": {}
+    },
+    {
+        "label": "User",
+        "importPath": "django.contrib.auth.models",
+        "description": "django.contrib.auth.models",
+        "isExtraImport": true,
+        "detail": "django.contrib.auth.models",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "timedelta",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "login_required",
+        "importPath": "django.contrib.auth.decorators",
+        "description": "django.contrib.auth.decorators",
+        "isExtraImport": true,
+        "detail": "django.contrib.auth.decorators",
+        "documentation": {}
+    },
+    {
+        "label": "constants",
+        "importPath": "django.contrib.messages",
+        "description": "django.contrib.messages",
+        "isExtraImport": true,
+        "detail": "django.contrib.messages",
+        "documentation": {}
+    },
+    {
+        "label": "constants",
+        "importPath": "django.contrib.messages",
+        "description": "django.contrib.messages",
+        "isExtraImport": true,
+        "detail": "django.contrib.messages",
+        "documentation": {}
+    },
+    {
+        "label": "constants",
+        "importPath": "django.contrib.messages",
+        "description": "django.contrib.messages",
+        "isExtraImport": true,
+        "detail": "django.contrib.messages",
+        "documentation": {}
+    },
+    {
+        "label": "Consulta",
+        "importPath": "paciente.models",
+        "description": "paciente.models",
+        "isExtraImport": true,
+        "detail": "paciente.models",
+        "documentation": {}
+    },
+    {
+        "label": "Documento",
+        "importPath": "paciente.models",
+        "description": "paciente.models",
+        "isExtraImport": true,
+        "detail": "paciente.models",
+        "documentation": {}
+    },
+    {
+        "label": "DatasAbertas",
+        "importPath": "medico.models",
+        "description": "medico.models",
+        "isExtraImport": true,
+        "detail": "medico.models",
+        "documentation": {}
+    },
+    {
+        "label": "DadosMedico",
+        "importPath": "medico.models",
+        "description": "medico.models",
+        "isExtraImport": true,
+        "detail": "medico.models",
+        "documentation": {}
+    },
+    {
+        "label": "Especialidades",
+        "importPath": "medico.models",
+        "description": "medico.models",
+        "isExtraImport": true,
+        "detail": "medico.models",
+        "documentation": {}
+    },
+    {
+        "label": "DatasAbertas",
+        "importPath": "medico.models",
+        "description": "medico.models",
+        "isExtraImport": true,
+        "detail": "medico.models",
+        "documentation": {}
+    },
+    {
+        "label": "is_medico",
+        "importPath": "medico.models",
+        "description": "medico.models",
+        "isExtraImport": true,
+        "detail": "medico.models",
         "documentation": {}
     },
     {
@@ -340,7 +781,7 @@
         "kind": 5,
         "importPath": "home.urls",
         "description": "home.urls",
-        "peekOfCode": "urlpatterns = [\n    path(\"index/\", views.index, name=\"index\"),\n    path(\"nossa_equipe/\", views.nossa_equipe, name=\"nossa_equipe\"),\n    path(\"tratamentos/\", views.tratamentos, name=\"tratamentos\"),\n]",
+        "peekOfCode": "urlpatterns = [\n    path(\"\", views.index, name=\"index\"),\n    path(\"nossa_equipe/\", views.nossa_equipe, name=\"nossa_equipe\"),\n    path(\"tratamentos/\", views.tratamentos, name=\"tratamentos\"),\n    path(\"tratamentos/estetica_corporal/\", views.estetica_corporal, name=\"estetica_corporal\"),\n]",
         "detail": "home.urls",
         "documentation": {}
     },
@@ -349,7 +790,7 @@
         "kind": 2,
         "importPath": "home.views",
         "description": "home.views",
-        "peekOfCode": "def index(request):\n    return render(request, \"index.html\")\ndef nossa_equipe(request):\n    return render(request, \"nossa_equipe.html\")\ndef tratamentos(request):\n    return render(request, \"tratamentos.html\")",
+        "peekOfCode": "def index(request):\n    return render(request, \"index.html\")\ndef nossa_equipe(request):\n    return render(request, \"nossa_equipe.html\")\ndef tratamentos(request):\n    return render(request, \"tratamentos.html\")\ndef estetica_corporal(request):\n    return render(request, \"estetica_corporal.html\")",
         "detail": "home.views",
         "documentation": {}
     },
@@ -358,7 +799,7 @@
         "kind": 2,
         "importPath": "home.views",
         "description": "home.views",
-        "peekOfCode": "def nossa_equipe(request):\n    return render(request, \"nossa_equipe.html\")\ndef tratamentos(request):\n    return render(request, \"tratamentos.html\")",
+        "peekOfCode": "def nossa_equipe(request):\n    return render(request, \"nossa_equipe.html\")\ndef tratamentos(request):\n    return render(request, \"tratamentos.html\")\ndef estetica_corporal(request):\n    return render(request, \"estetica_corporal.html\")",
         "detail": "home.views",
         "documentation": {}
     },
@@ -367,8 +808,287 @@
         "kind": 2,
         "importPath": "home.views",
         "description": "home.views",
-        "peekOfCode": "def tratamentos(request):\n    return render(request, \"tratamentos.html\")",
+        "peekOfCode": "def tratamentos(request):\n    return render(request, \"tratamentos.html\")\ndef estetica_corporal(request):\n    return render(request, \"estetica_corporal.html\")",
         "detail": "home.views",
+        "documentation": {}
+    },
+    {
+        "label": "estetica_corporal",
+        "kind": 2,
+        "importPath": "home.views",
+        "description": "home.views",
+        "peekOfCode": "def estetica_corporal(request):\n    return render(request, \"estetica_corporal.html\")",
+        "detail": "home.views",
+        "documentation": {}
+    },
+    {
+        "label": "Migration",
+        "kind": 6,
+        "importPath": "medico.migrations.0001_initial",
+        "description": "medico.migrations.0001_initial",
+        "peekOfCode": "class Migration(migrations.Migration):\n    initial = True\n    dependencies = [\n        migrations.swappable_dependency(settings.AUTH_USER_MODEL),\n    ]\n    operations = [\n        migrations.CreateModel(\n            name=\"Especialidades\",\n            fields=[\n                (",
+        "detail": "medico.migrations.0001_initial",
+        "documentation": {}
+    },
+    {
+        "label": "Migration",
+        "kind": 6,
+        "importPath": "medico.migrations.0002_datasabertas",
+        "description": "medico.migrations.0002_datasabertas",
+        "peekOfCode": "class Migration(migrations.Migration):\n    dependencies = [\n        (\"medico\", \"0001_initial\"),\n        migrations.swappable_dependency(settings.AUTH_USER_MODEL),\n    ]\n    operations = [\n        migrations.CreateModel(\n            name=\"DatasAbertas\",\n            fields=[\n                (",
+        "detail": "medico.migrations.0002_datasabertas",
+        "documentation": {}
+    },
+    {
+        "label": "MedicoConfig",
+        "kind": 6,
+        "importPath": "medico.apps",
+        "description": "medico.apps",
+        "peekOfCode": "class MedicoConfig(AppConfig):\n    default_auto_field = \"django.db.models.BigAutoField\"\n    name = \"medico\"",
+        "detail": "medico.apps",
+        "documentation": {}
+    },
+    {
+        "label": "Especialidades",
+        "kind": 6,
+        "importPath": "medico.models",
+        "description": "medico.models",
+        "peekOfCode": "class Especialidades(models.Model):\n    especialidade = models.CharField(max_length=100)\n    icone = models.ImageField(upload_to=\"icones\", null=True, blank=True)\n    def __str__(self):\n        return self.especialidade\nclass DadosMedico(models.Model):\n    crm = models.CharField(max_length=30)\n    nome = models.CharField(max_length=100)\n    cep = models.CharField(max_length=15)\n    rua = models.CharField(max_length=100)",
+        "detail": "medico.models",
+        "documentation": {}
+    },
+    {
+        "label": "DadosMedico",
+        "kind": 6,
+        "importPath": "medico.models",
+        "description": "medico.models",
+        "peekOfCode": "class DadosMedico(models.Model):\n    crm = models.CharField(max_length=30)\n    nome = models.CharField(max_length=100)\n    cep = models.CharField(max_length=15)\n    rua = models.CharField(max_length=100)\n    bairro = models.CharField(max_length=100)\n    numero = models.IntegerField()\n    rg = models.ImageField(upload_to=\"rgs\")\n    cedula_identidade_medica = models.ImageField(upload_to=\"cim\")\n    foto = models.ImageField(upload_to=\"fotos_perfil\")",
+        "detail": "medico.models",
+        "documentation": {}
+    },
+    {
+        "label": "DatasAbertas",
+        "kind": 6,
+        "importPath": "medico.models",
+        "description": "medico.models",
+        "peekOfCode": "class DatasAbertas(models.Model):\n    data = models.DateTimeField()\n    user = models.ForeignKey(User, on_delete=models.DO_NOTHING)\n    agendado = models.BooleanField(default=False)\n    def __str__(self):\n        return str(self.data)",
+        "detail": "medico.models",
+        "documentation": {}
+    },
+    {
+        "label": "is_medico",
+        "kind": 2,
+        "importPath": "medico.models",
+        "description": "medico.models",
+        "peekOfCode": "def is_medico(user):\n    return DadosMedico.objects.filter(user=user).exists()\nclass Especialidades(models.Model):\n    especialidade = models.CharField(max_length=100)\n    icone = models.ImageField(upload_to=\"icones\", null=True, blank=True)\n    def __str__(self):\n        return self.especialidade\nclass DadosMedico(models.Model):\n    crm = models.CharField(max_length=30)\n    nome = models.CharField(max_length=100)",
+        "detail": "medico.models",
+        "documentation": {}
+    },
+    {
+        "label": "urlpatterns",
+        "kind": 5,
+        "importPath": "medico.urls",
+        "description": "medico.urls",
+        "peekOfCode": "urlpatterns = [\n    path(\"cadastro_medico/\", views.cadastro_medico, name=\"cadastro_medico\"),\n    path(\"abrir_horario/\", views.abrir_horario, name=\"abrir_horario\"),\n    path(\"consultas_medico/\", views.consultas_medico, name=\"consultas_medico\"),\n    path(\n        \"consulta_area_medico/<int:id_consulta>/\",\n        views.consulta_area_medico,\n        name=\"consulta_area_medico\",\n    ),\n    path(",
+        "detail": "medico.urls",
+        "documentation": {}
+    },
+    {
+        "label": "cadastro_medico",
+        "kind": 2,
+        "importPath": "medico.views",
+        "description": "medico.views",
+        "peekOfCode": "def cadastro_medico(request):\n    if is_medico(request.user):\n        messages.add_message(\n            request, constants.WARNING, \"Você já está cadastrado como médico.\"\n        )\n        return redirect(\"/medicos/abrir_horario\")\n    if request.method == \"GET\":\n        especialidades = Especialidades.objects.all()\n        return render(\n            request,",
+        "detail": "medico.views",
+        "documentation": {}
+    },
+    {
+        "label": "abrir_horario",
+        "kind": 2,
+        "importPath": "medico.views",
+        "description": "medico.views",
+        "peekOfCode": "def abrir_horario(request):\n    if not is_medico(request.user):\n        messages.add_message(\n            request, constants.WARNING, \"Somente médicos podem acessar essa página.\"\n        )\n        return redirect(\"/usuarios/sair\")\n    if request.method == \"GET\":\n        dados_medicos = DadosMedico.objects.get(user=request.user)\n        datas_abertas = DatasAbertas.objects.filter(user=request.user)\n        return render(",
+        "detail": "medico.views",
+        "documentation": {}
+    },
+    {
+        "label": "consultas_medico",
+        "kind": 2,
+        "importPath": "medico.views",
+        "description": "medico.views",
+        "peekOfCode": "def consultas_medico(request):\n    if not is_medico(request.user):\n        messages.add_message(\n            request, constants.WARNING, \"Somente médicos podem acessar essa página.\"\n        )\n        return redirect(\"/usuarios/sair\")\n    hoje = datetime.now().date()\n    consultas_hoje = (\n        Consulta.objects.filter(data_aberta__user=request.user)\n        .filter(data_aberta__data__gte=hoje)",
+        "detail": "medico.views",
+        "documentation": {}
+    },
+    {
+        "label": "consulta_area_medico",
+        "kind": 2,
+        "importPath": "medico.views",
+        "description": "medico.views",
+        "peekOfCode": "def consulta_area_medico(request, id_consulta):\n    if not is_medico(request.user):\n        messages.add_message(\n            request, constants.WARNING, \"Somente médicos podem acessar essa página.\"\n        )\n        return redirect(\"/usuarios/sair\")\n    if request.method == \"GET\":\n        consulta = Consulta.objects.get(id=id_consulta)\n        documentos = Documento.objects.filter(consulta=consulta)\n        return render(",
+        "detail": "medico.views",
+        "documentation": {}
+    },
+    {
+        "label": "finalizar_consulta",
+        "kind": 2,
+        "importPath": "medico.views",
+        "description": "medico.views",
+        "peekOfCode": "def finalizar_consulta(request, id_consulta):\n    if not is_medico(request.user):\n        messages.add_message(\n            request, constants.WARNING, \"Somente médicos podem acessar essa página.\"\n        )\n        return redirect(\"/usuarios/sair\")\n    consulta = Consulta.objects.get(id=id_consulta)\n    if request.user != consulta.data_aberta.user:\n        request, constants.ERROR, \"Essa consulta não é sua.\"\n        return redirect(f\"/medicos/consulta_area_medico/{id_consulta}\")",
+        "detail": "medico.views",
+        "documentation": {}
+    },
+    {
+        "label": "add_documento",
+        "kind": 2,
+        "importPath": "medico.views",
+        "description": "medico.views",
+        "peekOfCode": "def add_documento(request, id_consulta):\n    if not is_medico(request.user):\n        messages.add_message(\n            request, constants.WARNING, \"Somente médicos podem acessar essa página.\"\n        )\n        return redirect(\"/usuarios/sair\")\n    consulta = Consulta.objects.get(id=id_consulta)\n    if consulta.data_aberta.user != request.user:\n        messages.add_message(request, constants.ERROR, \"Essa consulta não é sua!\")\n        return redirect(f\"/medicos/abrir_horarios\")",
+        "detail": "medico.views",
+        "documentation": {}
+    },
+    {
+        "label": "Migration",
+        "kind": 6,
+        "importPath": "paciente.migrations.0001_initial",
+        "description": "paciente.migrations.0001_initial",
+        "peekOfCode": "class Migration(migrations.Migration):\n    initial = True\n    dependencies = [\n        (\"medico\", \"0002_datasabertas\"),\n        migrations.swappable_dependency(settings.AUTH_USER_MODEL),\n    ]\n    operations = [\n        migrations.CreateModel(\n            name=\"Consulta\",\n            fields=[",
+        "detail": "paciente.migrations.0001_initial",
+        "documentation": {}
+    },
+    {
+        "label": "Migration",
+        "kind": 6,
+        "importPath": "paciente.migrations.0002_documento",
+        "description": "paciente.migrations.0002_documento",
+        "peekOfCode": "class Migration(migrations.Migration):\n    dependencies = [\n        (\"paciente\", \"0001_initial\"),\n    ]\n    operations = [\n        migrations.CreateModel(\n            name=\"Documento\",\n            fields=[\n                (\n                    \"id\",",
+        "detail": "paciente.migrations.0002_documento",
+        "documentation": {}
+    },
+    {
+        "label": "PacienteConfig",
+        "kind": 6,
+        "importPath": "paciente.apps",
+        "description": "paciente.apps",
+        "peekOfCode": "class PacienteConfig(AppConfig):\n    default_auto_field = \"django.db.models.BigAutoField\"\n    name = \"paciente\"",
+        "detail": "paciente.apps",
+        "documentation": {}
+    },
+    {
+        "label": "Consulta",
+        "kind": 6,
+        "importPath": "paciente.models",
+        "description": "paciente.models",
+        "peekOfCode": "class Consulta(models.Model):\n    status_choices = (\n        (\"A\", \"Agendada\"),\n        (\"F\", \"Finalizada\"),\n        (\"C\", \"Cancelada\"),\n        (\"I\", \"Iniciada\"),\n    )\n    paciente = models.ForeignKey(User, on_delete=models.DO_NOTHING)\n    data_aberta = models.ForeignKey(DatasAbertas, on_delete=models.DO_NOTHING)\n    status = models.CharField(max_length=1, choices=status_choices, default=\"A\")",
+        "detail": "paciente.models",
+        "documentation": {}
+    },
+    {
+        "label": "Documento",
+        "kind": 6,
+        "importPath": "paciente.models",
+        "description": "paciente.models",
+        "peekOfCode": "class Documento(models.Model):\n    consulta = models.ForeignKey(Consulta, on_delete=models.DO_NOTHING)\n    titulo = models.CharField(max_length=30)\n    documento = models.FileField(upload_to=\"documentos\")\n    def __str__(self):\n        return self.titulo",
+        "detail": "paciente.models",
+        "documentation": {}
+    },
+    {
+        "label": "urlpatterns",
+        "kind": 5,
+        "importPath": "paciente.urls",
+        "description": "paciente.urls",
+        "peekOfCode": "urlpatterns = [\n    path(\"home/\", views.home, name=\"home\"),\n    path(\n        \"escolher_horario/<int:id_dados_medicos>/\",\n        views.escolher_horario,\n        name=\"escolher_horario\",\n    ),\n    path(\n        \"agendar_horario/<int:id_data_aberta>/\",\n        views.agendar_horario,",
+        "detail": "paciente.urls",
+        "documentation": {}
+    },
+    {
+        "label": "home",
+        "kind": 2,
+        "importPath": "paciente.views",
+        "description": "paciente.views",
+        "peekOfCode": "def home(request):\n    if request.method == \"GET\":\n        medico_filtrar = request.GET.get(\"medico\")\n        especialidades_filtrar = request.GET.getlist(\"especialidades\")\n        medicos = DadosMedico.objects.all()\n        if medico_filtrar:\n            medicos = medicos.filter(nome__icontains=medico_filtrar)\n        if especialidades_filtrar:\n            medicos = medicos.filter(especialidade_id__in=especialidades_filtrar)\n        especialidades = Especialidades.objects.all()",
+        "detail": "paciente.views",
+        "documentation": {}
+    },
+    {
+        "label": "escolher_horario",
+        "kind": 2,
+        "importPath": "paciente.views",
+        "description": "paciente.views",
+        "peekOfCode": "def escolher_horario(request, id_dados_medicos):\n    if request.method == \"GET\":\n        medico = DadosMedico.objects.get(id=id_dados_medicos)\n        datas_abertas = (\n            DatasAbertas.objects.filter(user=medico.user)\n            .filter(data__gte=datetime.now())\n            .filter(agendado=False)\n        )\n        return render(\n            request,",
+        "detail": "paciente.views",
+        "documentation": {}
+    },
+    {
+        "label": "agendar_horario",
+        "kind": 2,
+        "importPath": "paciente.views",
+        "description": "paciente.views",
+        "peekOfCode": "def agendar_horario(request, id_data_aberta):\n    if request.method == \"GET\":\n        data_aberta = DatasAbertas.objects.get(id=id_data_aberta)\n        horario_agendado = Consulta(paciente=request.user, data_aberta=data_aberta)\n        horario_agendado.save()\n        # TODO: Sugestão Tornar atomico\n        data_aberta.agendado = True\n        data_aberta.save()\n        messages.add_message(\n            request, constants.SUCCESS, \"Horário agendado com sucesso.\"",
+        "detail": "paciente.views",
+        "documentation": {}
+    },
+    {
+        "label": "minhas_consultas",
+        "kind": 2,
+        "importPath": "paciente.views",
+        "description": "paciente.views",
+        "peekOfCode": "def minhas_consultas(request):\n    if request.method == \"GET\":\n        # TODO: desenvolver filtros\n        minhas_consultas = Consulta.objects.filter(paciente=request.user).filter(\n            data_aberta__data__gte=datetime.now()\n        )\n        return render(\n            request,\n            \"minhas_consultas.html\",\n            {",
+        "detail": "paciente.views",
+        "documentation": {}
+    },
+    {
+        "label": "consulta",
+        "kind": 2,
+        "importPath": "paciente.views",
+        "description": "paciente.views",
+        "peekOfCode": "def consulta(request, id_consulta):\n    if request.method == \"GET\":\n        consulta = Consulta.objects.get(id=id_consulta)\n        dado_medico = DadosMedico.objects.get(user=consulta.data_aberta.user)\n        documentos = Documento.objects.filter(consulta=consulta)\n        return render(\n            request,\n            \"consulta.html\",\n            {\n                \"consulta\": consulta,",
+        "detail": "paciente.views",
+        "documentation": {}
+    },
+    {
+        "label": "UsuariosConfig",
+        "kind": 6,
+        "importPath": "usuarios.apps",
+        "description": "usuarios.apps",
+        "peekOfCode": "class UsuariosConfig(AppConfig):\n    default_auto_field = 'django.db.models.BigAutoField'\n    name = 'usuarios'",
+        "detail": "usuarios.apps",
+        "documentation": {}
+    },
+    {
+        "label": "urlpatterns",
+        "kind": 5,
+        "importPath": "usuarios.urls",
+        "description": "usuarios.urls",
+        "peekOfCode": "urlpatterns = [\n    path(\"cadastro/\", views.cadastro, name=\"cadastro\"),\n    path(\"login/\", views.login_view, name=\"login\"),\n    path(\"sair/\", views.sair, name=\"sair\"),\n]",
+        "detail": "usuarios.urls",
+        "documentation": {}
+    },
+    {
+        "label": "cadastro",
+        "kind": 2,
+        "importPath": "usuarios.views",
+        "description": "usuarios.views",
+        "peekOfCode": "def cadastro(request):\n    if request.method == \"GET\":\n        return render(request, \"cadastro.html\")\n    elif request.method == \"POST\":\n        username = request.POST.get(\"username\")\n        email = request.POST.get(\"email\")\n        senha = request.POST.get(\"senha\")\n        confirmar_senha = request.POST.get(\"confirmar_senha\")\n        users = User.objects.filter(username=username)\n        if users.exists():",
+        "detail": "usuarios.views",
+        "documentation": {}
+    },
+    {
+        "label": "login_view",
+        "kind": 2,
+        "importPath": "usuarios.views",
+        "description": "usuarios.views",
+        "peekOfCode": "def login_view(request):\n    if request.method == \"GET\":\n        return render(request, \"login.html\")\n    elif request.method == \"POST\":\n        username = request.POST.get(\"username\")\n        senha = request.POST.get(\"senha\")\n        user = auth.authenticate(request, username=username, password=senha)\n        if user:\n            auth.login(request, user)\n            return redirect(\"/pacientes/home\")",
+        "detail": "usuarios.views",
+        "documentation": {}
+    },
+    {
+        "label": "sair",
+        "kind": 2,
+        "importPath": "usuarios.views",
+        "description": "usuarios.views",
+        "peekOfCode": "def sair(request):\n    auth.logout(request)\n    return redirect(\"/usuarios/login\")",
+        "detail": "usuarios.views",
         "documentation": {}
     },
     {
