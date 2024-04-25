@@ -635,7 +635,7 @@
         "kind": 5,
         "importPath": "core.settings",
         "description": "core.settings",
-        "peekOfCode": "ALLOWED_HOSTS = config(\"ALLOWED_HOSTS\", cast=Csv())\n# Application definition\nINSTALLED_APPS = [\n    \"django.contrib.admin\",\n    \"django.contrib.auth\",\n    \"django.contrib.contenttypes\",\n    \"django.contrib.sessions\",\n    \"django.contrib.messages\",\n    \"django.contrib.staticfiles\",\n    \"usuarios.apps.UsuariosConfig\",",
+        "peekOfCode": "ALLOWED_HOSTS = config(\"ALLOWED_HOSTS\", cast=Csv())\n# Application definition\nINSTALLED_APPS = [\n    \"django.contrib.admin\",\n    \"django.contrib.auth\",\n    \"django.contrib.contenttypes\",\n    \"django.contrib.sessions\",\n    \"django.contrib.messages\",\n    \"django.contrib.staticfiles\",\n    \"medico.apps.MedicoConfig\",",
         "detail": "core.settings",
         "documentation": {}
     },
@@ -644,7 +644,7 @@
         "kind": 5,
         "importPath": "core.settings",
         "description": "core.settings",
-        "peekOfCode": "INSTALLED_APPS = [\n    \"django.contrib.admin\",\n    \"django.contrib.auth\",\n    \"django.contrib.contenttypes\",\n    \"django.contrib.sessions\",\n    \"django.contrib.messages\",\n    \"django.contrib.staticfiles\",\n    \"usuarios.apps.UsuariosConfig\",\n    \"home.apps.HomeConfig\",\n    \"paciente.apps.PacienteConfig\"",
+        "peekOfCode": "INSTALLED_APPS = [\n    \"django.contrib.admin\",\n    \"django.contrib.auth\",\n    \"django.contrib.contenttypes\",\n    \"django.contrib.sessions\",\n    \"django.contrib.messages\",\n    \"django.contrib.staticfiles\",\n    \"medico.apps.MedicoConfig\",\n    \"home.apps.HomeConfig\",\n    \"paciente.apps.PacienteConfig\"",
         "detail": "core.settings",
         "documentation": {}
     },

@@ -39,7 +39,7 @@ INSTALLED_APPS = [
     "django.contrib.sessions",
     "django.contrib.messages",
     "django.contrib.staticfiles",
-    "usuarios.apps.UsuariosConfig",
+    "medico.apps.MedicoConfig",
     "home.apps.HomeConfig",
     "paciente.apps.PacienteConfig"
     "usuarios.apps.UsuariosConfig"
