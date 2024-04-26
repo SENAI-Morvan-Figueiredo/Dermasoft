@@ -24,8 +24,7 @@ nav {
     position: relative;
     top: 0;
     animation: surgirNav;
-    animation-duration: 1.5s;
-    animation-direction: normal;
+    animacao    animation-direction: normal;
 }
 
 @keyframes surgirNav {
