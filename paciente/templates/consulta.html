@@ -38,6 +38,8 @@
                         <p style="font-size: 20px" class="p-bold">Dr(a). {{dado_medico.nome}} <i class="bi bi-patch-check-fill icon-main"></i></p>
                         <p>{{dado_medico.descricao}}</p>
                         <p class="p-bold">{{consulta.data_aberta.data}}</p>
+
+                        <a href="{% url 'cancelar_consulta' consulta.id %}" class="btn btn-danger">Cancelar consulta<a>
                     </div>
                 </div> 
                 <hr>

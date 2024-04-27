@@ -114,3 +114,14 @@ def consulta(request, id_consulta):
                 "is_medico": is_medico(request.user),
             },
         )
+
+
+def cancelar_consulta(request, id_consulta):
+    consulta = Consulta.objects.get(id=id_consulta)
+    if request.user != consulta.paciente:
+        messages.add_message(request, constants.ERROR, "Essa consulta não é sua")
+        return redirect(f"/pacientes/home/")
+
+    consulta.status = "C"
+    consulta.save()
+    return redirect(f"/pacientes/consulta/{id_consulta}")
