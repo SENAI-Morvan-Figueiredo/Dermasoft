@@ -76,15 +76,23 @@ def agendar_horario(request, id_data_aberta):
 @login_required
 def minhas_consultas(request):
     if request.method == "GET":
-        # TODO: desenvolver filtros
-        minhas_consultas = Consulta.objects.filter(paciente=request.user).filter(
-            data_aberta__data__gte=datetime.now()
-        )
+        medico_filtrar = request.GET.get("medico")
+        especialidades_filtrar = request.GET.getlist("especialidades")
+        medicos = DadosMedico.objects.all()
+
+        if medico_filtrar:
+            medicos = medicos.filter(nome__icontains=medico_filtrar)
+
+        if especialidades_filtrar:
+            medicos = medicos.filter(especialidade_id__in=especialidades_filtrar)
+
+        especialidades = Especialidades.objects.all()
         return render(
             request,
-            "minhas_consultas.html",
+            "home.html",
             {
-                "minhas_consultas": minhas_consultas,
+                "medicos": medicos,
+                "especialidades": especialidades,
                 "is_medico": is_medico(request.user),
             },
         )
