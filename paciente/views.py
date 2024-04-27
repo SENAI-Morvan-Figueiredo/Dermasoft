@@ -4,8 +4,10 @@ from .models import Consulta, Documento
 from datetime import datetime
 from django.contrib import messages
 from django.contrib.messages import constants
+from django.contrib.auth.decorators import login_required
 
 
+@login_required
 def home(request):
     if request.method == "GET":
         medico_filtrar = request.GET.get("medico")
@@ -30,6 +32,7 @@ def home(request):
         )
 
 
+@login_required
 def escolher_horario(request, id_dados_medicos):
     if request.method == "GET":
         medico = DadosMedico.objects.get(id=id_dados_medicos)
@@ -49,6 +52,7 @@ def escolher_horario(request, id_dados_medicos):
         )
 
 
+@login_required
 def agendar_horario(request, id_data_aberta):
     if request.method == "GET":
         data_aberta = DatasAbertas.objects.get(id=id_data_aberta)
@@ -69,6 +73,7 @@ def agendar_horario(request, id_data_aberta):
         return redirect("/pacientes/minhas_consultas/")
 
 
+@login_required
 def minhas_consultas(request):
     if request.method == "GET":
         # TODO: desenvolver filtros
@@ -85,6 +90,7 @@ def minhas_consultas(request):
         )
 
 
+@login_required
 def consulta(request, id_consulta):
     if request.method == "GET":
         consulta = Consulta.objects.get(id=id_consulta)

@@ -107,6 +107,7 @@ def abrir_horario(request):
         return redirect("/medicos/abrir_horario")
 
 
+@login_required
 def consultas_medico(request):
     if not is_medico(request.user):
         messages.add_message(
@@ -136,6 +137,7 @@ def consultas_medico(request):
     )
 
 
+@login_required
 def consulta_area_medico(request, id_consulta):
     if not is_medico(request.user):
         messages.add_message(
@@ -186,6 +188,7 @@ def consulta_area_medico(request, id_consulta):
         return redirect(f"/medicos/consulta_area_medico/{id_consulta}")
 
 
+@login_required
 def finalizar_consulta(request, id_consulta):
     if not is_medico(request.user):
         messages.add_message(
@@ -204,6 +207,7 @@ def finalizar_consulta(request, id_consulta):
     return redirect(f"/medicos/consulta_area_medico/{id_consulta}")
 
 
+@login_required
 def add_documento(request, id_consulta):
     if not is_medico(request.user):
         messages.add_message(
