@@ -49,6 +49,38 @@
         "documentation": {}
     },
     {
+        "label": "constants",
+        "importPath": "django.contrib.messages",
+        "description": "django.contrib.messages",
+        "isExtraImport": true,
+        "detail": "django.contrib.messages",
+        "documentation": {}
+    },
+    {
+        "label": "constants",
+        "importPath": "django.contrib.messages",
+        "description": "django.contrib.messages",
+        "isExtraImport": true,
+        "detail": "django.contrib.messages",
+        "documentation": {}
+    },
+    {
+        "label": "constants",
+        "importPath": "django.contrib.messages",
+        "description": "django.contrib.messages",
+        "isExtraImport": true,
+        "detail": "django.contrib.messages",
+        "documentation": {}
+    },
+    {
+        "label": "constants",
+        "importPath": "django.contrib.messages",
+        "description": "django.contrib.messages",
+        "isExtraImport": true,
+        "detail": "django.contrib.messages",
+        "documentation": {}
+    },
+    {
         "label": "admin",
         "importPath": "django.contrib",
         "description": "django.contrib",
@@ -506,30 +538,6 @@
         "documentation": {}
     },
     {
-        "label": "constants",
-        "importPath": "django.contrib.messages",
-        "description": "django.contrib.messages",
-        "isExtraImport": true,
-        "detail": "django.contrib.messages",
-        "documentation": {}
-    },
-    {
-        "label": "constants",
-        "importPath": "django.contrib.messages",
-        "description": "django.contrib.messages",
-        "isExtraImport": true,
-        "detail": "django.contrib.messages",
-        "documentation": {}
-    },
-    {
-        "label": "constants",
-        "importPath": "django.contrib.messages",
-        "description": "django.contrib.messages",
-        "isExtraImport": true,
-        "detail": "django.contrib.messages",
-        "documentation": {}
-    },
-    {
         "label": "Consulta",
         "importPath": "paciente.models",
         "description": "paciente.models",
@@ -707,7 +715,7 @@
         "kind": 5,
         "importPath": "core.settings",
         "description": "core.settings",
-        "peekOfCode": "LANGUAGE_CODE = \"pt-br\"\nTIME_ZONE = \"UTC\"\nUSE_I18N = True\nUSE_TZ = True\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/5.0/howto/static-files/\nSTATIC_URL = \"static/\"\nSTATICFILES_DIRS = (os.path.join(BASE_DIR, \"templates/static\"),)\nSTATIC_ROOT = os.path.join(\"static\")\nMEDIA_ROOT = os.path.join(BASE_DIR, \"media\")",
+        "peekOfCode": "LANGUAGE_CODE = \"pt-br\"\nTIME_ZONE = \"UTC\"\nUSE_I18N = True\nUSE_TZ = False\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/5.0/howto/static-files/\nSTATIC_URL = \"static/\"\nSTATICFILES_DIRS = (os.path.join(BASE_DIR, \"templates/static\"),)\nSTATIC_ROOT = os.path.join(\"static\")\nMEDIA_ROOT = os.path.join(BASE_DIR, \"media\")",
         "detail": "core.settings",
         "documentation": {}
     },
@@ -716,7 +724,7 @@
         "kind": 5,
         "importPath": "core.settings",
         "description": "core.settings",
-        "peekOfCode": "TIME_ZONE = \"UTC\"\nUSE_I18N = True\nUSE_TZ = True\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/5.0/howto/static-files/\nSTATIC_URL = \"static/\"\nSTATICFILES_DIRS = (os.path.join(BASE_DIR, \"templates/static\"),)\nSTATIC_ROOT = os.path.join(\"static\")\nMEDIA_ROOT = os.path.join(BASE_DIR, \"media\")\nMEDIA_URL = \"/media/\"",
+        "peekOfCode": "TIME_ZONE = \"UTC\"\nUSE_I18N = True\nUSE_TZ = False\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/5.0/howto/static-files/\nSTATIC_URL = \"static/\"\nSTATICFILES_DIRS = (os.path.join(BASE_DIR, \"templates/static\"),)\nSTATIC_ROOT = os.path.join(\"static\")\nMEDIA_ROOT = os.path.join(BASE_DIR, \"media\")\nMEDIA_URL = \"/media/\"",
         "detail": "core.settings",
         "documentation": {}
     },
@@ -725,7 +733,7 @@
         "kind": 5,
         "importPath": "core.settings",
         "description": "core.settings",
-        "peekOfCode": "USE_I18N = True\nUSE_TZ = True\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/5.0/howto/static-files/\nSTATIC_URL = \"static/\"\nSTATICFILES_DIRS = (os.path.join(BASE_DIR, \"templates/static\"),)\nSTATIC_ROOT = os.path.join(\"static\")\nMEDIA_ROOT = os.path.join(BASE_DIR, \"media\")\nMEDIA_URL = \"/media/\"\n# Default primary key field type",
+        "peekOfCode": "USE_I18N = True\nUSE_TZ = False\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/5.0/howto/static-files/\nSTATIC_URL = \"static/\"\nSTATICFILES_DIRS = (os.path.join(BASE_DIR, \"templates/static\"),)\nSTATIC_ROOT = os.path.join(\"static\")\nMEDIA_ROOT = os.path.join(BASE_DIR, \"media\")\nMEDIA_URL = \"/media/\"\n# Default primary key field type",
         "detail": "core.settings",
         "documentation": {}
     },
@@ -734,7 +742,7 @@
         "kind": 5,
         "importPath": "core.settings",
         "description": "core.settings",
-        "peekOfCode": "USE_TZ = True\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/5.0/howto/static-files/\nSTATIC_URL = \"static/\"\nSTATICFILES_DIRS = (os.path.join(BASE_DIR, \"templates/static\"),)\nSTATIC_ROOT = os.path.join(\"static\")\nMEDIA_ROOT = os.path.join(BASE_DIR, \"media\")\nMEDIA_URL = \"/media/\"\n# Default primary key field type\n# https://docs.djangoproject.com/en/5.0/ref/settings/#default-auto-field",
+        "peekOfCode": "USE_TZ = False\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/5.0/howto/static-files/\nSTATIC_URL = \"static/\"\nSTATICFILES_DIRS = (os.path.join(BASE_DIR, \"templates/static\"),)\nSTATIC_ROOT = os.path.join(\"static\")\nMEDIA_ROOT = os.path.join(BASE_DIR, \"media\")\nMEDIA_URL = \"/media/\"\n# Default primary key field type\n# https://docs.djangoproject.com/en/5.0/ref/settings/#default-auto-field",
         "detail": "core.settings",
         "documentation": {}
     },
@@ -743,7 +751,7 @@
         "kind": 5,
         "importPath": "core.settings",
         "description": "core.settings",
-        "peekOfCode": "STATIC_URL = \"static/\"\nSTATICFILES_DIRS = (os.path.join(BASE_DIR, \"templates/static\"),)\nSTATIC_ROOT = os.path.join(\"static\")\nMEDIA_ROOT = os.path.join(BASE_DIR, \"media\")\nMEDIA_URL = \"/media/\"\n# Default primary key field type\n# https://docs.djangoproject.com/en/5.0/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = \"django.db.models.BigAutoField\"",
+        "peekOfCode": "STATIC_URL = \"static/\"\nSTATICFILES_DIRS = (os.path.join(BASE_DIR, \"templates/static\"),)\nSTATIC_ROOT = os.path.join(\"static\")\nMEDIA_ROOT = os.path.join(BASE_DIR, \"media\")\nMEDIA_URL = \"/media/\"\n# Default primary key field type\n# https://docs.djangoproject.com/en/5.0/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = \"django.db.models.BigAutoField\"\n# Messages\nfrom django.contrib.messages import constants",
         "detail": "core.settings",
         "documentation": {}
     },
@@ -752,7 +760,7 @@
         "kind": 5,
         "importPath": "core.settings",
         "description": "core.settings",
-        "peekOfCode": "STATICFILES_DIRS = (os.path.join(BASE_DIR, \"templates/static\"),)\nSTATIC_ROOT = os.path.join(\"static\")\nMEDIA_ROOT = os.path.join(BASE_DIR, \"media\")\nMEDIA_URL = \"/media/\"\n# Default primary key field type\n# https://docs.djangoproject.com/en/5.0/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = \"django.db.models.BigAutoField\"",
+        "peekOfCode": "STATICFILES_DIRS = (os.path.join(BASE_DIR, \"templates/static\"),)\nSTATIC_ROOT = os.path.join(\"static\")\nMEDIA_ROOT = os.path.join(BASE_DIR, \"media\")\nMEDIA_URL = \"/media/\"\n# Default primary key field type\n# https://docs.djangoproject.com/en/5.0/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = \"django.db.models.BigAutoField\"\n# Messages\nfrom django.contrib.messages import constants\nMESSAGE_TAGS = {",
         "detail": "core.settings",
         "documentation": {}
     },
@@ -761,7 +769,7 @@
         "kind": 5,
         "importPath": "core.settings",
         "description": "core.settings",
-        "peekOfCode": "STATIC_ROOT = os.path.join(\"static\")\nMEDIA_ROOT = os.path.join(BASE_DIR, \"media\")\nMEDIA_URL = \"/media/\"\n# Default primary key field type\n# https://docs.djangoproject.com/en/5.0/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = \"django.db.models.BigAutoField\"",
+        "peekOfCode": "STATIC_ROOT = os.path.join(\"static\")\nMEDIA_ROOT = os.path.join(BASE_DIR, \"media\")\nMEDIA_URL = \"/media/\"\n# Default primary key field type\n# https://docs.djangoproject.com/en/5.0/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = \"django.db.models.BigAutoField\"\n# Messages\nfrom django.contrib.messages import constants\nMESSAGE_TAGS = {\n    constants.DEBUG: \"alert-primary\",",
         "detail": "core.settings",
         "documentation": {}
     },
@@ -770,7 +778,7 @@
         "kind": 5,
         "importPath": "core.settings",
         "description": "core.settings",
-        "peekOfCode": "MEDIA_ROOT = os.path.join(BASE_DIR, \"media\")\nMEDIA_URL = \"/media/\"\n# Default primary key field type\n# https://docs.djangoproject.com/en/5.0/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = \"django.db.models.BigAutoField\"",
+        "peekOfCode": "MEDIA_ROOT = os.path.join(BASE_DIR, \"media\")\nMEDIA_URL = \"/media/\"\n# Default primary key field type\n# https://docs.djangoproject.com/en/5.0/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = \"django.db.models.BigAutoField\"\n# Messages\nfrom django.contrib.messages import constants\nMESSAGE_TAGS = {\n    constants.DEBUG: \"alert-primary\",\n    constants.ERROR: \"alert-danger\",",
         "detail": "core.settings",
         "documentation": {}
     },
@@ -779,7 +787,7 @@
         "kind": 5,
         "importPath": "core.settings",
         "description": "core.settings",
-        "peekOfCode": "MEDIA_URL = \"/media/\"\n# Default primary key field type\n# https://docs.djangoproject.com/en/5.0/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = \"django.db.models.BigAutoField\"",
+        "peekOfCode": "MEDIA_URL = \"/media/\"\n# Default primary key field type\n# https://docs.djangoproject.com/en/5.0/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = \"django.db.models.BigAutoField\"\n# Messages\nfrom django.contrib.messages import constants\nMESSAGE_TAGS = {\n    constants.DEBUG: \"alert-primary\",\n    constants.ERROR: \"alert-danger\",\n    constants.SUCCESS: \"alert-success\",",
         "detail": "core.settings",
         "documentation": {}
     },
@@ -788,7 +796,16 @@
         "kind": 5,
         "importPath": "core.settings",
         "description": "core.settings",
-        "peekOfCode": "DEFAULT_AUTO_FIELD = \"django.db.models.BigAutoField\"",
+        "peekOfCode": "DEFAULT_AUTO_FIELD = \"django.db.models.BigAutoField\"\n# Messages\nfrom django.contrib.messages import constants\nMESSAGE_TAGS = {\n    constants.DEBUG: \"alert-primary\",\n    constants.ERROR: \"alert-danger\",\n    constants.SUCCESS: \"alert-success\",\n    constants.INFO: \"alert-info\",\n    constants.WARNING: \"alert-warning\",\n}",
+        "detail": "core.settings",
+        "documentation": {}
+    },
+    {
+        "label": "MESSAGE_TAGS",
+        "kind": 5,
+        "importPath": "core.settings",
+        "description": "core.settings",
+        "peekOfCode": "MESSAGE_TAGS = {\n    constants.DEBUG: \"alert-primary\",\n    constants.ERROR: \"alert-danger\",\n    constants.SUCCESS: \"alert-success\",\n    constants.INFO: \"alert-info\",\n    constants.WARNING: \"alert-warning\",\n}",
         "detail": "core.settings",
         "documentation": {}
     },
