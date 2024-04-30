@@ -1,0 +1,265 @@
+{%load static%}
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DermaSoft</title>
+    <link rel="stylesheet" type="text/css" href="{% static 'limpeza_de_pele/css/limpezaDePele.css' %}">
+    <link rel="stylesheet" type="text/css" href="{% static 'geral/css/reset.css' %}">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200&display=swap" rel="stylesheet">
+
+
+</head>
+
+<body>
+    <header>
+
+        <!-- LINKS DO HEADER -->
+
+        <div id="Links">
+            <a class="linklogo" href="../index.html"> <img href="../index.html" id="logo" src="{% static 'geral/img/DermaSoft.png' %}"
+                    alt="Logo da DermaSoft">
+            </a>
+
+            <a class="underline" href="../index.html">Home</a>
+            <a class="underline" href="../html/ConecaADermaSoft.html">Conheca a DermaSOft</a>
+            <a class="underline" href="../html/NossaEquipe.html">Nossa equipe </a>
+            <a class="underline" href="../html/tratamentos.html">Tratamentos</a>
+
+            <div id="login">
+                <p id="fraseAcesso">Já possui acesso?</p>
+                <a href="../html/login.html">
+                    <button id="button">Login</button>
+                </a>
+            </div>
+
+        </div>
+
+
+        <!-- BANNER DA PAGINA -->
+
+
+        <div id="Banner">
+
+            <img id="fotoEscritorio" src="{% static 'geral/img/bannerPaginaLimpezaDePele.png' %}">
+            <h1 class="textoSobreposto1">Limpeza de pele</h1>
+            <h3 class="textoSobreposto2">Tratamentos rejuvenescedores e duradouros</h3>
+
+        </div>
+
+    </header>
+
+
+    <!-- Botão "Voltar para o topo" -->
+    <button id="scrollToTop">Voltar para o topo</button>
+
+    <div class="Descricao">
+        <div class="limpezaDePele1">
+            <a>
+                <img class="imagemLimpezaDePele1" src="{% static 'geral/img/limpezaDePelePaginaFoto1.png' %}">
+            </a>
+
+            <div class="textoLimpezaDePele1">
+                <p>
+                    Oferecemos o nosso tratamento de limpeza de pele, um procedimento altamente eficaz que ajuda a
+                    remover as impurezas e células mortas da pele, deixando-a limpa, fresca e radiante.
+                </p>
+            </div>
+
+        </div>
+
+        <div class="divRow">
+
+            <div class="textoComoEFeito">
+                <h1>Como é feito?</h1>
+
+                <p>
+                    Nosso tratamento de limpeza de pele começa com uma análise detalhada do tipo de pele do paciente
+                    para
+                    determinar o melhor método de limpeza. Utilizamos produtos de alta qualidade e tecnologia de ponta
+                    para
+                    garantir a máxima eficácia e segurança durante todo o procedimento.
+                    Durante a limpeza, os poros são abertos com vapor quente para remover as impurezas e espinhas. Em
+                    seguida, é feita a extração manual de comedões e outras obstruções, o que ajuda a reduzir a acne e
+                    melhorar a aparência da pele.
+                    Após a limpeza, aplicamos uma máscara calmante e hidratante para acalmar e nutrir a pele, deixando-a
+                    com
+                    uma aparência suave e saudável. O tratamento de limpeza de pele é a escolha perfeita para aqueles
+                    que
+                    buscam uma pele mais luminosa e uniforme.
+                </p>
+
+            </div>
+
+
+            <div class="beneficiosELimpezaDePele">
+
+                <div class="textoBeneficios">
+                    <h1>
+                        Beneficios
+                    </h1>
+                    <p>
+                        Remoção de impurezas, Prevenção de acne, Hidratação, Melhoria da textura da pele, Estímulo da
+                        circulação sanguínea, Prevenção do envelhecimento precoce
+                        Relaxamento.
+                    </p>
+
+                </div>
+
+                <div class="limpezaDePele2">
+
+                    <img class="imagemLimpezaDePele2" src="{% static 'geral/img/limpezaDePelePaginaFoto2.png' %}">
+
+                </div>
+            </div>
+        </div>
+
+
+    </div>
+
+
+    <div class="botãoELink">
+        <button class="tireSuasDuvidas">
+            <a class="linkTireSuasDuvidas" href="https://api.whatsapp.com/send?phone=5511958080950" target="_blank">
+                <img class="imgWhatsApp" src="{% static 'geral/img/whatsappPretoEBranco.png' %}" alt="WhatsApp"> Tire Suas Dúvidas
+            </a>
+        </button>
+
+        <button class="solicitarAgendamento">
+            <a class="linkSolicitarAgendamento" href="redirecionamentoDeAgendamento.html">
+                Solicitar Agendamento
+            </a>
+        </button>
+    </div>
+
+
+
+
+
+
+    <!-- FOOTER ONDE ESTÃO ENDEREÇO E AS REDES SOCIAIS -->
+    <footer>
+
+    
+
+        <div class="endereços">
+
+            <ul>
+                <li>
+                    <p> UNIDADE MOOCA</p>
+                </li>
+                <br>
+
+                <li>
+                    <a href="https://goo.gl/maps/AVAwJAR75rhtGThZ9"> R. Sussui, 641a - Mooca, São Paulo</a>
+                </li>
+
+                <li>
+                    <a href="mailto:dermasoft2@gmail.com">E-mail: dermasoft2@gmail.com</a>
+                </li>
+
+                <li>
+                    <a>Tel.: +55 (11)7885-4838</a>
+                </li>
+
+                <li>
+
+
+                    <a href="https://api.whatsapp.com/send?phone=5511958080950" target="_blank"><img
+                            src="{% static 'geral/img/iconeWhatsApp.png' %}" alt="WhatsApp" />+55 (11)
+                        95808-0950</a>
+                </li>
+            </ul>
+
+            <ul>
+                <li>
+                    <p> UNIDADE PAULISTA</p>
+                </li>
+                <br>
+
+                <li>
+                    <a href="https://goo.gl/maps/7YSVKPDxULP1KPJP9">R. Bela Cintra, 746 - Consolação, São Paulo</a>
+                </li>
+
+                <li>
+                    <a href="mailto:dermasoft2@gmail.com">E-mail: dermasoft2@gmail.com</a>
+                </li>
+
+                <li>
+                    <a>Tel.: +55 (11)7885-4838</a>
+                </li>
+
+                <li>
+                    <a href="https://api.whatsapp.com/send?phone=5511958080950" target="_blank"><img
+                            src="{% static 'geral/img/iconeWhatsApp.png' %}" alt="WhatsApp" />+55 (11)
+                        95808-0950</a>
+                </li>
+            </ul>
+
+            <ul>
+
+                <li>
+                    <p>UNIDADE MORUMBI</p>
+                </li>
+                <br>
+
+                <li>
+                    <a href="https://goo.gl/maps/qXSpaBvpmMixa7TWA"> Av. Jorge João Saad, 767 - Morumbi, São Paulo</a>
+                </li>
+
+                <li>
+                    <a href="mailto:dermasoft2@gmail.com">E-mail: dermasoft2@gmail.com</a>
+                </li>
+
+                <li>
+                    <a>Tel.: +55 (11)7885-4838</a>
+                </li>
+
+                <li>
+                    <a href="https://api.whatsapp.com/send?phone=5511958080950" target="_blank"><img
+                            src="{% static 'geral/img/iconeWhatsApp.png' %}" alt="WhatsApp" />+55 (11)
+                        95808-0950</a>
+                </li>
+            </ul>
+
+
+        </div>
+
+
+        <div class="redesSociais">
+            <p>Nossas redes sociais</P>
+            <div class="redessociaisFacebookEInstagram">
+
+                <div class="redessociaisFacebook">
+                    <img src="{% static 'geral/img/qrCodeFacebook.png' %}">
+
+                    <a href="https://www.facebook.com/profile.php?id=100090315183773">
+                        <img src="{% static 'geral/img/IconeFacebook.png' %}">
+                    </a>
+                </div>
+
+                <div class="redessociaisInstagram">
+                    <img src="{% static 'geral/img/qrCodeInstagram.png' %}">
+
+                </div>
+                
+            </div>
+            <a>
+                <button class="button">Fale conosco</button>
+            </a>
+            
+            <a href="https://www.instagram.com/dermasoft.23/">
+                <img src="{% static 'templates/static/geral/img/IconeInstagram.png' %}">
+            </a>
+
+            <p class="copyright">
+                Clínica DermaSoft. 2023. Todos os direitos reservados
+            </p>
+        </div>
+    </footer>

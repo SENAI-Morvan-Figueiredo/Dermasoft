@@ -865,7 +865,7 @@
         "kind": 5,
         "importPath": "home.urls",
         "description": "home.urls",
-        "peekOfCode": "urlpatterns = [\n    path(\"\", views.index, name=\"index\"),\n    path(\"nossa_equipe/\", views.nossa_equipe, name=\"nossa_equipe\"),\n    path(\"tratamentos/\", views.tratamentos, name=\"tratamentos\"),\n    path(\"tratamentos/estetica_corporal/\", views.estetica_corporal, name=\"estetica_corporal\"),\n]",
+        "peekOfCode": "urlpatterns = [\n    path(\"\", views.index, name=\"index\"),\n    path(\"nossa_equipe/\", views.nossa_equipe, name=\"nossa_equipe\"),\n    path(\"tratamentos/\", views.tratamentos, name=\"tratamentos\"),\n    path(\"tratamentos/estetica_corporal/\", views.estetica_corporal, name=\"estetica_corporal\"),\n    path(\"tratamentos/limpeza_de_pele/\", views.limpeza_de_pele, name=\"limpeza_de_pele\"),\n]",
         "detail": "home.urls",
         "documentation": {}
     },
@@ -874,7 +874,7 @@
         "kind": 2,
         "importPath": "home.views",
         "description": "home.views",
-        "peekOfCode": "def index(request):\n    return render(request, \"index.html\")\ndef nossa_equipe(request):\n    return render(request, \"nossa_equipe.html\")\ndef tratamentos(request):\n    return render(request, \"tratamentos.html\")\ndef estetica_corporal(request):\n    return render(request, \"estetica_corporal.html\")",
+        "peekOfCode": "def index(request):\n    return render(request, \"index.html\")\ndef nossa_equipe(request):\n    return render(request, \"nossa_equipe.html\")\ndef tratamentos(request):\n    return render(request, \"tratamentos.html\")\ndef estetica_corporal(request):\n    return render(request, \"estetica_corporal.html\")\ndef limpeza_de_pele(request):\n    return render(request, \"limpeza_de_pele.html\")",
         "detail": "home.views",
         "documentation": {}
     },
@@ -883,7 +883,7 @@
         "kind": 2,
         "importPath": "home.views",
         "description": "home.views",
-        "peekOfCode": "def nossa_equipe(request):\n    return render(request, \"nossa_equipe.html\")\ndef tratamentos(request):\n    return render(request, \"tratamentos.html\")\ndef estetica_corporal(request):\n    return render(request, \"estetica_corporal.html\")",
+        "peekOfCode": "def nossa_equipe(request):\n    return render(request, \"nossa_equipe.html\")\ndef tratamentos(request):\n    return render(request, \"tratamentos.html\")\ndef estetica_corporal(request):\n    return render(request, \"estetica_corporal.html\")\ndef limpeza_de_pele(request):\n    return render(request, \"limpeza_de_pele.html\")",
         "detail": "home.views",
         "documentation": {}
     },
@@ -892,7 +892,7 @@
         "kind": 2,
         "importPath": "home.views",
         "description": "home.views",
-        "peekOfCode": "def tratamentos(request):\n    return render(request, \"tratamentos.html\")\ndef estetica_corporal(request):\n    return render(request, \"estetica_corporal.html\")",
+        "peekOfCode": "def tratamentos(request):\n    return render(request, \"tratamentos.html\")\ndef estetica_corporal(request):\n    return render(request, \"estetica_corporal.html\")\ndef limpeza_de_pele(request):\n    return render(request, \"limpeza_de_pele.html\")",
         "detail": "home.views",
         "documentation": {}
     },
@@ -901,7 +901,16 @@
         "kind": 2,
         "importPath": "home.views",
         "description": "home.views",
-        "peekOfCode": "def estetica_corporal(request):\n    return render(request, \"estetica_corporal.html\")",
+        "peekOfCode": "def estetica_corporal(request):\n    return render(request, \"estetica_corporal.html\")\ndef limpeza_de_pele(request):\n    return render(request, \"limpeza_de_pele.html\")",
+        "detail": "home.views",
+        "documentation": {}
+    },
+    {
+        "label": "limpeza_de_pele",
+        "kind": 2,
+        "importPath": "home.views",
+        "description": "home.views",
+        "peekOfCode": "def limpeza_de_pele(request):\n    return render(request, \"limpeza_de_pele.html\")",
         "detail": "home.views",
         "documentation": {}
     },

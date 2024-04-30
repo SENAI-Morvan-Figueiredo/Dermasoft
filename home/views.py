@@ -13,3 +13,6 @@ def tratamentos(request):
 
 def estetica_corporal(request):
     return render(request, "estetica_corporal.html")
+
+def limpeza_de_pele(request):
+    return render(request, "limpeza_de_pele.html")
