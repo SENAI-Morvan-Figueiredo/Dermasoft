@@ -538,6 +538,14 @@
         "documentation": {}
     },
     {
+        "label": "login_required",
+        "importPath": "django.contrib.auth.decorators",
+        "description": "django.contrib.auth.decorators",
+        "isExtraImport": true,
+        "detail": "django.contrib.auth.decorators",
+        "documentation": {}
+    },
+    {
         "label": "Consulta",
         "importPath": "paciente.models",
         "description": "paciente.models",
@@ -551,6 +559,22 @@
         "description": "paciente.models",
         "isExtraImport": true,
         "detail": "paciente.models",
+        "documentation": {}
+    },
+    {
+        "label": "Count",
+        "importPath": "django.db.models",
+        "description": "django.db.models",
+        "isExtraImport": true,
+        "detail": "django.db.models",
+        "documentation": {}
+    },
+    {
+        "label": "TruncDate",
+        "importPath": "django.db.models.functions",
+        "description": "django.db.models.functions",
+        "isExtraImport": true,
+        "detail": "django.db.models.functions",
         "documentation": {}
     },
     {
@@ -1008,6 +1032,15 @@
         "documentation": {}
     },
     {
+        "label": "dashboard",
+        "kind": 2,
+        "importPath": "medico.views",
+        "description": "medico.views",
+        "peekOfCode": "def dashboard(request):\n    if not is_medico(request.user):\n        messages.add_message(\n            request, constants.WARNING, \"Somente médicos podem abrir a dashboard\"\n        )\n        return redirect(\"/usuarios/sair\")\n    consultas = (\n        Consulta.objects.filter(data_aberta__user=request.user)\n        .filter(\n            data_aberta__data__range=[",
+        "detail": "medico.views",
+        "documentation": {}
+    },
+    {
         "label": "Migration",
         "kind": 6,
         "importPath": "paciente.migrations.0001_initial",
@@ -1093,7 +1126,7 @@
         "kind": 2,
         "importPath": "paciente.views",
         "description": "paciente.views",
-        "peekOfCode": "def minhas_consultas(request):\n    if request.method == \"GET\":\n        # TODO: desenvolver filtros\n        minhas_consultas = Consulta.objects.filter(paciente=request.user).filter(\n            data_aberta__data__gte=datetime.now()\n        )\n        return render(\n            request,\n            \"minhas_consultas.html\",\n            {",
+        "peekOfCode": "def minhas_consultas(request):\n    if request.method == \"GET\":\n        medico_filtrar = request.GET.get(\"medico\")\n        especialidades_filtrar = request.GET.getlist(\"especialidades\")\n        medicos = DadosMedico.objects.all()\n        if medico_filtrar:\n            medicos = medicos.filter(nome__icontains=medico_filtrar)\n        if especialidades_filtrar:\n            medicos = medicos.filter(especialidade_id__in=especialidades_filtrar)\n        especialidades = Especialidades.objects.all()",
         "detail": "paciente.views",
         "documentation": {}
     },
@@ -1103,6 +1136,15 @@
         "importPath": "paciente.views",
         "description": "paciente.views",
         "peekOfCode": "def consulta(request, id_consulta):\n    if request.method == \"GET\":\n        consulta = Consulta.objects.get(id=id_consulta)\n        dado_medico = DadosMedico.objects.get(user=consulta.data_aberta.user)\n        documentos = Documento.objects.filter(consulta=consulta)\n        return render(\n            request,\n            \"consulta.html\",\n            {\n                \"consulta\": consulta,",
+        "detail": "paciente.views",
+        "documentation": {}
+    },
+    {
+        "label": "cancelar_consulta",
+        "kind": 2,
+        "importPath": "paciente.views",
+        "description": "paciente.views",
+        "peekOfCode": "def cancelar_consulta(request, id_consulta):\n    consulta = Consulta.objects.get(id=id_consulta)\n    if request.user != consulta.paciente:\n        messages.add_message(request, constants.ERROR, \"Essa consulta não é sua\")\n        return redirect(f\"/pacientes/home/\")\n    consulta.status = \"C\"\n    consulta.save()\n    return redirect(f\"/pacientes/consulta/{id_consulta}\")",
         "detail": "paciente.views",
         "documentation": {}
     },
