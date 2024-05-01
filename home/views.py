@@ -16,3 +16,6 @@ def estetica_corporal(request):
 
 def limpeza_de_pele(request):
     return render(request, "limpeza_de_pele.html")
+
+def conhece_a_dermasoft(request):
+    return render(request, "conheca_a_dermasoft.html")

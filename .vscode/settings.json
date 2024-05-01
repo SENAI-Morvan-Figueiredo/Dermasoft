@@ -6,10 +6,12 @@
     "editor.defaultFormatter": "ms-python.black-formatter",
     "files.associations": {
         "**/templates/**/*.html": "django-html",
-        "**/templates/**/*.css": "django-css"
+        "**/templates/**/*.css": "css",
+        "**/templates/**/*.js": "javascript"
     },
     "emmet.includeLanguages": {
         "django-html": "html",
         "django txt": "css",
+        "plaintext": "javascript",
     },
 }
