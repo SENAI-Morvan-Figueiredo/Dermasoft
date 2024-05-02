@@ -22,7 +22,7 @@
         <!-- LINKS DO HEADER -->
         <nav>
             <div id="Links">
-                <a class="linklogo" href="../index.html">   <img id="logo" src="{% static 'geral/img/DermaSoft.png' %}" alt="Logo da DermaSoft">
+                <a class="linklogo" href="{% url "index" %}">  <img id="logo" src="{% static 'geral/img/DermaSoft.png' %}" alt="Logo da DermaSoft"></a>
 </a>
 
                 <a class="underline" href="{% url "index" %}">Home</a>
@@ -32,7 +32,7 @@
 
                 <div id="login">
                     <p id="fraseAcesso">Já possui acesso?</p>
-                    <a href="../html/login.html">
+                    <a href="{% url "login" %}">
                         <button id="button">Login</button>
                     </a>
                 </div>
