@@ -45,13 +45,14 @@
             <!-- sidenav que aparecerá ao clicar no botão hamburger -->
             <div id="mySidenav" class="sidenav">
                 <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-                <a href="../index.html">Home</a>
-                <a href="../html/ConecaADermaSoft.html">Conheça a DermaSoft</a>
-                <a href="../html/NossaEquipe.html">Nossa Equipe</a>
-                <a href="../html/tratamentos.html">Tratamentos</a>
+                <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                <a href="{% url "index" %}">Home</a>
+                <a href="{% url "conheca_a_dermasoft" %}">Conheça a DermaSoft</a>
+                <a href="{% url "nossa_equipe" %}">Nossa Equipe</a>
+                <a href="{% url "tratamentos" %}">Tratamentos</a>
                 <div id="login">
                     <p id="fraseAcesso">Já possui acesso?</p>
-                    <a href="../html/login.html">
+                    <a href="{% url "login" %}">
                         <button id="button">Login</button>
                     </a>
                 </div>

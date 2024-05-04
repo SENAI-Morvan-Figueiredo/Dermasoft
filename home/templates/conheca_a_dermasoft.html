@@ -43,13 +43,13 @@
             <!-- sidenav que aparecerá ao clicar no botão hamburger -->
             <div id="mySidenav" class="sidenav">
                 <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-                <a href="../index.html">Home</a>
-                <a href="../html/ConecaADermaSoft.html">Conheça a DermaSoft</a>
-                <a href="../html/NossaEquipe.html">Nossa Equipe</a>
-                <a href="../html/tratamentos.html">Tratamentos</a>
+                <a href="{% url "index" %}">Home</a>
+                <a href="{% url "conheca_a_dermasoft" %}">Conheça a DermaSoft</a>
+                <a href="{% url "nossa_equipe" %}">Nossa Equipe</a>
+                <a href="{% url "tratamentos" %}">Tratamentos</a>
                 <div id="login">
                     <p id="fraseAcesso">Já possui acesso?</p>
-                    <a href="../html/login.html">
+                    <a href="{% url "login" %}">
                         <button id="button">Login</button>
                     </a>
                 </div>
@@ -60,7 +60,7 @@
                 <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; </span>
             </div>
 
-            <a class="linklogo" href="../index.html"> <img id="logo" src="../img/DermaSoft.png"
+            <a class="linklogo" href="../index.html"> <img id="logo" src="{% static "geral/img/DermaSoft.png" %}"
                     alt="Logo da DermaSoft">
             </a>
 
@@ -75,7 +75,7 @@
 
         <div id="Banner">
 
-            <img id="fotoEscritorio" src="../img/imgHeader.png">
+            <img id="fotoEscritorio" src="{% static "geral/img/imgHeader.png" %}">
             <h1 class="textoSobreposto1">Transforme sua pele em um reflexo de saúde e beleza com a DermaSoft.</h1>
             <h3 class="textoSobreposto2">Valorizar a si mesmo é o primeiro passo para uma relação duradoura e plena com
                 a vida.
@@ -96,8 +96,8 @@
     </div>
     <div class="ConhecaADermaSOft">
         <div class="imagensDaClinica">
-            <img src="../img/imgConhecaDermaSoft.png">
-            <img src="../img/imgConhecaDermaSoft2.png">
+            <img src="{% static "geral/img/imgConhecaDermaSoft.png" %}">
+            <img src="{% static "geral/img/imgConhecaDermaSoft2.png" %}">
         </div>
         <p class="textoDermasoft">
             "Bem-vindo à DermaSoft! Somos uma equipe de profissionais altamente qualificados e dedicados,
@@ -150,7 +150,7 @@
 
 
                 <a href="https://api.whatsapp.com/send?phone=5511958080950" target="_blank"><img
-                        src="../img/iconeWhatsApp.png" alt="WhatsApp" />+55 (11)
+                        src="{% static "geral/img/iconeWhatsApp.png" %}" alt="WhatsApp" />+55 (11)
                     95808-0950</a>
             </li>
         </ul>
@@ -175,7 +175,7 @@
 
             <li>
                 <a href="https://api.whatsapp.com/send?phone=5511958080950" target="_blank"><img
-                        src="../img/iconeWhatsApp.png" alt="WhatsApp" />+55 (11)
+                        src="{% static "geral/img/iconeWhatsApp.png" %}" alt="WhatsApp" />+55 (11)
                     95808-0950</a>
             </li>
         </ul>
@@ -201,7 +201,7 @@
 
             <li>
                 <a href="https://api.whatsapp.com/send?phone=5511958080950" target="_blank"><img
-                        src="../img/iconeWhatsApp.png" alt="WhatsApp" />+55 (11)
+                        src="{% static "geral/img/iconeWhatsApp.png" %}" alt="WhatsApp" />+55 (11)
                     95808-0950</a>
             </li>
         </ul>
@@ -215,18 +215,18 @@
         <div class="redessociaisFacebookEInstagram">
 
             <div class="redessociaisFacebook">
-                <img src="../img/qrCodeFacebook.png">
+                <img src="{% static "geral/img/qrCodeFacebook.png" %}">
 
                 <a href="https://www.facebook.com/profile.php?id=100090315183773">
-                    <img src="../img/IconeFacebook.png">
+                    <img src="{% static "geral/img/IconeFacebook.png" %}">
                 </a>
             </div>
 
             <div class="redessociaisInstagram">
-                <img src="../img/qrCodeInstagram.png">
+                <img src="{% static "geral/img/qrCodeInstagram.png" %}">
 
                 <a href="https://www.instagram.com/dermasoft.23/">
-                    <img src="../img/IconeInstagram.png">
+                    <img src="{% static "geral/img/IconeInstagram.png" %}">
                 </a>
             </div>
 
@@ -242,7 +242,7 @@
     </p>
 </footer>
 
-<script src="../js/conhecaADermasoft.js"></script>
+<script src="{% static "conheca_a_dermasoft/js/conhecaADermasoft.js" %}"></script>
 
 
 </body>
