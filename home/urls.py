@@ -8,5 +8,6 @@ urlpatterns = [
     path("tratamentos/", views.tratamentos, name="tratamentos"),
     path("tratamentos/estetica_corporal/", views.estetica_corporal, name="estetica_corporal"),
     path("tratamentos/limpeza_de_pele/", views.limpeza_de_pele, name="limpeza_de_pele"),
+    path("tratamentos/tratamentos_facias/", views.tratamentos_faciais, name="tratamentos_faciais"),
 ]
 

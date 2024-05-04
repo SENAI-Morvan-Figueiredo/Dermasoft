@@ -566,7 +566,7 @@ footer {
 
     }
 
-    .microagulhamento a{
+    .microagulhamento a {
         display: flex;
         justify-content: center;
     }
@@ -715,3 +715,4 @@ footer {
         border: none;
         color: #FFFFFF;
     }
+}
