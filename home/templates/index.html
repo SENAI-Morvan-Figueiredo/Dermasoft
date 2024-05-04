@@ -292,66 +292,66 @@
     </Div>
     <hr>
 
-
-    <!-- NOSSOS TRATAMENTOS -->
-
-
-    <div class="nossosTratamentos">
-
-        <h1>Nossos Tratamentos</h1>
-
-        <div class="tratamentos">
-
-            <!-- ESTETICA CORPORAl -->
-
-            <div class="estéticaCorporal">
-                <section class="imgEstéticaCorporal">
-                    <a href="html/esteticaCorporal.html">
-                        <img src="{% static 'geral/img/imgTratamentoCorporal.png' %}">
-                    </a>
-
-                </section>
-
-                <section>
-                    <a href="html/esteticaCorporal.html">Estética corporal</a>
-                </section>
-
-            </div>
-
-            <!-- TRATAMENTO FACIAL -->
-
-            <div class="tratamentosFaciais">
-                <section class="imgTratamentosFaciais">
-
-                    <a href="tratamentosFaciais.html">
-                        <img src="{% static 'geral/img/imgTratamentoFacial.png' %}">
-                    </a>
-                </section>
-
-                <section>
-                    <a href="html/tratamentosFaciais.html">Tratamentos Faciais</a>
-                </section>
-
-            </div>
+ <!-- NOSSOS TRATAMENTOS -->
 
 
-            <!-- TRATAMENTO CAPILAR -->
+ <div class="nossosTratamentos">
 
-            <div class="tratamentosCapilar">
-                <section class="imgTratamentosCapilar">
-                    <a href="html/tratamentosCapilar.html">
-                        <img src="{% static 'geral/img/imgTratamentoCapilar.png' %}">
-                    </a>
+    <h1>Nossos Tratamentos</h1>
 
-                </section>
+    <div class="tratamentos">
 
-                <section>
-                    <a href="html/tratamentosCapilar.html">Tratamentos Capilar</a>
-                </section>
 
-            </div>
+        <!-- ESTETICA CORPORAl -->
+
+        <div class="estéticaCorporal">
+            <section class="imgEstéticaCorporal">
+                <a href="{% url 'estetica_corporal' %}">
+                    <img src="{% static 'geral/img/imgTratamentoCorporal.png' %}">
+                </a>
+
+            </section>
+
+            <section>
+                <a href="{% url 'estetica_corporal' %}">Estética corporal</a>
+            </section>
+
+        </div>
+
+        <!-- TRATAMENTO FACIAL -->
+
+        <div class="tratamentosFaciais">
+            <section class="imgTratamentosFaciais">
+
+                <a href="{% url 'tratamentos_faciais' %}">
+                    <img src="{% static 'geral/img/imgTratamentoFacial.png' %}">
+                </a>
+            </section>
+
+            <section>
+                <a href="{% url 'tratamentos_faciais' %}">Tratamentos Faciais</a>
+            </section>
+
+        </div>
+
+
+        <!-- TRATAMENTO CAPILAR -->
+
+        <div class="tratamentosCapilar">
+            <section class="imgTratamentosCapilar">
+                <a href="{% url 'tratamentos_capilar' %}">
+                    <img src="{% static 'geral/img/imgTratamentoCapilar.png' %}">
+                </a>
+
+            </section>
+
+            <section>
+                <a href="{% url 'tratamentos_capilar' %}">Tratamentos Capilar</a>
+            </section>
+
         </div>
     </div>
+</div>
 
 
     <!-- FOOTER ONDE ESTÃO ENDEREÇO E AS REDES SOCIAIS -->
