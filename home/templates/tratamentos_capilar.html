@@ -1,4 +1,5 @@
-{% load static %}
+{%load static%}
+
 
 <!DOCTYPE html>
 <html lang="pt-BR">
@@ -7,13 +8,12 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Nossa Equipe</title>
-   <link rel="stylesheet" href="{% static 'nossa_equipe/css/nossaEquipe.css' %}">
-    <link rel="stylesheet" type="text/css" href="{% static 'geral/css/reset.css' %}">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200&display=swap" rel="stylesheet">
-
+    <title>DermaSoft</title>
+    <link rel="stylesheet" href="{% static 'tratamentos_capilar\css\tratamentosCapilar.css' %}">
+    <link rel="stylesheet" href="{% static 'geral/css/reset.css' %}">
+    <link rel="preconnect" href="{% static 'https://fonts.googleapis.com' %}">
+    <link rel="preconnect" href="{% static 'https://fonts.gstatic.com' %}" crossorigin>
+    <link href="{% static 'https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200&display=swap' %}" rel="stylesheet">
 </head>
 
 <body>
@@ -22,13 +22,15 @@
         <!-- LINKS DO HEADER -->
         <nav>
             <div id="Links">
-                <a class="linklogo" href="{% url "index" %}">  <img id="logo" src="{% static 'geral/img/DermaSoft.png' %}" alt="Logo da DermaSoft"></a>
-</a>
+                <a class="linklogo" href="../index.html"> <img href="../index.html" id="logo" src="{% static 'geral/img/DermaSoft.png' %}"
+                        alt="Logo da DermaSoft">
+                </a>
 
                 <a class="underline" href="{% url "index" %}">Home</a>
                 <a class="underline" href="{% url "conheca_a_dermasoft" %}">Conheca a DermaSoft</a>
                 <a class="underline" href="{% url "nossa_equipe" %}">Nossa equipe </a>
                 <a class="underline" href="{% url "tratamentos" %}">Tratamentos</a>
+
 
                 <div id="login">
                     <p id="fraseAcesso">Já possui acesso?</p>
@@ -44,13 +46,13 @@
             <!-- sidenav que aparecerá ao clicar no botão hamburger -->
             <div id="mySidenav" class="sidenav">
                 <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-                <a href="../index.html">Home</a>
-                <a href="../html/ConecaADermaSoft.html">Conheça a DermaSoft</a>
-                <a href="../html/NossaEquipe.html">Nossa Equipe</a>
-                <a href="../html/tratamentos.html">Tratamentos</a>
+                <a href="{% url "index" %}">Home</a>
+                <a href="{% url "conheca_a_dermasoft" %}">Conheça a DermaSoft</a>
+                <a href="{% url "nossa_equipe" %}">Nossa Equipe</a>
+                <a href="{% url "tratamentos" %}">Tratamentos</a>
                 <div id="login">
                     <p id="fraseAcesso">Já possui acesso?</p>
-                    <a href="../html/login.html">
+                    <a href="{% url "login" %}">
                         <button id="button">Login</button>
                     </a>
                 </div>
@@ -70,18 +72,15 @@
 
         </nav>
 
-    </header>
-
         <!-- BANNER DA PAGINA -->
 
+    </header>
 
         <div id="Banner">
 
-            <img id="fotoNossaEquipe" src="{% static 'geral/img/BannerNossaEquipe.png' %}">
-            <h1 class="textoSobreposto1">Conheça Nossos Profissionais.</h1>
-            <h3 class="textoSobreposto2">Valorizar a si mesmo é o primeiro passo para uma relação duradoura e plena com
-                a
-                vida.</h3>
+            <img id="fotoTratamentosCapilar" src="{% static 'geral/img/bannerTratamentosCapilar.png' %}">
+            <h1 class="textoSobreposto1">Tratamentos Capilar</h1>
+            <h3 class="textoSobreposto2">Implantes e tratamentos</h3>
 
         </div>
 
@@ -90,120 +89,131 @@
     <!-- Botão "Voltar para o topo" -->
     <button id="scrollToTop">Voltar para o topo</button>
 
-    <!-- NOSSA EQUIPE -->
 
-    <Div class="NossaEquipe">
-        <h1>Nossa Equipe</h1>
+    <!-- Tratamentos Capilar  -->
 
-        <div class="doutores">
-            <div class="drFrancisco">
-                <img src="{% static 'geral/img/drFranciscoDamasceno.png' %}">
+    <div class="laserDeThulium">
+        <a>
+            <img class="imagemlaserDeThulium" src="{% static 'geral/img/laserThulium.png' %}">
+        </a>
 
-                <div class="drFranciscoDados">
-                    <h3>dr. Francisco Damasceno </h3>
+        <div class="textolaserDeThulium">
+            <a>
+                <h1>
+                    laser de Thulium
+                </h1>
+            </a>
 
-                    <ul>
-                        <li>
-                            •Médico formado pela Faculdade de Medicina da Santa Casa de São Paulo.
-                        </li>
+            <p>
+                promove a redução progressiva da queda capilar.
+            </p>
+        </div>
 
-                        <li>
-                            •Residência Médica em Clínica Médica pela Universidade Federal de São Paulo/UNIFESP
-                        </li>
+    </div>
 
-                        <li>
-                            •Título de Especialista em Dermatologia pela Sociedade Brasileira de Dermatologia (SBD).
-                        </li>
+    <hr>
 
-                        <li>
-                            •Especialista em Dermatologia pelo Conselho Federal de Medicina.
-                        </li>
-                    </ul>
+    <div class="MMP">
 
-                </div>
-            </div>
+        <div class="textoMMP">
+            <a>
+                <h1>
+                    MMP
+                </h1>
+            </a>
+            <p>
+                Microinfusão de Medicamentos no Couro Cabeludo.
+            </p>
+        </div>
 
-            <div class="draGabrielly">
-                <img src="{% static 'geral/img/draGabrielly.png' %}">
+        <a>
+            <img class="imagemMMP" src="{% static 'geral/img/MMP.png' %}">
+        </a>
+    </div>
 
-                <div class="draGabriellyDados">
-                    <h3>dra. Gabrielly Rogrigues </h3>
+    <hr>
 
-                    <ul>
-                        <li>
-                            •dra. Graduação em Medicina pela Faculdade de Ciências Médicas da Santa Casa de São Paulo.
-                        </li>
+    <div class="microagulhamentoCapilar">
+        <a>
+            <img class="imagemMicroagulhamentoCapilar" src="{% static 'geral/img/microagulhamentoCapilar.png' %}">
+        </a>
 
-                        <li>
-                            •Residência em Dermatologia pela Santa Casa de São Paulo.
-                        </li>
-
-                        <li>
-                            •efetivo da Sociedade Brasileira de Dermatologia – Regional São Paulo.
-                        </li>
-                    </ul>
-                </div>
-            </div>
-
-            <div class="draLucema">
-                <img src="{% static 'geral/img/draLucelma.png' %}">
-
-                <div class="draLucemaDados">
-                    <h3>dra. Lucelma Cruz </h3>
-
-                    <ul>
-                        <li>
-                            •Graduação pela Universidade Federal de Santa Maria.
-                        </li>
-
-                        <li>
-                            •Residência médica em Dermatologia pelo Hospital Sírio Libanês.
-
-                        </li>
-
-
-                        <li>•Pós-graduada em tricologia pelo Hospital Ipiranga (TricoMed).
-
-                        </li>
-
-                        <li>
-                            •Membro efetivo da Sociedade Brasileira de Dermatologia (SBD)
-                        </li>
-                    </ul>
-                </div>
-
-            </div>
-
-            <div class="drLuis">
-                <img src="{% static 'geral/img/drLuisHenrique.png' %}">
-
-                <div class="drLuisDados">
-                    <h3>dr. Luís Pazuello </h3>
-
-                    <ul>
-                        <li>
-                            •Graduação pela Universidade de São Paulo (USP).
-                        </li>
-
-                        <li>
-                            •Residência médica em Dermatologia pelo Hospital Albert Einstein .
-                        </li>
-
-                        <li>
-                            •Título de especialista em Dermatologia pela Sociedade Brasileira de Dermatologia (SBD)
-                        </li>
-
-                        <li>
-                            •Membro efetivo da Sociedade Brasileira de Dermatologia (SBD)
-                        </li>
-                    </ul>
-
-                </div>
-            </div>
+        <div class="textoMicroagulhamentoCapilar">
+            <a>
+                <h1>
+                    Microagulhamento Capilar
+                </h1>
+            </a>
+            <p>
+                promove a liberação de fatores de crescimento que são bioestimuladores naturais,
+                diminuindo a queda de cabelo e estimulando o nascimento de novos fios.
+            </p>
 
         </div>
-    </Div>
+    </div>
 
+    <hr>
+
+    <div class="misoterapiaCapilar">
+
+        <div class="textoMisoterapiaCapilar">
+            <a>
+                <h1>
+                    Misoterapia Capilar
+                </h1>
+            </a>
+            <p>
+                Bioestimulador para a diminuição de flacidez
+            </p>
+
+        </div>
+        <a>
+            <img class="imagemMisoterapiaCapilar" src="{% static 'geral/img/misoterapiaCapilar.png' %}">
+        </a>
+    </div>
+
+    <hr>
+
+    <div class="tricoscopiaCapilarETricograma">
+        <a>
+            <img class="imagemTricoscopiaCapilarETricograma" src="{% static 'geral/img/tricospiaCapilarETricograma.png' %}">
+        </a>
+
+        <div class="textoTricoscopiaCapilarETricograma">
+            <a>
+                <h1>
+                    Tricoscopia Capilar e Tricograma
+                </h1>
+            </a>
+            <p>
+                diagnóstico dos casos de alopecia (queda de cabelos). Nesse exame através da observação ao microscópio é
+                realizada a classificação dos tipos e das fases de crescimento dos cabelos
+            </p>
+
+        </div>
+    </div>
+
+    <hr>
+
+
+    <div class="terapiaCapilar">
+
+        <div class="textoTerapiaCapilar">
+            <a>
+                <h1>
+                    Terapia Capilar
+                </h1>
+            </a>
+            <p>
+                é um acompanhamento feito com o objetivo de tratar doenças ou desequilíbrios, mas também de prevenir e
+                manter a saúde do couro cabeludo e dos fios.
+            </p>
+
+        </div>
+        <a>
+            <img class="imagemTerapiaCapilar" src="{% static 'geral/img/terapiaCapilar.png' %}">
+        </a>
+    </div>
 
     <!-- FOOTER ONDE ESTÃO ENDEREÇO E AS REDES SOCIAIS -->
     <footer>
@@ -326,6 +336,8 @@
         </p>
     </footer>
 
-    <script src="{% static 'nossa_equipe/js/nossaEquipe.js' %}"></script>
+    <script src="{% static 'tratamentos_capilar/js/tratamentosCapilar.js' %}"></script>
+
 </body>
+
 </html>

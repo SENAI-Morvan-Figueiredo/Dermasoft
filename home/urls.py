@@ -9,5 +9,6 @@ urlpatterns = [
     path("tratamentos/estetica_corporal/", views.estetica_corporal, name="estetica_corporal"),
     path("tratamentos/limpeza_de_pele/", views.limpeza_de_pele, name="limpeza_de_pele"),
     path("tratamentos/tratamentos_facias/", views.tratamentos_faciais, name="tratamentos_faciais"),
+    path("tratamentos/tratamentos_capilar/", views.tratamentos_capilar, name="tratamentos_capilar"),
 ]
 
