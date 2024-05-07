@@ -63,11 +63,14 @@
         </div>
         <div class="col-md-4">
             <p style="font-size: 25px" class="p-bold">Lembretes</p>
-
             <p class="bg-main-lembrete">
-                <span class="p-bold"><i class="bi bi-exclamation-triangle-fill icon-differential"></i>&nbsp&nbsp Consulta com Pedro Sampario em 7 dias.</span>
+                {% if consulta.status == 'A' %}
+                    <span class="p-bold">
+                        <i class="bi bi-exclamation-triangle-fill icon-differential"></i>
+                        &nbsp&nbsp Consulta com Dr(a). {{consulta.data_aberta.user}} <!--em 7 dias--> no dia {{consulta.data_aberta.data}}.
+                    </span>
+                {% endif %}
             </p>
-
 
             
         </div>

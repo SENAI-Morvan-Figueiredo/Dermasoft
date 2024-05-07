@@ -20,12 +20,21 @@ def home(request):
         if especialidades_filtrar:
             medicos = medicos.filter(especialidade_id__in=especialidades_filtrar)
 
+        minhas_consultas = Consulta.objects.filter(paciente=request.user).filter(
+            data_aberta__data__gte=datetime.now()
+        )
+        if minhas_consultas.exists():
+            consulta = minhas_consultas.first()  # Get the first consultation
+        else:
+            consulta = None
+
         especialidades = Especialidades.objects.all()
         return render(
             request,
             "home.html",
             {
                 "medicos": medicos,
+                "consulta": consulta,
                 "especialidades": especialidades,
                 "is_medico": is_medico(request.user),
             },
