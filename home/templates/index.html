@@ -33,9 +33,15 @@
 
                 <div id="login">
                     <p id="fraseAcesso">Já possui acesso?</p>
-                    <a href="{% url "login" %}">
-                        <button id="button">Login</button>
-                    </a>
+                    {% if  user.is_authenticated %}
+                        <a href="{% url "home" %}">
+                            <button id="button">Login</button>
+                        </a>
+                    {% else %}
+                        <a href="{% url "login" %}">
+                            <button id="button">Login</button>
+                        </a>
+                    {% endif %}
                 </div>
 
             </div>

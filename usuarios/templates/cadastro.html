@@ -12,11 +12,13 @@
                 <div class="cont-cadastro">
                     <br>
                     <br>
-                    <section class="cont-logo">
-                        <div class="img-logo">
-                            <img class="logo" src="{% static 'geral/img/logoDerma.png' %}">
-                        </div>
-                    <label class="text-logo fonte-destaque1">DERMASOFT</label>
+                    <section class="cont-logo"> 
+                        <a href="{% url "index" %}" title="Clique aqui para voltar a tela inicial">
+                            <div class="img-logo">
+                                <img class="logo" src="{% static 'geral/img/logoDerma.png' %}">
+                            </div>
+                        </a>
+                        <label class="text-logo fonte-destaque1">DERMASOFT</label>
                     </section>
                     <hr>
                     <form action=" {% url "cadastro" %}" method="POST">
