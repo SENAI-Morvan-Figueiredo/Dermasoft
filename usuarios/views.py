@@ -62,3 +62,8 @@ def login_view(request):
 def sair(request):
     auth.logout(request)
     return redirect("/usuarios/login")
+
+
+def esqueci(request):
+    if request.method == "GET":
+        return render(request, "esqueci.html")
