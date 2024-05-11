@@ -2,9 +2,11 @@
 window.onscroll = function() {
   var scrollTop = window.pageYOffset || document.documentElement.scrollTop;
   var newHeight = 60 - scrollTop;
+  document.getElementById('logo').style.width = newWidth + '%'; // Define a nova largura da imagem
 
   if (newHeight < 0) {
     newHeight = 15;
+    logo = "80%"
   }
 
   document.getElementById("Links").style.height = newHeight + "px";

@@ -618,6 +618,14 @@
         "documentation": {}
     },
     {
+        "label": "views",
+        "importPath": "django.contrib.auth",
+        "description": "django.contrib.auth",
+        "isExtraImport": true,
+        "detail": "django.contrib.auth",
+        "documentation": {}
+    },
+    {
         "label": "sys",
         "kind": 6,
         "isExtraImport": true,
@@ -829,7 +837,43 @@
         "kind": 5,
         "importPath": "core.settings",
         "description": "core.settings",
-        "peekOfCode": "MESSAGE_TAGS = {\n    constants.DEBUG: \"alert-primary\",\n    constants.ERROR: \"alert-danger\",\n    constants.SUCCESS: \"alert-success\",\n    constants.INFO: \"alert-info\",\n    constants.WARNING: \"alert-warning\",\n}",
+        "peekOfCode": "MESSAGE_TAGS = {\n    constants.DEBUG: \"alert-primary\",\n    constants.ERROR: \"alert-danger\",\n    constants.SUCCESS: \"alert-success\",\n    constants.INFO: \"alert-info\",\n    constants.WARNING: \"alert-warning\",\n}\n# Esqueci a senha email config\nEMAIL_BACKEND = \"django.core.mail.backends.smtp.EmailBackend\"\nEMAIL_HOST = \"smtp.gmail.com\"",
+        "detail": "core.settings",
+        "documentation": {}
+    },
+    {
+        "label": "EMAIL_BACKEND",
+        "kind": 5,
+        "importPath": "core.settings",
+        "description": "core.settings",
+        "peekOfCode": "EMAIL_BACKEND = \"django.core.mail.backends.smtp.EmailBackend\"\nEMAIL_HOST = \"smtp.gmail.com\"\nEMAIL_PORT = 587\nEMAIL_USE_TLS = True\n# EMAIL_HOST_USER = config(\"EMAIL_HOST_USER\")\n# EMAIL_HOST_PASSWORD = config(\"EMAIL_HOST_PASSWORD\")",
+        "detail": "core.settings",
+        "documentation": {}
+    },
+    {
+        "label": "EMAIL_HOST",
+        "kind": 5,
+        "importPath": "core.settings",
+        "description": "core.settings",
+        "peekOfCode": "EMAIL_HOST = \"smtp.gmail.com\"\nEMAIL_PORT = 587\nEMAIL_USE_TLS = True\n# EMAIL_HOST_USER = config(\"EMAIL_HOST_USER\")\n# EMAIL_HOST_PASSWORD = config(\"EMAIL_HOST_PASSWORD\")",
+        "detail": "core.settings",
+        "documentation": {}
+    },
+    {
+        "label": "EMAIL_PORT",
+        "kind": 5,
+        "importPath": "core.settings",
+        "description": "core.settings",
+        "peekOfCode": "EMAIL_PORT = 587\nEMAIL_USE_TLS = True\n# EMAIL_HOST_USER = config(\"EMAIL_HOST_USER\")\n# EMAIL_HOST_PASSWORD = config(\"EMAIL_HOST_PASSWORD\")",
+        "detail": "core.settings",
+        "documentation": {}
+    },
+    {
+        "label": "EMAIL_USE_TLS",
+        "kind": 5,
+        "importPath": "core.settings",
+        "description": "core.settings",
+        "peekOfCode": "EMAIL_USE_TLS = True\n# EMAIL_HOST_USER = config(\"EMAIL_HOST_USER\")\n# EMAIL_HOST_PASSWORD = config(\"EMAIL_HOST_PASSWORD\")",
         "detail": "core.settings",
         "documentation": {}
     },
@@ -865,34 +909,16 @@
         "kind": 5,
         "importPath": "home.urls",
         "description": "home.urls",
-        "peekOfCode": "urlpatterns = [\n    path(\"\", views.index, name=\"index\"),\n    path(\"conheca_a_dermasoft/\", views.conhece_a_dermasoft, name=\"conheca_a_dermasoft\"),\n    path(\"nossa_equipe/\", views.nossa_equipe, name=\"nossa_equipe\"),\n    path(\"tratamentos/\", views.tratamentos, name=\"tratamentos\"),\n    path(\"tratamentos/estetica_corporal/\", views.estetica_corporal, name=\"estetica_corporal\"),\n    path(\"tratamentos/limpeza_de_pele/\", views.limpeza_de_pele, name=\"limpeza_de_pele\"),\n]",
+        "peekOfCode": "urlpatterns = [\n    path(\"\", views.index, name=\"index\"),\n    path(\"conheca_a_dermasoft/\", views.conhece_a_dermasoft, name=\"conheca_a_dermasoft\"),\n    path(\"nossa_equipe/\", views.nossa_equipe, name=\"nossa_equipe\"),\n    path(\"tratamentos/\", views.tratamentos, name=\"tratamentos\"),\n    path(\"tratamentos/estetica_corporal/\", views.estetica_corporal, name=\"estetica_corporal\"),\n    path(\"tratamentos/limpeza_de_pele/\", views.limpeza_de_pele, name=\"limpeza_de_pele\"),\n    path(\"tratamentos/tratamentos_facias/\", views.tratamentos_faciais, name=\"tratamentos_faciais\"),\n    path(\"tratamentos/tratamentos_capilar/\", views.tratamentos_capilar, name=\"tratamentos_capilar\"),\n]",
         "detail": "home.urls",
         "documentation": {}
     },
     {
-        "label": "index",
+        "label": "conhece_a_dermasoft",
         "kind": 2,
         "importPath": "home.views",
         "description": "home.views",
-        "peekOfCode": "def index(request):\n    return render(request, \"index.html\")\ndef nossa_equipe(request):\n    return render(request, \"nossa_equipe.html\")\ndef tratamentos(request):\n    return render(request, \"tratamentos.html\")\ndef estetica_corporal(request):\n    return render(request, \"estetica_corporal.html\")\ndef limpeza_de_pele(request):\n    return render(request, \"limpeza_de_pele.html\")",
-        "detail": "home.views",
-        "documentation": {}
-    },
-    {
-        "label": "nossa_equipe",
-        "kind": 2,
-        "importPath": "home.views",
-        "description": "home.views",
-        "peekOfCode": "def nossa_equipe(request):\n    return render(request, \"nossa_equipe.html\")\ndef tratamentos(request):\n    return render(request, \"tratamentos.html\")\ndef estetica_corporal(request):\n    return render(request, \"estetica_corporal.html\")\ndef limpeza_de_pele(request):\n    return render(request, \"limpeza_de_pele.html\")\ndef conhece_a_dermasoft(request):\n    return render(request, \"conheca_a_dermasoft.html\")",
-        "detail": "home.views",
-        "documentation": {}
-    },
-    {
-        "label": "tratamentos",
-        "kind": 2,
-        "importPath": "home.views",
-        "description": "home.views",
-        "peekOfCode": "def tratamentos(request):\n    return render(request, \"tratamentos.html\")\ndef estetica_corporal(request):\n    return render(request, \"estetica_corporal.html\")\ndef limpeza_de_pele(request):\n    return render(request, \"limpeza_de_pele.html\")\ndef conhece_a_dermasoft(request):\n    return render(request, \"conheca_a_dermasoft.html\")",
+        "peekOfCode": "def conhece_a_dermasoft(request):\n    return render(request, \"conheca_a_dermasoft.html\")\ndef estetica_corporal(request):\n    return render(request, \"estetica_corporal.html\")\ndef index(request):\n    return render(request, \"index.html\")\ndef limpeza_de_pele(request):\n    return render(request, \"limpeza_de_pele.html\")\ndef nossa_equipe(request):\n    return render(request, \"nossa_equipe.html\")",
         "detail": "home.views",
         "documentation": {}
     },
@@ -901,7 +927,16 @@
         "kind": 2,
         "importPath": "home.views",
         "description": "home.views",
-        "peekOfCode": "def estetica_corporal(request):\n    return render(request, \"estetica_corporal.html\")\ndef limpeza_de_pele(request):\n    return render(request, \"limpeza_de_pele.html\")\ndef conhece_a_dermasoft(request):\n    return render(request, \"conheca_a_dermasoft.html\")",
+        "peekOfCode": "def estetica_corporal(request):\n    return render(request, \"estetica_corporal.html\")\ndef index(request):\n    return render(request, \"index.html\")\ndef limpeza_de_pele(request):\n    return render(request, \"limpeza_de_pele.html\")\ndef nossa_equipe(request):\n    return render(request, \"nossa_equipe.html\")\ndef tratamentos_capilar(request):\n    return render(request, \"tratamentos_capilar.html\")",
+        "detail": "home.views",
+        "documentation": {}
+    },
+    {
+        "label": "index",
+        "kind": 2,
+        "importPath": "home.views",
+        "description": "home.views",
+        "peekOfCode": "def index(request):\n    return render(request, \"index.html\")\ndef limpeza_de_pele(request):\n    return render(request, \"limpeza_de_pele.html\")\ndef nossa_equipe(request):\n    return render(request, \"nossa_equipe.html\")\ndef tratamentos_capilar(request):\n    return render(request, \"tratamentos_capilar.html\")\ndef tratamentos_faciais(request):\n    return render(request, \"tratamentos_faciais.html\")",
         "detail": "home.views",
         "documentation": {}
     },
@@ -910,16 +945,43 @@
         "kind": 2,
         "importPath": "home.views",
         "description": "home.views",
-        "peekOfCode": "def limpeza_de_pele(request):\n    return render(request, \"limpeza_de_pele.html\")\ndef conhece_a_dermasoft(request):\n    return render(request, \"conheca_a_dermasoft.html\")",
+        "peekOfCode": "def limpeza_de_pele(request):\n    return render(request, \"limpeza_de_pele.html\")\ndef nossa_equipe(request):\n    return render(request, \"nossa_equipe.html\")\ndef tratamentos_capilar(request):\n    return render(request, \"tratamentos_capilar.html\")\ndef tratamentos_faciais(request):\n    return render(request, \"tratamentos_faciais.html\")\ndef tratamentos(request):\n    return render(request, \"tratamentos.html\")",
         "detail": "home.views",
         "documentation": {}
     },
     {
-        "label": "conhece_a_dermasoft",
+        "label": "nossa_equipe",
         "kind": 2,
         "importPath": "home.views",
         "description": "home.views",
-        "peekOfCode": "def conhece_a_dermasoft(request):\n    return render(request, \"conheca_a_dermasoft.html\")",
+        "peekOfCode": "def nossa_equipe(request):\n    return render(request, \"nossa_equipe.html\")\ndef tratamentos_capilar(request):\n    return render(request, \"tratamentos_capilar.html\")\ndef tratamentos_faciais(request):\n    return render(request, \"tratamentos_faciais.html\")\ndef tratamentos(request):\n    return render(request, \"tratamentos.html\")",
+        "detail": "home.views",
+        "documentation": {}
+    },
+    {
+        "label": "tratamentos_capilar",
+        "kind": 2,
+        "importPath": "home.views",
+        "description": "home.views",
+        "peekOfCode": "def tratamentos_capilar(request):\n    return render(request, \"tratamentos_capilar.html\")\ndef tratamentos_faciais(request):\n    return render(request, \"tratamentos_faciais.html\")\ndef tratamentos(request):\n    return render(request, \"tratamentos.html\")",
+        "detail": "home.views",
+        "documentation": {}
+    },
+    {
+        "label": "tratamentos_faciais",
+        "kind": 2,
+        "importPath": "home.views",
+        "description": "home.views",
+        "peekOfCode": "def tratamentos_faciais(request):\n    return render(request, \"tratamentos_faciais.html\")\ndef tratamentos(request):\n    return render(request, \"tratamentos.html\")",
+        "detail": "home.views",
+        "documentation": {}
+    },
+    {
+        "label": "tratamentos",
+        "kind": 2,
+        "importPath": "home.views",
+        "description": "home.views",
+        "peekOfCode": "def tratamentos(request):\n    return render(request, \"tratamentos.html\")",
         "detail": "home.views",
         "documentation": {}
     },
@@ -1117,7 +1179,7 @@
         "kind": 2,
         "importPath": "paciente.views",
         "description": "paciente.views",
-        "peekOfCode": "def home(request):\n    if request.method == \"GET\":\n        medico_filtrar = request.GET.get(\"medico\")\n        especialidades_filtrar = request.GET.getlist(\"especialidades\")\n        medicos = DadosMedico.objects.all()\n        if medico_filtrar:\n            medicos = medicos.filter(nome__icontains=medico_filtrar)\n        if especialidades_filtrar:\n            medicos = medicos.filter(especialidade_id__in=especialidades_filtrar)\n        especialidades = Especialidades.objects.all()",
+        "peekOfCode": "def home(request):\n    if request.method == \"GET\":\n        medico_filtrar = request.GET.get(\"medico\")\n        especialidades_filtrar = request.GET.getlist(\"especialidades\")\n        medicos = DadosMedico.objects.all()\n        if medico_filtrar:\n            medicos = medicos.filter(nome__icontains=medico_filtrar)\n        if especialidades_filtrar:\n            medicos = medicos.filter(especialidade_id__in=especialidades_filtrar)\n        minhas_consultas = Consulta.objects.filter(paciente=request.user).filter(",
         "detail": "paciente.views",
         "documentation": {}
     },
@@ -1144,7 +1206,7 @@
         "kind": 2,
         "importPath": "paciente.views",
         "description": "paciente.views",
-        "peekOfCode": "def minhas_consultas(request):\n    if request.method == \"GET\":\n        medico_filtrar = request.GET.get(\"medico\")\n        especialidades_filtrar = request.GET.getlist(\"especialidades\")\n        medicos = DadosMedico.objects.all()\n        if medico_filtrar:\n            medicos = medicos.filter(nome__icontains=medico_filtrar)\n        if especialidades_filtrar:\n            medicos = medicos.filter(especialidade_id__in=especialidades_filtrar)\n        especialidades = Especialidades.objects.all()",
+        "peekOfCode": "def minhas_consultas(request):\n    data = request.GET.get(\"data\")\n    especialidade = request.GET.get(\"especialidade\")\n    minhas_consultas = Consulta.objects.filter(paciente=request.user).filter(\n        data_aberta__data__gte=datetime.now()\n    )\n    if data:\n        minhas_consultas = minhas_consultas.filter(data_aberta__data__gte=data)\n    if especialidade:\n        minhas_consultas = minhas_consultas.filter(",
         "detail": "paciente.views",
         "documentation": {}
     },
@@ -1180,7 +1242,7 @@
         "kind": 5,
         "importPath": "usuarios.urls",
         "description": "usuarios.urls",
-        "peekOfCode": "urlpatterns = [\n    path(\"cadastro/\", views.cadastro, name=\"cadastro\"),\n    path(\"login/\", views.login_view, name=\"login\"),\n    path(\"sair/\", views.sair, name=\"sair\"),\n]",
+        "peekOfCode": "urlpatterns = [\n    path(\"cadastro/\", views.cadastro, name=\"cadastro\"),\n    path(\"login/\", views.login_view, name=\"login\"),\n    path(\"sair/\", views.sair, name=\"sair\"),\n    path(\n        \"password-reset/\",\n        auth_views.PasswordResetView.as_view(\n            template_name=\"password/password-reset.html\"\n        ),\n        name=\"password_reset\",",
         "detail": "usuarios.urls",
         "documentation": {}
     },
