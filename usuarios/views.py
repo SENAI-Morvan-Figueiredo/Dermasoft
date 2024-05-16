@@ -3,7 +3,6 @@ from django.contrib.auth.models import User
 from django.contrib.messages import constants
 from django.contrib import messages
 from django.contrib import auth
-from django.contrib.auth import views as auth_views
 
 
 def cadastro(request):
