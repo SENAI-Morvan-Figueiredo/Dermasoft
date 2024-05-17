@@ -72,7 +72,7 @@ nav {
 
 #logo {
     width: 100%;
-    overflow-y: scroll; /* Permite a rolagem vertical */
+    transition: width 0.2s ease;
 
 }
 

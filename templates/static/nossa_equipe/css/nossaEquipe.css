@@ -72,6 +72,7 @@ nav {
 
 #logo {
     width: 100%;
+    transition: width 0.2s ease;
 
 }
 
@@ -424,60 +425,60 @@ footer {
 
 
     .doutores {
-       margin-left: 0;
-   }
+        margin-left: 0;
+    }
 
-   .NossaEquipe h1 {
-       font-size: 96px;
-   }
+    .NossaEquipe h1 {
+        font-size: 96px;
+    }
 
-   .NossaEquipe img {
-       width: 200px;
-       height: 250px;
-       margin: 50px 0 50px 0;
-   }
-
-
-   .drFrancisco {
-       flex-direction: column;
-   }
-
-   .drFranciscoDados {
-       padding: 40px;
-       font-size: 30px;
-   }
+    .NossaEquipe img {
+        width: 200px;
+        height: 250px;
+        margin: 50px 0 50px 0;
+    }
 
 
-   .draGabrielly {
-       flex-direction: column;
-   }
+    .drFrancisco {
+        flex-direction: column;
+    }
 
-   .draGabriellyDados {
-       padding: 40px;
-       font-size: 30px;
-   }
-
-
-   .draLucema {
-       flex-direction: column;
-   }
-
-   .draLucemaDados {
-       padding: 40px;
-       font-size: 30px;
-   }
+    .drFranciscoDados {
+        padding: 40px;
+        font-size: 30px;
+    }
 
 
+    .draGabrielly {
+        flex-direction: column;
+    }
 
-   .drLuis {
-       flex-direction: column;
-   }
+    .draGabriellyDados {
+        padding: 40px;
+        font-size: 30px;
+    }
 
 
-   .drLuisDados {
-       padding: 40px;
-       font-size: 30px;
-   }
+    .draLucema {
+        flex-direction: column;
+    }
+
+    .draLucemaDados {
+        padding: 40px;
+        font-size: 30px;
+    }
+
+
+
+    .drLuis {
+        flex-direction: column;
+    }
+
+
+    .drLuisDados {
+        padding: 40px;
+        font-size: 30px;
+    }
 
 
 
@@ -628,11 +629,12 @@ footer {
     /* NOSSA EQUIPE */
 
 
-    
+
 
     .NossaEquipe h1 {
         font-size: 44px;
     }
+
     .drFranciscoDados {
         padding: 40px;
         font-size: 20px;

@@ -66,12 +66,15 @@ nav {
 
 .underline:hover::before {
     width: 100%;
+    transition: width 0.2s ease;
+
 }
 
 
 
 #logo {
     width: 100%;
+    transition: width 0.2s ease;
 
 }
 
@@ -381,7 +384,7 @@ footer {
 
 /* Estilos para dispositivos móveis */
 @media only screen and (max-width: 1000px) {
-  
+
 
     #Links {
         padding: 0.8rem;

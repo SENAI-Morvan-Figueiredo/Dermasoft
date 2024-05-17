@@ -2,9 +2,15 @@
 window.onscroll = function() {
   var scrollTop = window.pageYOffset || document.documentElement.scrollTop;
   var newHeight = 60 - scrollTop;
+  var logo = document.getElementById('logo');
 
   if (newHeight < 0) {
     newHeight = 15;
+    logo.style.width = "3%"
+  }
+  else{
+    logo.style.width = "5%"
+    
   }
 
   document.getElementById("Links").style.height = newHeight + "px";

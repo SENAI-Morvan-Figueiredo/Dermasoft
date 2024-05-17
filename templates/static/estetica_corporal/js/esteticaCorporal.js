@@ -1,10 +1,15 @@
-//diminui a div links quando a pagina e rolada para baixo
+//diminui a div links e o logo quando a pagina e rolada para baixo
 window.onscroll = function() {
   var scrollTop = window.pageYOffset || document.documentElement.scrollTop;
   var newHeight = 60 - scrollTop;
+  var logo = document.getElementById('logo');
 
   if (newHeight < 0) {
     newHeight = 15;
+    logo.style.width = '80%';
+  }
+  else{
+    logo.style.width = "100%"
   }
 
   document.getElementById("Links").style.height = newHeight + "px";

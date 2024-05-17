@@ -3,6 +3,7 @@ header {
     position: fixed;
     z-index: 9999;
 }
+
 h1 {
     text-align: center;
 }
@@ -71,6 +72,7 @@ nav {
 
 #logo {
     width: 100%;
+    transition: width 0.2s ease;
 
 }
 
@@ -422,7 +424,7 @@ footer {
         padding-right: 0.5rem;
     }
 
-   
+
 
     #button {
         padding: 0.625rem 1.063rem 0.625rem 1.063rem;
