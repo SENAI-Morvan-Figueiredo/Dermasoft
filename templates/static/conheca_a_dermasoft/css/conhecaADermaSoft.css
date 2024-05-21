@@ -231,13 +231,15 @@ nav {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
+    width: 25%;
+
 }
 
 .textoDermasoft {
     font-size: 32px;
     display: flex;
     align-items: center;
-    width: 40%;
+    width: 49%;
 }
 
 /* FOOTER */

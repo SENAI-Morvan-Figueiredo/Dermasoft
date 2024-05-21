@@ -248,6 +248,7 @@ nav {
     flex-direction: column;
     align-content: center;
     padding: 150px;
+    font-size: 25px;
 }
 
 
@@ -256,6 +257,7 @@ nav {
     display: flex;
     justify-content: flex-start;
     margin-bottom: 15px;
+    font-size: 45px;
 
 }
 
@@ -272,6 +274,7 @@ nav {
     flex-direction: column;
     align-content: center;
     padding: 150px;
+    font-size: 25px;
 
 }
 
@@ -279,6 +282,8 @@ nav {
     display: flex;
     justify-content: flex-start;
     margin-bottom: 15px;
+    font-size: 45px;
+
 
 }
 
@@ -295,6 +300,7 @@ nav {
     flex-direction: column;
     align-content: center;
     padding: 150px;
+    font-size: 25px;
 
 }
 
@@ -302,6 +308,8 @@ nav {
     display: flex;
     justify-content: flex-start;
     margin-bottom: 15px;
+    font-size: 45px;
+
 
 }
 
@@ -318,6 +326,7 @@ nav {
     flex-direction: column;
     align-content: center;
     padding: 150px;
+    font-size: 25px;
 
 }
 
@@ -325,6 +334,8 @@ nav {
     display: flex;
     justify-content: flex-start;
     margin-bottom: 15px;
+    font-size: 45px;
+
 
 }
 
