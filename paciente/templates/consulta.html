@@ -38,8 +38,11 @@
                         <p style="font-size: 20px" class="p-bold">Dr(a). {{dado_medico.nome}} <i class="bi bi-patch-check-fill icon-main"></i></p>
                         <p>{{dado_medico.descricao}}</p>
                         <p class="p-bold">{{consulta.data_aberta.data}}</p>
-
-                        <a href="{% url 'cancelar_consulta' consulta.id %}" class="btn btn-danger">Cancelar consulta<a>
+                        {% if consulta.status == 'F' %}
+                            <a href="#" class="btn btn-success disabled">Consulta finalizada<a>
+                        {% else %}
+                            <a href="{% url 'cancelar_consulta' consulta.id %}" class="btn btn-danger">Cancelar consulta<a>
+                        {% endif %}
                     </div>
                 </div> 
                 <hr>
@@ -60,7 +63,7 @@
                 <h3 class="p-bold">Detalhes da consulta</h3>
                 <p style="font-size:20px"><i class="bi bi-calendar3 color-dark"></i>&nbsp {{consulta.data_aberta.data}}</p>
                 <p style="font-size:20px"><i class="bi bi-tag-fill color-dark"></i></i>&nbsp R$ {{dado_medico.valor_consulta}}</p>
-                <a style="cursor: auto;" class="btn btn-dark-color-outline btn-lg">Adicione em seu calendário!</a>
+                {% comment %} <a style="cursor: auto;" class="btn btn-dark-color-outline btn-lg">Adicione em seu calendário!</a> {% endcomment %}
                 <hr>
                 <h3 class="p-bold">Como acessar ?</h3>
                 <p>No horário da consulta acesse o link disponível abaixo</p>
