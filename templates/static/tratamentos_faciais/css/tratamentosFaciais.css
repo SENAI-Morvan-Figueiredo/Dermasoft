@@ -227,6 +227,7 @@ nav {
     justify-content: flex-start;
     align-content: center;
     margin: 50px 100px 50px 100px;
+    font-size: 25px;
 }
 
 .textoLimpezaDePele {
@@ -250,6 +251,7 @@ nav {
 
 .textoTratamentosContaOlheiras {
     margin-right: 300px;
+    font-size: 25px;
 }
 
 
@@ -266,6 +268,7 @@ nav {
 
 .textoHarmonizaçãoFacial {
     margin-left: 300px;
+    font-size: 25px;
 }
 
 
@@ -282,10 +285,11 @@ nav {
 
 .textoSculptra {
     margin-right: 300px;
+    font-size: 25px;
 }
 
 
-Microagulhamento .microagulhamento {
+.microagulhamento {
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -296,6 +300,7 @@ Microagulhamento .microagulhamento {
 
 .textoMicroagulhamento {
     margin-left: 300px;
+    font-size: 25px;
 }
 
 
@@ -312,6 +317,7 @@ Microagulhamento .microagulhamento {
 
 .textoLaserErbium {
     margin-right: 300px;
+    font-size: 25px;
 }
 
 
